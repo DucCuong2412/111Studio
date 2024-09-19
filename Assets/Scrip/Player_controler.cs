@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_controler : MonoBehaviour
 {
@@ -11,14 +12,18 @@ public class Player_controler : MonoBehaviour
     private float trai_phai;
     private bool isfacingRight = true;
     public bool checkJump = false;
-    public float speed = 5f;
-    public float jump = 7f;
+    public float speed = 10f;
+    public float jump = 20f;
     public Animator anim;
+    public Slider _slider;
+    public float maxheal;
 
 
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();
+        _slider.maxValue = maxheal;
+        _slider.value= maxheal;
     }
 
     // Update is called once per frame
@@ -51,6 +56,7 @@ public class Player_controler : MonoBehaviour
         if (collision.gameObject.CompareTag("tilemap"))
         {
             checkJump = true;
+            _slider.value--;
 
         }
     }
