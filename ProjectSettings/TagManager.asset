@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - tilemap
-  - player
+  - atk
   layers:
   - Default
   - TransparentFX
@@ -76,6 +76,6 @@ TagManager:
   - name: New Layer 11
     uniqueID: 2855507935
     locked: 0
-  - name: New Layer 12
+  - name: Ui
     uniqueID: 1462061639
     locked: 0
