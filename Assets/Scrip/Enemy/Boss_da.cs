@@ -9,7 +9,6 @@ public class Boss_da : MonoBehaviour
     public float khoangcach;
     public float speed = 5f;
     public Animator anim;
-    public float groundHeight = 2.5f;  // Độ cao cố định của Boss từ mặt đất
 
     void Start()
     {
@@ -25,7 +24,6 @@ public class Boss_da : MonoBehaviour
             if (khoangcach < 5f && khoangcach >= 2)
             {
                 Vector3 targetPosition = Vector3.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
-                targetPosition.y = groundHeight;
                 transform.position = targetPosition;
 
                 Vector3 direction = player.transform.position - transform.position;
