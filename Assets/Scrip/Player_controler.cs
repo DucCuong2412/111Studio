@@ -63,6 +63,14 @@ public class Player_controler : MonoBehaviour
     {
 
     }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("tilemap"))
+        {
+            checkJump = true;
+
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("atk"))
@@ -72,11 +80,7 @@ public class Player_controler : MonoBehaviour
                 _slider.value--;
             
         }
-        if (collision.gameObject.CompareTag("tilemap"))
-        {
-            checkJump = true;
-
-        }
+       
     }
     private void OnTriggerExit2D(Collider2D collision)
     {

@@ -206,6 +206,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &74504695 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+  m_PrefabInstance: {fileID: 508417713}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &132418268
 GameObject:
   m_ObjectHideFlags: 0
@@ -353,7 +358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: 5.2, y: 2.82, z: -10}
+  m_FollowOffset: {x: 6.19, y: 5.96, z: -10}
   m_XDamping: 2.3
   m_YDamping: 1
   m_ZDamping: 1
@@ -3547,11 +3552,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 104.18
+      value: 104.54
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.97
+      value: -1.66
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3586,12 +3591,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: jump
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: _slider
       value: 
       objectReference: {fileID: 157555012}
     - target: {fileID: 3578002774437503683, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_SortingLayer
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3578002774437503683, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_SortingLayerID
@@ -3604,13 +3613,61 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 508417720}
   m_SourcePrefab: {fileID: 100100000, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
 --- !u!4 &508417714 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
   m_PrefabInstance: {fileID: 508417713}
   m_PrefabAsset: {fileID: 0}
+--- !u!61 &508417720
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74504695}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.40789413, y: 0.053242624}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2.1875, y: 3}
+    newSize: {x: 0.546875, y: 0.75}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1422653, y: 0.463395}
+  m_EdgeRadius: 0
 --- !u!1 &566900455
 GameObject:
   m_ObjectHideFlags: 0
@@ -4803,7 +4860,7 @@ MonoBehaviour:
   m_Follow: {fileID: 508417714}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.85
+    OrthographicSize: 7.66
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -4829,7 +4886,7 @@ Transform:
   m_GameObject: {fileID: 1372966492}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.38, y: 0.8499999, z: -10}
+  m_LocalPosition: {x: 110.73, y: 4.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19368,7 +19425,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.85
+  orthographic size: 7.66
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -19393,7 +19450,7 @@ Transform:
   m_GameObject: {fileID: 1886776638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 109.38, y: 0.8499999, z: -10}
+  m_LocalPosition: {x: 110.73, y: 4.3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
