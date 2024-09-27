@@ -40,42 +40,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: thancay
-    uniqueID: 3028052301
-    locked: 0
-  - name: cay-2
-    uniqueID: 3601398689
-    locked: 0
-  - name: cay-1
-    uniqueID: 3149527901
-    locked: 0
-  - name: ground sau
-    uniqueID: 2193657741
-    locked: 0
-  - name: grass
-    uniqueID: 1419205153
+  - name: backgroud
+    uniqueID: 892693061
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 'ground '
-    uniqueID: 3967287533
-    locked: 0
-  - name: truoc
-    uniqueID: 909394099
-    locked: 0
-  - name: truoc 1
-    uniqueID: 3136943257
-    locked: 0
   - name: truoc 2
     uniqueID: 2108574861
     locked: 0
-  - name: New Layer 10
+  - name: table
+    uniqueID: 1786377723
+    locked: 0
+  - name: ontable
+    uniqueID: 221176905
+    locked: 0
+  - name: Player
     uniqueID: 524635077
-    locked: 0
-  - name: New Layer 11
-    uniqueID: 2855507935
-    locked: 0
-  - name: Ui
-    uniqueID: 1462061639
     locked: 0
