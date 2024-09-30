@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/home.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/dangki.unity
+    guid: b8e4bc4b38b31594da92452002571f57
+  - enabled: 1
+    path: Assets/Scenes/login.unity
+    guid: 481f1d7d2970665449e1bc1bdb33b810
   m_configObjects: {}

@@ -1,0 +1,24 @@
+{
+    "accounts": [
+        {
+            "id": "cuong2412",
+            "password": "12",
+            "againpasss": ""
+        },
+        {
+            "id": "cuong2413",
+            "password": "12",
+            "againpasss": ""
+        },
+        {
+            "id": "cuong2424",
+            "password": "1",
+            "againpasss": ""
+        },
+        {
+            "id": "cuong1",
+            "password": "1",
+            "againpasss": ""
+        }
+    ]
+}

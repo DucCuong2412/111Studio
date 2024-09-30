@@ -19,6 +19,7 @@ public class Player_controler : MonoBehaviour
     public Animator anim;
     public Slider _slider;
     public float maxheal;
+    public GameObject saving;
 
 
     void Start()
@@ -57,7 +58,10 @@ public class Player_controler : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-      
+        if (collision.gameObject.CompareTag("tilemap"))
+        {
+           
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
