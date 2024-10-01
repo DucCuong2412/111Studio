@@ -6,6 +6,7 @@ TagManager:
   tags:
   - tilemap
   - atk
+  - trap
   layers:
   - Default
   - TransparentFX

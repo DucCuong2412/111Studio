@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using TMPro;
+using UnityEditor.SearchService;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class jsonLoginSystem : MonoBehaviour
 {
@@ -34,7 +36,8 @@ public class jsonLoginSystem : MonoBehaviour
         if (matchingAccount != null)
         {
             // Đăng nhập thành công
-            loginSuccessPanel.SetActive(true);
+            SceneManager.LoadScene("map2");
+
             loginFailPanel.SetActive(false);
             Debug.Log("Đăng nhập thành công!");
         }

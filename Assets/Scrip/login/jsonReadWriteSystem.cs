@@ -2,6 +2,7 @@
 using System.IO;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class jsonReadWriteSystem : MonoBehaviour
 {
@@ -45,6 +46,7 @@ public class jsonReadWriteSystem : MonoBehaviour
                 IDinputField.text = "";
                 PassInputField.text = "";
                 againOutputField.text = "";
+                SceneManager.LoadScene("login");
             }
         }
         else
