@@ -4,6 +4,7 @@ using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
 using Unity.Mathematics;
 using Unity.VisualScripting;
+using UnityEditor.XR;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,6 +21,8 @@ public class Player_controler : MonoBehaviour
     public Slider _slider;
     public float maxheal;
     public GameObject saving;
+    public bool consong = true;
+
 
 
     void Start()
@@ -32,46 +35,40 @@ public class Player_controler : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        flip();
+        if (consong == true)
+        {
         Vector2 vt = transform.localScale;
         trai_phai = Input.GetAxis("Horizontal");
         rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
         anim.SetFloat("move", math.abs(trai_phai));
-        flip();
+
         onjump();
         atk();
         die();
-
-
-
-
-    }
-    public void onjump()
-    {
-        if (checkJump == true)
-        {
-            if (Input.GetKeyDown(KeyCode.Space))
-            {
-                rg.velocity += new Vector2(0f, jump);
-                anim.SetTrigger("jump");
-            }
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("tilemap"))
-        {
-           
-        }
-    }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
+
+
+
 
     }
+   
+   
+
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("tilemap"))
         {
             checkJump = true;
+
+
+
+        }
+      
+        else if (collision.gameObject.CompareTag("trap"))
+        {
+            checkJump = true;
+         
 
         }
     }
@@ -83,6 +80,11 @@ public class Player_controler : MonoBehaviour
             
                 _slider.value--;
             
+        }
+        if (collision.gameObject.CompareTag("trap"))
+        {
+            _slider.value--;
+
         }
        
     }
@@ -109,8 +111,9 @@ public class Player_controler : MonoBehaviour
     {
         if (_slider.value == 0)
         {
+            consong = false;
             anim.SetTrigger("die");
-            Destroy(gameObject, 0.5f);
+            Destroy(gameObject, 1.5f);
         }
     }
 
@@ -124,5 +127,16 @@ public class Player_controler : MonoBehaviour
             transform.localScale = scale;
         }
     }
+    public void onjump()
+    {
+        if (checkJump == true)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                rg.velocity += new Vector2(0f, jump);
+                anim.SetTrigger("jump");
+            }
+        }
+    }   
 
 }
