@@ -6,6 +6,9 @@ using UnityEngine;
 public class score : ScriptableObject
 {
   public  int scoreee;
+    public int coin;
+    public int tongcoin;
+
 
         
 

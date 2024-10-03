@@ -7,6 +7,8 @@ TagManager:
   - tilemap
   - atk
   - trap
+  - machine_stair
+  - door
   layers:
   - Default
   - TransparentFX

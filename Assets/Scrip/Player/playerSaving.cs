@@ -11,6 +11,7 @@ public class playerSaving : MonoBehaviour
     public string key_score = "score_save";
     public int level = 0;
     public int score;
+    public int tongcoin;
     public string key_score_format = "score_save";
 
     void Start()
@@ -68,6 +69,7 @@ public class playerSaving : MonoBehaviour
     {
         Debug.Log("save level" + level + "" + score);
         PlayerPrefs.SetInt(level.ToString(), score);
+        PlayerPrefs.SetInt(tongcoin.ToString(), score);
         PlayerPrefs.Save();
 
     }
