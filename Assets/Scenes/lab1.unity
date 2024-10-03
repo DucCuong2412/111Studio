@@ -23144,33 +23144,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1063879377380967225, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Size.x
-      value: 0.9019928
-      objectReference: {fileID: 0}
-    - target: {fileID: 1063879377380967225, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Size.y
-      value: 0.5376797
-      objectReference: {fileID: 0}
-    - target: {fileID: 1063879377380967225, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.431221
-      objectReference: {fileID: 0}
-    - target: {fileID: 1063879377380967225, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.0077905655
-      objectReference: {fileID: 0}
-    - target: {fileID: 1063879377380967225, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.x
       value: 100.1
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: -1.9
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23208,10 +23188,6 @@ PrefabInstance:
       propertyPath: _slider
       value: 
       objectReference: {fileID: 157555012}
-    - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: consong
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
@@ -24590,7 +24566,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 39
-      m_TileSpriteIndex: 38
+      m_TileSpriteIndex: 44
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -24600,7 +24576,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 38
-      m_TileSpriteIndex: 37
+      m_TileSpriteIndex: 43
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -24963,22 +24939,22 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 701042311, guid: 4325dc677cabade409346ed1cd036cf0, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -523059738, guid: 4325dc677cabade409346ed1cd036cf0, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: 926314562, guid: 4325dc677cabade409346ed1cd036cf0, type: 3}
   - m_RefCount: 6
@@ -26568,7 +26544,7 @@ MonoBehaviour:
   m_Follow: {fileID: 508417714}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 7.66
+    OrthographicSize: 4.5
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -26594,7 +26570,7 @@ Transform:
   m_GameObject: {fileID: 1372966492}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106.29, y: 4.01, z: -10}
+  m_LocalPosition: {x: 106.29, y: 3.21, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -83078,7 +83054,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.66
+  orthographic size: 4.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -83103,7 +83079,7 @@ Transform:
   m_GameObject: {fileID: 1886776638}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 106.29, y: 4.01, z: -10}
+  m_LocalPosition: {x: 106.29, y: 3.21, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

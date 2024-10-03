@@ -260,6 +260,7 @@ MonoBehaviour:
   _slider: {fileID: 0}
   maxheal: 5
   saving: {fileID: 0}
+  consong: 1
 --- !u!61 &1063879377380967225
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -289,10 +290,10 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1.5}
+  m_Offset: {x: -0.431221, y: -0.0077905655}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -303,5 +304,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.1875, y: 3}
+  m_Size: {x: 0.9019928, y: 0.5376797}
   m_EdgeRadius: 0
