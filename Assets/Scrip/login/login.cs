@@ -36,7 +36,7 @@ public class jsonLoginSystem : MonoBehaviour
         if (matchingAccount != null)
         {
             // Đăng nhập thành công
-            SceneManager.LoadScene("map2");
+            SceneManager.LoadScene("menu");
 
             loginFailPanel.SetActive(false);
             Debug.Log("Đăng nhập thành công!");
@@ -68,6 +68,11 @@ public class jsonLoginSystem : MonoBehaviour
     {
         loginSuccessPanel.SetActive(false);
         loginFailPanel.SetActive(false);
+    }
+    public void backLogin_signup()
+    {
+        SceneManager.LoadScene("dangki");
+
     }
     // Lớp dùng để chứa danh sách tài khoản
     [System.Serializable]

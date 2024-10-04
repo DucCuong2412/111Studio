@@ -1,84 +1,70 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using Unity.VisualScripting;
+﻿using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
-using UnityEngine.iOS;
 
-public class playerSaving : MonoBehaviour
+public class PlayerSaving : MonoBehaviour
 {
-    public static playerSaving Instance;
-    public string key_score = "score_save";
-    public int level = 0;
-    public int score;
-    public int tongcoin;
-    public string key_score_format = "score_save";
+    private List<login> accounts = new List<login>();
+    private string filePath;
 
-    void Start()
+    private void Start()
     {
-
+        filePath = Application.dataPath + "/fromlogin.json"; // Đường dẫn đến file JSON
+        LoadAccounts(); // Tải các tài khoản hiện có khi bắt đầu
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            UpdateHighScore("cuong2412", 24122005);
+        }
     }
 
-    // Update is called once per frame
-    private void Awake()
+    // Cập nhật điểm cao cho tài khoản theo ID
+    public void UpdateHighScore(string id, int newHighScore)
     {
-        if (Instance == null)
+        // Sử dụng LINQ để tìm tài khoản theo ID
+        login accountToUpdate = accounts.Find(account => account.id == id);
+        
+        // Nếu tài khoản được tìm thấy, cập nhật điểm cao
+        if (accountToUpdate != null)
         {
-            Instance = this;
-            DontDestroyOnLoad(gameObject);
+            accountToUpdate.hightScore1 = newHighScore.ToString(); // Cập nhật điểm cao
+            SaveAccounts(); // Lưu danh sách tài khoản đã cập nhật vào file JSON
         }
         else
         {
-            Destroy(gameObject);
+            Debug.Log("Không tìm thấy tài khoản với ID: " + id);
         }
     }
 
-    void Update()
+    // Đọc danh sách các tài khoản từ file JSON
+    private void LoadAccounts()
     {
-
-        if (Input.GetKeyUp(KeyCode.J))
+        if (File.Exists(filePath))
         {
-            save(level, score);
-
+            string json = File.ReadAllText(filePath);
+            AccountList loadedData = JsonUtility.FromJson<AccountList>(json);
+            accounts = loadedData.accounts;
         }
-        if (Input.GetKeyUp(KeyCode.K))
+    }
+
+    // Ghi danh sách tài khoản vào file JSON
+    private void SaveAccounts()
+    {
+        AccountList dataToSave = new AccountList(accounts);
+        string json = JsonUtility.ToJson(dataToSave, true);
+        File.WriteAllText(filePath, json);
+    }
+
+    [System.Serializable]
+    public class AccountList
+    {
+        public List<login> accounts;
+
+        public AccountList(List<login> accounts)
         {
-            load(level);
-
-       
-
+            this.accounts = accounts;
         }
-
     }
-    //public void save()
-    //{
-
-    //    score++;
-    //    PlayerPrefs.SetInt(key_score, score);
-    //    PlayerPrefs.Save();
-
-
-
-    //}
-    //public void load()
-    //{
-    //    int s = PlayerPrefs.GetInt(key_score);
-    //    Debug.Log("load: score=" + s);
-    //}
-    public void save(int level, int score)
-    {
-        Debug.Log("save level" + level + "" + score);
-        PlayerPrefs.SetInt(level.ToString(), score);
-        PlayerPrefs.SetInt(tongcoin.ToString(), score);
-        PlayerPrefs.Save();
-
-    }
-    public void load(int level)
-    {
-        int scoreLoad = PlayerPrefs.GetInt(level.ToString());
-        Debug.Log("load level Score " + level +" " + scoreLoad);
-
-
-    }
-
 }

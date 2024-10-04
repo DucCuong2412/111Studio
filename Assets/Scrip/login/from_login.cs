@@ -16,10 +16,10 @@ public class login
         this.id = id;
         this.password = password;
         this.againpasss = againpass;
-        this.hightScore1 = "0"; // Điểm cao mặc định
-        this.hightScore2 = "0"; // Điểm cao mặc định
-        this.hightScore3 = "0"; // Điểm cao mặc định
-        this.hightScore4 = "0"; // Điểm cao mặc định
-        this.hightScoreASM = "0"; // Điểm cao mặc định
+        this.hightScore1 = "0"; // fixx cứng higtScore lúc mới tạo tài khoản
+        this.hightScore2 = "0"; 
+        this.hightScore3 = "0"; 
+        this.hightScore4 = "0"; 
+        this.hightScoreASM = "0"; 
     }
 }

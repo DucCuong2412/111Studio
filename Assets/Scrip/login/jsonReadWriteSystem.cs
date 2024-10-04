@@ -8,9 +8,8 @@ public class jsonReadWriteSystem : MonoBehaviour
 {
     public TMP_InputField IDinputField;
     public TMP_InputField PassInputField;
-    public TMP_InputField againOutputField;
-    public GameObject loi,tontai;
-
+    public TMP_InputField againOutputField; // Đổi tên thành ConfirmPassInputField cho rõ ràng hơn
+    public GameObject loi, tontai;
 
     // Danh sách các tài khoản
     private List<login> accounts = new List<login>();
@@ -23,35 +22,33 @@ public class jsonReadWriteSystem : MonoBehaviour
     }
 
     // Lưu tài khoản mới vào danh sách và ghi vào file
-    public void StartToJson()//đăng kí
+    public void StartToJson() // Đăng ký
     {
         if (PassInputField.text == againOutputField.text)
         {
             // Tạo đối tượng login mới từ dữ liệu nhập
-            login data = new login();
-            data.id = IDinputField.text;
-            data.password = PassInputField.text;
+            login newAccount = new login(IDinputField.text, PassInputField.text, againOutputField.text);
 
             // Kiểm tra nếu ID đã tồn tại
-            if (accounts.Exists(account => account.id == data.id))
+            if (accounts.Exists(account => account.id == newAccount.id))
             {
                 tontai.SetActive(true); // Hiển thị thông báo lỗi nếu ID đã tồn tại
             }
             else
             {
-                accounts.Add(data); // Thêm tài khoản mới vào danh sách
+                accounts.Add(newAccount); // Thêm tài khoản mới vào danh sách
                 SaveAccounts(); // Ghi danh sách vào file JSON
 
                 // Reset lại các trường nhập
                 IDinputField.text = "";
                 PassInputField.text = "";
                 againOutputField.text = "";
-                SceneManager.LoadScene("login");
+                SceneManager.LoadScene("login"); // Chuyển sang scene đăng nhập
             }
         }
         else
         {
-            loi.SetActive(true); // Hiển thị thông báo lỗi nếu password không khớp
+            loi.SetActive(true); // Hiển thị thông báo lỗi nếu mật khẩu không khớp
         }
     }
 
