@@ -11,10 +11,10 @@ public class door : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.F))
             {
-                collision.transform.position= door2.transform.position;
+                collision.transform.position = door2.transform.position;
             }
 
-            }
+        }
 
     }
 }
