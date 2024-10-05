@@ -19,6 +19,16 @@
             "hightScore3": "0",
             "hightScore4": "0",
             "hightScoreASM": "0"
+        },
+        {
+            "id": "",
+            "password": "",
+            "againpasss": "",
+            "hightScore1": "0",
+            "hightScore2": "0",
+            "hightScore3": "0",
+            "hightScore4": "0",
+            "hightScoreASM": "0"
         }
     ]
 }
