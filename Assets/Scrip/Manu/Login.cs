@@ -15,9 +15,16 @@ public class Login : MonoBehaviour
         daco.SetActive(false);
     }
 
-   
-    void Update()
+    public void SignUp()
     {
-        
+        MainMenu.SetActive(false);
+        Register.SetActive(true);
     }
+    public void LoginGame()
+    {
+        MainMenu.SetActive(false);
+        login.SetActive(true);
+    }
+    
+   
 }
