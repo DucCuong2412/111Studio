@@ -6,10 +6,11 @@ using UnityEngine.SceneManagement;
 
 public class inGameMenu : MonoBehaviour
 {
-    public GameObject MenuPause;
+    public GameObject MenuPause, Deadpanel;
     int count = 2;
     void Start()
     {
+        Deadpanel.SetActive(false);
         MenuPause.SetActive(false);
         Time.timeScale = 1.0f;
     }
