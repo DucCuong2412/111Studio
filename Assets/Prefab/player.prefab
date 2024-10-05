@@ -255,12 +255,14 @@ MonoBehaviour:
   rg: {fileID: 2977986441435079344}
   checkJump: 0
   speed: 10
-  jump: 17
+  jump: 20
   anim: {fileID: 402259737683277804}
   _slider: {fileID: 0}
   maxheal: 5
   saving: {fileID: 0}
   consong: 1
+  panelDead: {fileID: 0}
+  count: 0
 --- !u!61 &1063879377380967225
 BoxCollider2D:
   m_ObjectHideFlags: 0

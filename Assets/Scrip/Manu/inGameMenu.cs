@@ -8,6 +8,8 @@ public class inGameMenu : MonoBehaviour
 {
     public GameObject MenuPause, Deadpanel;
     int count = 2;
+     
+
     void Start()
     {
         Deadpanel.SetActive(false);

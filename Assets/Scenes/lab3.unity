@@ -744,7 +744,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 72.13}
+  m_AnchoredPosition: {x: 0, y: 72.130005}
   m_SizeDelta: {x: 0, y: 144.26}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &97483310
@@ -1227,7 +1227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182180072}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 92.16, y: -2.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1821,6 +1821,10 @@ PrefabInstance:
       propertyPath: _slider
       value: 
       objectReference: {fileID: 638199180}
+    - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: panelDead
+      value: 
+      objectReference: {fileID: 1544468476}
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
@@ -51077,7 +51081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1544468477
 RectTransform:
   m_ObjectHideFlags: 0
@@ -53573,5 +53577,5 @@ SceneRoots:
   - {fileID: 2035395357}
   - {fileID: 1573474250}
   - {fileID: 1806691963}
-  - {fileID: 182180074}
   - {fileID: 1886900224}
+  - {fileID: 182180074}

@@ -1768,6 +1768,10 @@ PrefabInstance:
       propertyPath: _slider
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: panelDead
+      value: 
+      objectReference: {fileID: 1771185190}
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
@@ -62294,7 +62298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1771185191
 RectTransform:
   m_ObjectHideFlags: 0

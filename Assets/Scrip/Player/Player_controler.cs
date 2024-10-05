@@ -22,6 +22,9 @@ public class Player_controler : MonoBehaviour
     public float maxheal;
     public GameObject saving;
     public bool consong = true;
+    public GameObject panelDead;
+    public float count = 0;
+
 
 
 
@@ -30,6 +33,7 @@ public class Player_controler : MonoBehaviour
         rg = GetComponent<Rigidbody2D>();
         _slider.maxValue = maxheal;
         _slider.value = maxheal;
+        panelDead.SetActive(false);
     }
 
     // Update is called once per frame
@@ -38,22 +42,31 @@ public class Player_controler : MonoBehaviour
         flip();
         if (consong == true)
         {
-        Vector2 vt = transform.localScale;
-        trai_phai = Input.GetAxis("Horizontal");
-        rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
-        anim.SetFloat("move", math.abs(trai_phai));
+            Vector2 vt = transform.localScale;
+            trai_phai = Input.GetAxis("Horizontal");
+            rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
+            anim.SetFloat("move", math.abs(trai_phai));
 
-        onjump();
-        atk();
-        die();
+            onjump();
+            atk();
+            die();
+
+        }
+        else
+        {
+            count += Time.deltaTime;
+            if (count >= 2f)
+            {
+                panelDead.SetActive(true);
+            }
         }
 
 
 
 
     }
-   
-   
+
+
 
     private void OnTriggerStay2D(Collider2D collision)
     {
@@ -64,11 +77,11 @@ public class Player_controler : MonoBehaviour
 
 
         }
-      
+
         else if (collision.gameObject.CompareTag("trap"))
         {
             checkJump = true;
-         
+
 
         }
     }
@@ -76,17 +89,17 @@ public class Player_controler : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("atk"))
         {
-            
-            
-                _slider.value--;
-            
+
+
+            _slider.value--;
+
         }
         if (collision.gameObject.CompareTag("trap"))
         {
             _slider.value--;
 
         }
-       
+
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
@@ -113,7 +126,9 @@ public class Player_controler : MonoBehaviour
         {
             consong = false;
             anim.SetTrigger("die");
-            Destroy(gameObject, 1.5f);
+          
+          
+
         }
     }
 
@@ -137,6 +152,6 @@ public class Player_controler : MonoBehaviour
                 anim.SetTrigger("jump");
             }
         }
-    }   
+    }
 
 }

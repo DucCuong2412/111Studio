@@ -24,6 +24,15 @@ public class jsonReadWriteSystem : MonoBehaviour
     // Lưu tài khoản mới vào danh sách và ghi vào file
     public void StartToJson() // Đăng ký
     {
+        // Kiểm tra xem các trường có bị để trống hay không
+        if (string.IsNullOrEmpty(IDinputField.text) || string.IsNullOrEmpty(PassInputField.text) || string.IsNullOrEmpty(againOutputField.text))
+        {
+            Debug.Log("rỗng"); // In ra log nếu có trường bị rỗng
+            loi.SetActive(true); // Hiển thị thông báo lỗi
+            return; // Kết thúc hàm nếu có trường rỗng
+        }
+
+        // Kiểm tra mật khẩu có khớp nhau không
         if (PassInputField.text == againOutputField.text)
         {
             // Tạo đối tượng login mới từ dữ liệu nhập
