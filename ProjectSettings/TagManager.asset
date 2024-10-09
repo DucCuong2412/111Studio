@@ -9,6 +9,7 @@ TagManager:
   - trap
   - machine_stair
   - door
+  - fireball
   layers:
   - Default
   - TransparentFX
