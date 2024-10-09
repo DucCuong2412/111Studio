@@ -1,14 +1,35 @@
 {
-    "accounts": [
-        {
-            "id": "cuong",
-            "password": "2",
-            "againpasss": "2",
-            "hightScore1": "0",
-            "hightScore2": "0",
-            "hightScore3": "0",
-            "hightScore4": "0",
-            "hightScoreASM": "0"
-        }
-    ]
+  "accounts": [
+    {
+      "id": "cuong241205",
+      "password": "1",
+      "againpasss": "1",
+      "hightScore1": "10",
+      "hightScore2": "1",
+      "hightScore3": "2",
+      "hightScore4": "9",
+      "hightScoreASM": "11"
+    },
+    {
+      "id": "cuong2412",
+      "password": "2",
+      "againpasss": "2",
+      "hightScore1": "10",
+      "hightScore2": "9",
+      "hightScore3": "9",
+      "hightScore4": "7",
+      "hightScoreASM": "10"
+    },
+    {
+      "id": "cuong7748",
+      "password": "2",
+      "againpasss": "2",
+      "hightScore1": "9",
+      "hightScore2": "8",
+      "hightScore3": "9",
+      "hightScore4": "800",
+      "hightScoreASM": "10"
+    }
+
+  ]
 }

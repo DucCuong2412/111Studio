@@ -533,6 +533,7 @@ MonoBehaviour:
   PassInputField: {fileID: 803101497}
   loginSuccessPanel: {fileID: 1741669287}
   loginFailPanel: {fileID: 1063453194}
+  dataGame: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
 --- !u!1 &205065249
 GameObject:
   m_ObjectHideFlags: 0

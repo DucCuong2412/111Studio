@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "scoredata", menuName = "gameData/dataGame")]
 
-public class score : ScriptableObject
+public class data : ScriptableObject
 {
-     public  int scoreee;
-
+     public  int scoreee=0;
+    public int level=1;
+    public string account="" ;
+    public string password="";
 
 
         
