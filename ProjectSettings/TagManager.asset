@@ -10,6 +10,7 @@ TagManager:
   - machine_stair
   - door
   - fireball
+  - score
   layers:
   - Default
   - TransparentFX

@@ -24,7 +24,8 @@ public class Player_controler : MonoBehaviour
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;
-
+    public data scriptable;
+   
 
 
 
@@ -81,6 +82,13 @@ public class Player_controler : MonoBehaviour
         else if (collision.gameObject.CompareTag("trap"))
         {
             checkJump = true;
+
+
+        }
+        if (collision.gameObject.CompareTag("score"))
+        {
+            scriptable.scoreee++;
+              Destroy(collision.gameObject);
 
 
         }

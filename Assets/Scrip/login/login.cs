@@ -15,6 +15,7 @@ public class jsonLoginSystem : MonoBehaviour
     private List<login> accounts = new List<login>(); // Danh sách tài khoản từ file JSON
     private string filePath;
 
+    public data dataGame;
     private void Start()
     {
         filePath = Application.dataPath + "/fromlogin.json";
@@ -22,13 +23,14 @@ public class jsonLoginSystem : MonoBehaviour
         loginSuccessPanel.SetActive(false); // Đảm bảo panel thành công tắt khi bắt đầu
         loginFailPanel.SetActive(false);    // Đảm bảo panel lỗi tắt khi bắt đầu
     }
-
+   
     // Đăng nhập
     public void Login()
     {
         // Lấy ID và mật khẩu người dùng nhập
         string enteredID = IDinputField.text;
         string enteredPassword = PassInputField.text;
+
 
         // Kiểm tra tài khoản với ID và mật khẩu
         login matchingAccount = accounts.Find(account => account.id == enteredID && account.password == enteredPassword);
@@ -37,7 +39,9 @@ public class jsonLoginSystem : MonoBehaviour
         {
             // Đăng nhập thành công
             SceneManager.LoadScene("menu");
-
+            dataGame.account = enteredID;
+            dataGame.password = enteredPassword;
+     
             loginFailPanel.SetActive(false);
             Debug.Log("Đăng nhập thành công!");
         }
