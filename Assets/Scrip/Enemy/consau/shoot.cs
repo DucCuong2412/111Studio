@@ -47,6 +47,12 @@ public class shoot : MonoBehaviour
             GameObject spawnedHitball = Instantiate(newhitball, transform.position, transform.rotation);
             Destroy(spawnedHitball, 0.5f);
         }
+        if (collision.gameObject.CompareTag("tilemap"))
+        {
+            Destroy(gameObject);
+            GameObject spawnedHitball = Instantiate(newhitball, transform.position, transform.rotation);
+            Destroy(spawnedHitball, 0.5f);
+        }
     }
 
 }
