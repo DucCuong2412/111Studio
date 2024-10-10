@@ -21,7 +21,6 @@ public class Player_controler : MonoBehaviour
     public Animator anim;
     public Slider _slider;
     public float maxheal;
-    public GameObject saving;
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;
