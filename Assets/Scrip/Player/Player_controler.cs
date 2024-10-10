@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
+using TMPro;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEditor.XR;
@@ -25,8 +26,8 @@ public class Player_controler : MonoBehaviour
     public GameObject panelDead;
     public float count = 0;
     public data scriptable;
-   
 
+    public TextMeshProUGUI scoreText;
 
 
     void Start()
@@ -41,6 +42,7 @@ public class Player_controler : MonoBehaviour
     void Update()
     {
         flip();
+        scoreText.text= scriptable.scoreee.ToString();
         if (consong == true)
         {
             Vector2 vt = transform.localScale;
