@@ -12,13 +12,13 @@ public class flipboss : MonoBehaviour
         Vector3 flipped = transform.localScale;
         flipped.z *= -1f;
 
-        if (transform.position.x > player.position.x && isFliped)
+        if (transform.position.x < player.position.x && isFliped)
         {
             transform.localScale = flipped;
             transform.Rotate(0f, 180f, 0f);
             isFliped = false; 
         }
-        else if (transform.position.x < player.position.x && !isFliped)
+        else if (transform.position.x > player.position.x && !isFliped)
         {
             transform.localScale = flipped;
             transform.Rotate(0f, 180f, 0f);
