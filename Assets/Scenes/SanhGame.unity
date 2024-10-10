@@ -3808,7 +3808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 605f7eaba0c9e364c81286f4e71ad6e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NumberLab: 0
+  NumberLab: 1
 --- !u!61 &1195432654
 BoxCollider2D:
   m_ObjectHideFlags: 0
