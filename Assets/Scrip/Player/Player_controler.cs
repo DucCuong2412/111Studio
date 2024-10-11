@@ -25,7 +25,6 @@ public class Player_controler : MonoBehaviour
     public GameObject panelDead;
     public float count = 0;
     public data scriptable;
-
     public TextMeshProUGUI scoreText;
 
 

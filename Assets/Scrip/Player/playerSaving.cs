@@ -2,15 +2,22 @@
 using System.IO;
 using UnityEngine;
 using TMPro;
-using System.Linq; // Thư viện TextMeshPro
+using System.Linq;
+using UnityEngine.UIElements;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
+using System.Net.WebSockets; // Thư viện TextMeshPro
 
 public class PlayerSaving : MonoBehaviour
 {
-    private List<login> accounts = new List<login>(); 
+    private List<login> accounts = new List<login>();
     private string filePath; // Đường dẫn đến file JSON
     public data data;
 
-    public TMP_Text idTexts1; 
+
+
+
+    public TMP_Text idTexts1;
     public TMP_Text scoreTexts1;
 
     public TMP_Text idTexts2;
@@ -19,30 +26,108 @@ public class PlayerSaving : MonoBehaviour
     public TMP_Text idTexts3;
     public TMP_Text scoreTexts3;
 
+
     private void Start()
     {
         filePath = Application.dataPath + "/fromlogin.json"; // Đường dẫn đến file JSON
         LoadAccounts(); // Tải các tài khoản hiện có khi bắt đầu
         DisplayHighScores(); // Hiển thị bảng điểm khi bắt đầu
+
+
+    }
+    private void Awake()
+    {
+        data.level = data.level;
+        UpdateCheckLevel(data.account);
+
+        
     }
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.J))
+
+      
+
+
+    }
+    public void menu()
+    {
+        SceneManager.LoadScene(2);
+
+        UpdateHighScore(data.account, data.scoreee);
+
+        UpdateCheckLevel(data.account);
+
+        SaveAccounts();
+    }
+
+    // Hàm cập nhật checklevel cho tài khoản theo ID
+    private void UpdateCheckLevel(string id)
+    {
+        login accountToUpdate = accounts.Find(account => account.id == id);
+
+        if (accountToUpdate != null)
         {
-            UpdateHighScore(data.account, data.scoreee); // Cập nhật điểm cao cho tài khoản
+
+                if (data.level == 1)
+                {
+                    accountToUpdate.checklevel1 += 1;
+                    Debug.Log("checklevel1 đã được tăng thêm 1 cho tài khoản: " + id);
+                }
+                else if (data.level == 2)
+                {
+                    accountToUpdate.checklevel2 += 1;
+                    Debug.Log("checklevel2 đã được tăng thêm 1 cho tài khoản: " + id);
+                }
+                else if (data.level == 3)
+                {
+                    accountToUpdate.checklevel3 += 1;
+                    Debug.Log("checklevel3 đã được tăng thêm 1 cho tài khoản: " + id);
+                }
+                else if (data.level == 4)
+                {
+                    accountToUpdate.checklevel4 += 1;
+                    Debug.Log("checklevel4 đã được tăng thêm 1 cho tài khoản: " + id);
+                }
+                else if (data.level == 5)
+                {
+                    accountToUpdate.asm += 1;
+                    Debug.Log("asm đã được tăng thêm 1 cho tài khoản: " + id);
+                }
+            
+           
+        }
+        else
+        {
+            Debug.Log("Không tìm thấy tài khoản với ID: " + id);
         }
     }
 
-    // Cập nhật điểm cao cho tài khoản theo ID
+
+
+
+
+
+    public void again(string index)
+    {
+        UpdateHighScore(data.account, data.scoreee); 
+        SceneManager.LoadScene(index);
+        UpdateCheckLevel(data.account);
+        SaveAccounts();
+    }
+
+
     public void UpdateHighScore(string id, int newHighScore)
     {
-        // Tìm tài khoản theo ID
         login accountToUpdate = accounts.Find(account => account.id == id);
 
-        // Nếu tài khoản được tìm thấy
         if (accountToUpdate != null)
         {
+            data.checklevel1 = accountToUpdate.checklevel1;//gọi để test
+            data.checklevel2 = accountToUpdate.checklevel2;
+            data.checklevel3 = accountToUpdate.checklevel3;
+            data.checklevel4 = accountToUpdate.checklevel4;
+
             int currentHighScore = 0; // Biến lưu hightscoree hiện tại
 
             // Lấy điểm cao hiện tại dựa trên cấp độ
@@ -140,21 +225,21 @@ public class PlayerSaving : MonoBehaviour
             tongasm = float.Parse(account.hightScoreASM);
 
 
-            float tongall= tonglab+tongasm;
+            float tongall = tonglab + tongasm;
 
             scores.Add((account.id, tongall));
         }
-        var sapxep= scores.OrderByDescending(u=>u.tongall).ToList();
+        var sapxep = scores.OrderByDescending(u => u.tongall).ToList();
         int index = 0;
-        foreach(var i in sapxep)
+        foreach (var i in sapxep)
         {
             if (index == 0)
             {
                 Debug.Log($"id:{i.id}  score:{i.tongall} ");
-                idTexts1.text =i.id.ToString();
-                scoreTexts1.text=i.tongall.ToString();
+                idTexts1.text = i.id.ToString();
+                scoreTexts1.text = i.tongall.ToString();
 
-              index++;
+                index++;
 
             }
             else if (index == 1)
@@ -164,7 +249,7 @@ public class PlayerSaving : MonoBehaviour
                 scoreTexts2.text = i.tongall.ToString();
                 index++;
             }
-            else if(index == 2)
+            else if (index == 2)
             {
                 Debug.Log($"id:{i.id}  score:{i.tongall} ");
                 idTexts3.text = i.id.ToString();
@@ -172,7 +257,7 @@ public class PlayerSaving : MonoBehaviour
                 index++;
             }
         }
-      
+
     }
 
     [System.Serializable]

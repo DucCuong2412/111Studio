@@ -14,6 +14,8 @@ public class inGameMenu : MonoBehaviour
     {
         Deadpanel.SetActive(false);
         MenuPause.SetActive(false);
+ 
+
         Time.timeScale = 1.0f;
     }
 
@@ -26,11 +28,13 @@ public class inGameMenu : MonoBehaviour
             count++;
             Time.timeScale = 0f;
             MenuPause.SetActive(true);
+
         }else if(Input.GetKeyDown(KeyCode.Escape) && ( count %2 !=0) )
         {
             count--;
             Time.timeScale = 1f;
             MenuPause.SetActive(false);
+
         }
     }
     public void _ClickContinue()
@@ -38,10 +42,21 @@ public class inGameMenu : MonoBehaviour
         count--;
         Time.timeScale = 1f;
         MenuPause.SetActive(false);
+        
     }
+
     public void _LoadScene(string index)
     {
         SceneManager.LoadSceneAsync(index);
     }
+    public void _LoadSceneDead(string index)
+    {
+        SceneManager.LoadSceneAsync(index);
+    }
+    public void backMenu()
+    {
+        SceneManager.LoadScene(2);
+    }
+
    
 }

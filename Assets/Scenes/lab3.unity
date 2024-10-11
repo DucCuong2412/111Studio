@@ -1173,7 +1173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &229705851
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2051,7 +2051,7 @@ PrefabInstance:
     - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: panelDead
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1696597475}
     - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: scoreText
       value: 
@@ -2305,10 +2305,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: inGameMenu, Assembly-CSharp
-        m_MethodName: _LoadScene
-        m_Mode: 5
+      - m_Target: {fileID: 124783475}
+        m_TargetAssemblyTypeName: PlayerSaving, Assembly-CSharp
+        m_MethodName: menu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3830,6 +3830,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &788540289 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9185294511291687375, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 1608463019}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &794672461
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4862,7 +4873,7 @@ Transform:
   m_GameObject: {fileID: 956322940}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.63999, y: 1.18, z: -10}
+  m_LocalPosition: {x: 109.06395, y: -0.96067995, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5038,7 +5049,7 @@ Transform:
   m_GameObject: {fileID: 981630544}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.63999, y: 1.18, z: -10}
+  m_LocalPosition: {x: 109.060005, y: -1.1600002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -50970,7 +50981,7 @@ Transform:
   m_GameObject: {fileID: 1573474249}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 87.7, y: -5.25, z: 0}
+  m_LocalPosition: {x: 85.12, y: -7.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -51769,7 +51780,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1696597476
 RectTransform:
   m_ObjectHideFlags: 0
@@ -52072,9 +52083,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 182180073}
-        m_TargetAssemblyTypeName: inGameMenu, Assembly-CSharp
-        m_MethodName: _LoadScene
+      - m_Target: {fileID: 1806691964}
+        m_TargetAssemblyTypeName: PlayerSaving, Assembly-CSharp
+        m_MethodName: again
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -52248,8 +52259,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1806691963}
+  - component: {fileID: 1806691964}
   m_Layer: 0
-  m_Name: GameManager
+  m_Name: player_saving
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52270,6 +52282,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1806691964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806691962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71d3f5a433f757441b55095a52ecc3ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
+  idTexts1: {fileID: 1608463025}
+  scoreTexts1: {fileID: 1608463024}
+  idTexts2: {fileID: 1608463022}
+  scoreTexts2: {fileID: 788540289}
+  idTexts3: {fileID: 1608463021}
+  scoreTexts3: {fileID: 1608463020}
 --- !u!1 &1865441593
 GameObject:
   m_ObjectHideFlags: 0
