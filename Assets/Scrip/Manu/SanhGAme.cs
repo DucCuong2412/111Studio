@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SanhGAme : MonoBehaviour
 {
-    
+        
     void Start()
     {
         
