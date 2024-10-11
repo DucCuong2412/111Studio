@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: scripTable
   m_EditorClassIdentifier: 
   scoreee: 0
-  level: 1
+  level: 2
   account: cuong2412
-  password: 2
+  password: 2412
+  checkscene: 0
+  checklevel1: 4
+  checklevel2: 0
+  checklevel3: 1
+  checklevel4: 0
+  asm: 0

@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject Menu, Updategame, Tutorial, HighScore,setting
-        ;
+    public GameObject Menu, Updategame, Tutorial, HighScore,setting;
+
 
     public float volume;
     public AudioMixer mixer;
@@ -74,6 +75,11 @@ public class MainMenu : MonoBehaviour
         mixer.SetFloat("volume",volume);
         Debug.Log("volume" + volume);
         
+    }
+    public void play()
+    {
+        SceneManager.LoadScene(3);
+
     }
 
 
