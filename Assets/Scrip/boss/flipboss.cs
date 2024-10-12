@@ -31,7 +31,7 @@ public class flipboss : MonoBehaviour
             isFliped = true; 
         }
     }
-
+  
    
     private void Update()
     {

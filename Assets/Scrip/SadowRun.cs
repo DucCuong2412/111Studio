@@ -12,7 +12,7 @@ public class SadowRun : StateMachineBehaviour
     flipboss flipboss;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo animatorState,int layerIndex)
     {
-        player = GameObject.FindGameObjectWithTag("player").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         flipboss = animator.GetComponent<flipboss>();
 
