@@ -20,7 +20,7 @@ public class Player_controler : MonoBehaviour
     public float jump = 20f;
     public Animator anim;
     public Slider _slider;
-    public float maxheal;
+    public float maxheal=10;
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;

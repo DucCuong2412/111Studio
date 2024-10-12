@@ -11,6 +11,8 @@ TagManager:
   - door
   - fireball
   - score
+  - player_givedame
+  - check_box
   layers:
   - Default
   - TransparentFX
