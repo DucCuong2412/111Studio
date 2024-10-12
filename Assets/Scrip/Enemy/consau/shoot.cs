@@ -7,7 +7,7 @@ public class shoot : MonoBehaviour
     private GameObject player;
     private Rigidbody2D Rigidbody2D;
     public  GameObject newhitball;
-
+    public int rotate;
     
 
     float timer = 0;
@@ -21,7 +21,7 @@ public class shoot : MonoBehaviour
         Rigidbody2D.velocity = new Vector2(direction.x, direction.y).normalized * force;
 
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0,0,rot +180);
+        transform.rotation = Quaternion.Euler(0,0,rot +rotate);
     }
 
     
