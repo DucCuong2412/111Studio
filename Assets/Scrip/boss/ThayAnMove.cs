@@ -20,7 +20,6 @@ public class ThayAnMove : StateMachineBehaviour
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo animatorState, int layerIndex)
     {
         flipboss.LookatPlayer();
-
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
         rb.MovePosition(newPos);
