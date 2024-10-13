@@ -42,7 +42,7 @@ public class ThayAnMove : StateMachineBehaviour
         {
 
             timer += Time.deltaTime;
-            if (timer > 3)
+            if (timer >=3) 
             {
                 if (distance <= 30)
                 {
@@ -58,20 +58,22 @@ public class ThayAnMove : StateMachineBehaviour
                     animator.SetTrigger("atk1");
                 }
                 timer = 0f;
-            }if(timer>= 2 && distance <=4)
+            }if(timer>= 2 && distance <=5)
             {
-                if(distance <= 4)
+                if(distance <= 5 && distance >=4 )
                 {
                     
                         animator.SetTrigger("atk3");
                         shoot.tuluc();
+                        timer = 0f;
                     
                 }
-              if (distance < 2  ) 
+                if (distance <= 3)
                 {
                     animator.SetTrigger("atk4");
+                    timer = 0f;
                 }
-                timer = 0f;
+                
             }
 
         }
@@ -93,5 +95,6 @@ public class ThayAnMove : StateMachineBehaviour
         animator.ResetTrigger("atk1");
         animator.ResetTrigger("atk2");
         animator.ResetTrigger("atk3");
+        animator.ResetTrigger("atk4");
     }
 }
