@@ -22,7 +22,7 @@ public class ActionCam : MonoBehaviour
     void Update()
     { 
         timer += Time.deltaTime;
-        Debug.Log("Timer: " + timer);
+        
         if (camboss != null && timer >= 2 &&timer <=4)
         {
             

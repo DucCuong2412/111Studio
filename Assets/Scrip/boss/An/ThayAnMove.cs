@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Timeline.Actions;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ public class ThayAnMove : StateMachineBehaviour
     Rigidbody2D rb;
     flipboss flipboss;
     shootAn shoot;
+    HealthBossAn healthBoss;
     float timer;
 
   
@@ -23,6 +25,7 @@ public class ThayAnMove : StateMachineBehaviour
         rb = animator.GetComponent<Rigidbody2D>();
         flipboss = animator.GetComponent<flipboss>();
         shoot = animator.GetComponent <shootAn>();
+        healthBoss = animator.GetComponent<HealthBossAn>();
        
 
     }
@@ -30,7 +33,7 @@ public class ThayAnMove : StateMachineBehaviour
     {
         
         flipboss.LookatPlayer();
-
+        
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.deltaTime);
         rb.position = newPos;
@@ -77,7 +80,7 @@ public class ThayAnMove : StateMachineBehaviour
             }
 
         }
-
+        
     }
     public void performaAtk()
     {
