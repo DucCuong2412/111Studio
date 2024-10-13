@@ -36,6 +36,8 @@ Transform:
   m_Children:
   - {fileID: 5392522468355407512}
   - {fileID: 391976509409828008}
+  - {fileID: 4767991868350500629}
+  - {fileID: 177652659158553178}
   - {fileID: 1122250128208584218}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -199,6 +201,7 @@ MonoBehaviour:
   player: {fileID: 0}
   anim: {fileID: 5088204179445852025}
   isFliped: 0
+  consong: 1
   speed: 5
   count_laze: 0
   count_dacbiet: 0
@@ -208,7 +211,7 @@ MonoBehaviour:
   tranformAtk: {fileID: 5424944249259803292}
   tranformdacbiet: {fileID: 8339270253183331395}
   _slider: {fileID: 4547475568317162286}
-  maxheal: 0
+  maxheal: 10
   panel: {fileID: 0}
   Panel_text: {fileID: 0}
   text_chat: {fileID: 0}
@@ -487,6 +490,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &5213696795028132801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 177652659158553178}
+  m_Layer: 0
+  m_Name: chieucuoi2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &177652659158553178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5213696795028132801}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0538483, y: 5.3046036, z: 1725.5248}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4180162856764627116}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5424944249259803292
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,6 +627,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &6994577879044391215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4767991868350500629}
+  m_Layer: 0
+  m_Name: chieucuoi1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4767991868350500629
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6994577879044391215}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.0538483, y: 5.3046036, z: 1725.5248}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4180162856764627116}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8339270253183331395
 GameObject:
   m_ObjectHideFlags: 0
