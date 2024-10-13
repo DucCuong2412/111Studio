@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 85945adcf496b3046bd68dc30a8dc26e
+guid: 85e3a5096dd7e504998503e65979030d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 3
+  spritePixelsToUnits: 5
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_0
+      name: Retro Impact Effect Pack 5 F_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d3abd0f3973b0640a365c75a7174fd6
-      internalID: 1140410319
+      spriteID: 2872b3dfafa9fce47ace3cb05bcdc09c
+      internalID: -186847058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_1
+      name: Retro Impact Effect Pack 5 F_1
       rect:
         serializedVersion: 2
         x: 64
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e983f11659393074680521fc3010a209
-      internalID: 2027541822
+      spriteID: a4c71b096e4af984a82051bea5ba7d95
+      internalID: -541815908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_2
+      name: Retro Impact Effect Pack 5 F_2
       rect:
         serializedVersion: 2
         x: 128
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 038f8d2808b942c42aa5883554bdced6
-      internalID: 1589187119
+      spriteID: d033b18f9b3d08c4caf65e806cc4b97a
+      internalID: -626265590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_3
+      name: Retro Impact Effect Pack 5 F_3
       rect:
         serializedVersion: 2
         x: 192
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a27f2297a338be04a9cbd8434448a635
-      internalID: 796851070
+      spriteID: efeae755107098d49a22d77c9b545fef
+      internalID: 1769663443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_4
+      name: Retro Impact Effect Pack 5 F_4
       rect:
         serializedVersion: 2
         x: 256
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7499fd0f74f1fae47bed55ce1f8ad823
-      internalID: 438895918
+      spriteID: f99e7bb8e3814d84f91d14a4183220bd
+      internalID: -1828579745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_5
+      name: Retro Impact Effect Pack 5 F_5
       rect:
         serializedVersion: 2
         x: 320
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc1c1b13a6566a947b69a6562c8d82f7
-      internalID: 331827767
+      spriteID: 90b6b4de4ca3dae4a9ed0de64d567534
+      internalID: 130981743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_6
+      name: Retro Impact Effect Pack 5 F_6
       rect:
         serializedVersion: 2
         x: 0
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1214071da383f14c9f2c8486214d38e
-      internalID: -1077597832
+      spriteID: b45c034df633ca7459c7a2a1e13a7f21
+      internalID: -1601070545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_7
+      name: Retro Impact Effect Pack 5 F_7
       rect:
         serializedVersion: 2
         x: 64
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c320b4aca19e1214a9fecd25ac12e2a7
-      internalID: -1498724738
+      spriteID: 71ece27d7eff8de4db2690aa1592be7a
+      internalID: 1913309756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_8
+      name: Retro Impact Effect Pack 5 F_8
       rect:
         serializedVersion: 2
         x: 128
@@ -305,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4eaa0e63ef05aab47842f9be02dc7780
-      internalID: 1361484545
+      spriteID: ef24aaa5de97f8e46b0ac5eb87fa3b97
+      internalID: 75147933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_9
+      name: Retro Impact Effect Pack 5 F_9
       rect:
         serializedVersion: 2
         x: 192
@@ -326,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e18f09938ca436449948d45e56f37ed
-      internalID: 762435330
+      spriteID: 841be04cad1020a42a0e6336ebb118b5
+      internalID: -930857482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_10
+      name: Retro Impact Effect Pack 5 F_10
       rect:
         serializedVersion: 2
         x: 256
@@ -347,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1a1176290a25da41a468b5764f74584
-      internalID: 272501180
+      spriteID: e031fadcf7d665546bfef2de020a49c8
+      internalID: 556102535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_11
+      name: Retro Impact Effect Pack 5 F_11
       rect:
         serializedVersion: 2
         x: 320
@@ -368,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b7190cf494ce0d4c879d1f0b55002fd
-      internalID: 1037192840
+      spriteID: 84b18fb2dee43a24990d1d64bdaef29a
+      internalID: 8454243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_12
+      name: Retro Impact Effect Pack 5 F_12
       rect:
         serializedVersion: 2
         x: 0
@@ -389,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a84f9b5c85b00db4285f3ceaf86a06b2
-      internalID: -296462497
+      spriteID: e867520d293c7ed4e9e3829287fd9e11
+      internalID: 159010106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_13
+      name: Retro Impact Effect Pack 5 F_13
       rect:
         serializedVersion: 2
         x: 64
@@ -410,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f43f886c8f7d3e48ab979b6b12352c9
-      internalID: 289397159
+      spriteID: e21ba619249a373409fd023e276fdc5c
+      internalID: 991823606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_14
+      name: Retro Impact Effect Pack 5 F_14
       rect:
         serializedVersion: 2
         x: 128
@@ -431,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c5a6162e493bc45b0c0bce086d2b12
-      internalID: -992421218
+      spriteID: 9a2771a6e26816d4a9e6804865b5aa13
+      internalID: -188312201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_15
+      name: Retro Impact Effect Pack 5 F_15
       rect:
         serializedVersion: 2
         x: 192
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3cab66917afe094db08badeaaf14db4
-      internalID: -1533900635
+      spriteID: 7523d734c08e0244c9e53725b084983a
+      internalID: 1196780272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_16
+      name: Retro Impact Effect Pack 5 F_16
       rect:
         serializedVersion: 2
         x: 256
@@ -473,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9f2e7961a9715a4198772f22eb04044
-      internalID: 1606911724
+      spriteID: 0ddab7896d3317246acaf59be43e01b0
+      internalID: -1301912250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_17
+      name: Retro Impact Effect Pack 5 F_17
       rect:
         serializedVersion: 2
         x: 320
@@ -494,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 488ca9f78719d2e41944eb23f5c6dc66
-      internalID: 853798582
+      spriteID: 32a62e12f2012564da2cf473fadf769e
+      internalID: -139309170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_18
+      name: Retro Impact Effect Pack 5 F_18
       rect:
         serializedVersion: 2
         x: 0
@@ -515,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2463e214fa6b41040bafe6c9572a1931
-      internalID: 1660605880
+      spriteID: 8699cd30a52b60f419dff6ec679f4d79
+      internalID: 2138636745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_19
+      name: Retro Impact Effect Pack 5 F_19
       rect:
         serializedVersion: 2
         x: 64
@@ -536,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec4f8d96d5e459740bce7b5d05d88b20
-      internalID: -1167710653
+      spriteID: ddcc66493d8e9ea41a7678d6a48b2a0a
+      internalID: -460754131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_20
+      name: Retro Impact Effect Pack 5 F_20
       rect:
         serializedVersion: 2
         x: 128
@@ -557,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fed6ca52a04a84c458b6333ed071257a
-      internalID: 2087321181
+      spriteID: ddd0102854e5671489b2923555191dfd
+      internalID: -438785263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_21
+      name: Retro Impact Effect Pack 5 F_21
       rect:
         serializedVersion: 2
         x: 192
@@ -578,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5299acdc59542834f997c97ea23c6916
-      internalID: 163300885
+      spriteID: 12519080afb5c784aa67c530e1ee6d90
+      internalID: 737093459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_22
+      name: Retro Impact Effect Pack 5 F_22
       rect:
         serializedVersion: 2
         x: 256
@@ -599,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0bce0cf7c8f2044692a4b831678a672
-      internalID: -1047303858
+      spriteID: 80abaf73d47e49645b901188b8ce9d6f
+      internalID: -238928049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_23
+      name: Retro Impact Effect Pack 5 F_23
       rect:
         serializedVersion: 2
         x: 320
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c8755df074d46b4985aad6be6000494
-      internalID: -352219967
+      spriteID: 79c7ef7636281ac4eb030d09bdf06441
+      internalID: 686548677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_24
+      name: Retro Impact Effect Pack 5 F_24
       rect:
         serializedVersion: 2
         x: 0
@@ -641,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39cff51eff50c8e438b27ddaf81d4f5a
-      internalID: 1294826720
+      spriteID: f726ea38077d9ac4295e79a65ce47569
+      internalID: 1624659828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_25
+      name: Retro Impact Effect Pack 5 F_25
       rect:
         serializedVersion: 2
         x: 64
@@ -662,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd9c69bc0d83e0b4c86c8bbc20702b05
-      internalID: -193313214
+      spriteID: b5dfa40206f0fed4d9147eba0791e6db
+      internalID: -383042586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_26
+      name: Retro Impact Effect Pack 5 F_26
       rect:
         serializedVersion: 2
         x: 128
@@ -683,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f8a322a28d416b4a997c45bae9c835c
-      internalID: 1283485370
+      spriteID: 7841633c7f0c89046bf56a22c1a0f571
+      internalID: -1749349986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_27
+      name: Retro Impact Effect Pack 5 F_27
       rect:
         serializedVersion: 2
         x: 192
@@ -704,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bb8b42d884415945b8e3fe899d6be2e
-      internalID: 2081021688
+      spriteID: 3f95065a5855203449f2adbdca0a66f1
+      internalID: 1692143114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_28
+      name: Retro Impact Effect Pack 5 F_28
       rect:
         serializedVersion: 2
         x: 256
@@ -725,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e792f4c39608a2479adbf5109f0d383
-      internalID: 1270872109
+      spriteID: 373322608fafefb4fa14f74769934a96
+      internalID: 114347722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_29
+      name: Retro Impact Effect Pack 5 F_29
       rect:
         serializedVersion: 2
         x: 320
@@ -746,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eb96c6eb7b2f314393b96f370af85e3
-      internalID: -1914986796
+      spriteID: ef41d8cab4cddfd47a9866a84a04322f
+      internalID: 1770279346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_30
+      name: Retro Impact Effect Pack 5 F_30
       rect:
         serializedVersion: 2
         x: 0
@@ -767,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67650e724c5401541b7ccbcf3d1eb846
-      internalID: 854361396
+      spriteID: 3d60253f276aaf849846c49102de9e40
+      internalID: 87256520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_31
+      name: Retro Impact Effect Pack 5 F_31
       rect:
         serializedVersion: 2
         x: 64
@@ -788,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9d1e89dadbcb1d4fbcf0377d6fddd89
-      internalID: 849647221
+      spriteID: 2f8ac4ad6482cb8489a05ef14679e89c
+      internalID: 1504773712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_32
+      name: Retro Impact Effect Pack 5 F_32
       rect:
         serializedVersion: 2
         x: 128
@@ -809,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb6bb54597d9b6b47b36062f2e20bef7
-      internalID: 1585878774
+      spriteID: 0e1b5f5dca77d6447bc3c0e946c56435
+      internalID: -1173000437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_33
+      name: Retro Impact Effect Pack 5 F_33
       rect:
         serializedVersion: 2
         x: 192
@@ -830,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a2e9947563347e4cb3491dfc04fd54b
-      internalID: 1896891709
+      spriteID: d60343a1c5871c445a4e1f6b45f3e48b
+      internalID: -1403615056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_34
+      name: Retro Impact Effect Pack 5 F_34
       rect:
         serializedVersion: 2
         x: 256
@@ -851,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 206aa43370a925d4d9de649e8225f61a
-      internalID: 982895420
+      spriteID: 687fa436fdee2084c89ca71d4d3765b9
+      internalID: 1433713865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_35
+      name: Retro Impact Effect Pack 5 F_35
       rect:
         serializedVersion: 2
         x: 320
@@ -872,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4081e3f65479b00439b8d7fa6641fc25
-      internalID: 1026917552
+      spriteID: 286f7f6cac5c965438fb2ef35639d61c
+      internalID: -96244846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_36
+      name: Retro Impact Effect Pack 5 F_36
       rect:
         serializedVersion: 2
         x: 0
@@ -893,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d08c3cdd87b7d314ea5c10e3f4e372de
-      internalID: 410302040
+      spriteID: beb6c3933ab1d304f91abdb39a184376
+      internalID: -1475320114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_37
+      name: Retro Impact Effect Pack 5 F_37
       rect:
         serializedVersion: 2
         x: 64
@@ -914,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6134421e2cf6bbe4183f58f87d135346
-      internalID: 747933086
+      spriteID: 428a1acd5c1831b4f9b06218cf46ee89
+      internalID: -34660570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_38
+      name: Retro Impact Effect Pack 5 F_38
       rect:
         serializedVersion: 2
         x: 128
@@ -935,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4bc226847dc88f43aa2f4420814ffa0
-      internalID: -753891320
+      spriteID: e1bebfeb19cd3234c89b5a629a3585ac
+      internalID: 866001618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_39
+      name: Retro Impact Effect Pack 5 F_39
       rect:
         serializedVersion: 2
         x: 192
@@ -956,14 +956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe7ef0919d2f89049a7f96280ed284a1
-      internalID: -1598421313
+      spriteID: d7fd77fb8d10e3e4397e038c85360bb1
+      internalID: -1307935522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_40
+      name: Retro Impact Effect Pack 5 F_40
       rect:
         serializedVersion: 2
         x: 256
@@ -977,14 +977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d29222d0a5011ee499df3fb7c9afbfab
-      internalID: -844670966
+      spriteID: 242f40fa540ef4343b357d85400baeb3
+      internalID: -1403789532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_41
+      name: Retro Impact Effect Pack 5 F_41
       rect:
         serializedVersion: 2
         x: 320
@@ -998,14 +998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 217dd683468144443a10326ec6f486bc
-      internalID: 793026941
+      spriteID: cff769340dec9ff40a0a95dd21ba4da7
+      internalID: -1430572722
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_42
+      name: Retro Impact Effect Pack 5 F_42
       rect:
         serializedVersion: 2
         x: 0
@@ -1019,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca7d068560af2d5428f627429671d803
-      internalID: -1453357223
+      spriteID: 3ccc2cd440f2c664ca181515e1704b44
+      internalID: 1596950193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_43
+      name: Retro Impact Effect Pack 5 F_43
       rect:
         serializedVersion: 2
         x: 64
@@ -1040,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53389cc479ef012409225a1b5ea995e8
-      internalID: 457602307
+      spriteID: 815465506d1156c4590687adeb198ae6
+      internalID: -31496551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_44
+      name: Retro Impact Effect Pack 5 F_44
       rect:
         serializedVersion: 2
         x: 128
@@ -1061,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc43c64c80b84f44b9624792ba960f3e
-      internalID: 1668782895
+      spriteID: ad334c11450bb1741aec9a71fd22f244
+      internalID: 416078140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_45
+      name: Retro Impact Effect Pack 5 F_45
       rect:
         serializedVersion: 2
         x: 192
@@ -1082,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e94fa985847197c4ab1f452e4bcee763
-      internalID: 995288168
+      spriteID: d446ffbe0a639874287cc1043659f8f3
+      internalID: 1173099816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_46
+      name: Retro Impact Effect Pack 5 F_46
       rect:
         serializedVersion: 2
         x: 256
@@ -1103,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d1f0b5d7575ec84f88526d258985040
-      internalID: -371275614
+      spriteID: 23acc12a19597fa4dbb812326557295a
+      internalID: -832982356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_47
+      name: Retro Impact Effect Pack 5 F_47
       rect:
         serializedVersion: 2
         x: 320
@@ -1124,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0185cca9316036f45a2a2841dc0f6b2a
-      internalID: 1611608599
+      spriteID: 60ce91985c16c534f8b887a69c21a759
+      internalID: 2128147145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_48
+      name: Retro Impact Effect Pack 5 F_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1145,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e054ad81223c364487b7601ab4901c6
-      internalID: -1457688949
+      spriteID: 2bd64457134293c44b268fd9f1eb0d3d
+      internalID: 645647056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_49
+      name: Retro Impact Effect Pack 5 F_49
       rect:
         serializedVersion: 2
         x: 64
@@ -1166,14 +1166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 251f5893fd46d8a4c8e4ee65a3c65003
-      internalID: -1238124829
+      spriteID: 8c2a181cb30d1fe419f12edf4f304430
+      internalID: -431743654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_50
+      name: Retro Impact Effect Pack 5 F_50
       rect:
         serializedVersion: 2
         x: 128
@@ -1187,14 +1187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7639705b459c39049a9bf09b4a5fa71d
-      internalID: -1091981786
+      spriteID: 645492ef888db7a4f8d4f9d490324ea3
+      internalID: 1439438148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_51
+      name: Retro Impact Effect Pack 5 F_51
       rect:
         serializedVersion: 2
         x: 192
@@ -1208,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b910184300f3984799c240f5d17f6bd
-      internalID: -542952528
+      spriteID: 6078526543d32414b98820ce5b84e0f5
+      internalID: 1967489184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_52
+      name: Retro Impact Effect Pack 5 F_52
       rect:
         serializedVersion: 2
         x: 256
@@ -1229,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9784c58531830da47bf691e537a37c51
-      internalID: -1382414330
+      spriteID: fd48672381fed1d468d60e30e16a76b9
+      internalID: -161787861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_53
+      name: Retro Impact Effect Pack 5 F_53
       rect:
         serializedVersion: 2
         x: 320
@@ -1250,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9171073a1f928a34bbc4b998ed9fee59
-      internalID: 213679565
+      spriteID: 7898371ca5cb17f4b90280f79cbc69cb
+      internalID: -1147219241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_54
+      name: Retro Impact Effect Pack 5 F_54
       rect:
         serializedVersion: 2
         x: 0
@@ -1271,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53f45490969f73488a1a52a537ab500
-      internalID: 1551922582
+      spriteID: f3cc2de0aab7af547844ed8cd5c1d705
+      internalID: -1174009337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_55
+      name: Retro Impact Effect Pack 5 F_55
       rect:
         serializedVersion: 2
         x: 64
@@ -1292,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 225ae3bb7609b764caf44bdc1a4f6926
-      internalID: 1280175152
+      spriteID: dcacf525499611543b4474d07314db02
+      internalID: 1587233365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_56
+      name: Retro Impact Effect Pack 5 F_56
       rect:
         serializedVersion: 2
         x: 128
@@ -1313,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3be8b6f8aab75b24c924116ebad34833
-      internalID: -1791287702
+      spriteID: a5a7dead1f2060c489f22de9772a30c8
+      internalID: 433165668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_57
+      name: Retro Impact Effect Pack 5 F_57
       rect:
         serializedVersion: 2
         x: 192
@@ -1334,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bc7ffaba8332d14182799af155e8d1b
-      internalID: -1245301584
+      spriteID: 1afeedfd431b5be4dbbee5dffe6d22da
+      internalID: 1279225719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_58
+      name: Retro Impact Effect Pack 5 F_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1355,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2ed3e745328eb4419b3bcb1bc9d7631
-      internalID: 576997599
+      spriteID: c509ab177ceab67459032e9bacd88f06
+      internalID: -1274031112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_59
+      name: Retro Impact Effect Pack 5 F_59
       rect:
         serializedVersion: 2
         x: 320
@@ -1376,14 +1376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f4d2003b56b7714a9680d6121f026a7
-      internalID: 458750174
+      spriteID: 9e32e9aea9b887645affb298d6089996
+      internalID: 1845048323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_60
+      name: Retro Impact Effect Pack 5 F_60
       rect:
         serializedVersion: 2
         x: 0
@@ -1397,14 +1397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda11025de474114cb274cd49f45357f
-      internalID: 1875492103
+      spriteID: 74379e4a4aa1ccc4dbaa8522df14ab62
+      internalID: 620837067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_61
+      name: Retro Impact Effect Pack 5 F_61
       rect:
         serializedVersion: 2
         x: 64
@@ -1418,14 +1418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd2160a9c9026141bea9bad2eb5d3f5
-      internalID: -187759469
+      spriteID: 32f08713d60a67f4a90d6782fb4848c2
+      internalID: 1777254375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_62
+      name: Retro Impact Effect Pack 5 F_62
       rect:
         serializedVersion: 2
         x: 128
@@ -1439,14 +1439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4432b8729d1786f45912ace3b6600240
-      internalID: 80636743
+      spriteID: 99e7dbea544035546beae9c51347db20
+      internalID: 2040229647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_63
+      name: Retro Impact Effect Pack 5 F_63
       rect:
         serializedVersion: 2
         x: 192
@@ -1460,14 +1460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cebcca33e40a43d4cb9ce72cce942cb1
-      internalID: -1661499694
+      spriteID: d77448e908551434999fde4ff36a72e0
+      internalID: -1368417837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_64
+      name: Retro Impact Effect Pack 5 F_64
       rect:
         serializedVersion: 2
         x: 256
@@ -1481,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ed7ac12a1bf62e4bb06d094f55f837b
-      internalID: -1493106390
+      spriteID: 56ea4b35b5d21654d9a6e428d5656303
+      internalID: -1512930626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_65
+      name: Retro Impact Effect Pack 5 F_65
       rect:
         serializedVersion: 2
         x: 320
@@ -1502,14 +1502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77ca540d0ccc1614891ce54994c64a28
-      internalID: 663296546
+      spriteID: c476782dd5dec254dadd1993fa08a38b
+      internalID: 1383867535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_66
+      name: Retro Impact Effect Pack 5 F_66
       rect:
         serializedVersion: 2
         x: 384
@@ -1523,14 +1523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e1837aaec92d7b43b1c47b42f99de9f
-      internalID: 2033940447
+      spriteID: 2653fac64f2d8ac4790047827c30f2ae
+      internalID: 241167850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_67
+      name: Retro Impact Effect Pack 5 F_67
       rect:
         serializedVersion: 2
         x: 0
@@ -1544,14 +1544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7abab3edd0c1fee479389ac08ea18e01
-      internalID: -457772867
+      spriteID: ed871132e14ccf246b9c3584ed28735d
+      internalID: -1778228568
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_68
+      name: Retro Impact Effect Pack 5 F_68
       rect:
         serializedVersion: 2
         x: 64
@@ -1565,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f654c501a81e4d946acce5db4a682809
-      internalID: 418245939
+      spriteID: c72b3ad0c8e9ae94e95ebd544d4897ba
+      internalID: 76283154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_69
+      name: Retro Impact Effect Pack 5 F_69
       rect:
         serializedVersion: 2
         x: 128
@@ -1586,14 +1586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50a40c40be0b3c34cb23e3c945a830c0
-      internalID: 1221866322
+      spriteID: ecdf8f5a25e44b4459f1fab6f9e06748
+      internalID: 1529866322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_70
+      name: Retro Impact Effect Pack 5 F_70
       rect:
         serializedVersion: 2
         x: 192
@@ -1607,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf171c3daf2a8964c8c0877c28b83885
-      internalID: -533494101
+      spriteID: 32ad0c03e14d27d4b8c44aaf34d9cda5
+      internalID: 1988383605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_71
+      name: Retro Impact Effect Pack 5 F_71
       rect:
         serializedVersion: 2
         x: 256
@@ -1628,14 +1628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b9369a9f1884b54e93edcc8a71dee37
-      internalID: 1844296146
+      spriteID: 213c5600efdbf5c409b40ca0ac60bc12
+      internalID: 266349646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_72
+      name: Retro Impact Effect Pack 5 F_72
       rect:
         serializedVersion: 2
         x: 320
@@ -1649,14 +1649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00943caf02abf104b81619387f064065
-      internalID: 506999640
+      spriteID: fe96eb7b361c21d4e9570adfb73a510b
+      internalID: -2054715203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_73
+      name: Retro Impact Effect Pack 5 F_73
       rect:
         serializedVersion: 2
         x: 384
@@ -1670,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 133dbad5bf1726a4b83a4ef583dd5475
-      internalID: -110836295
+      spriteID: 9ae2c0185b005c14ba702f577a410608
+      internalID: 361990696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_74
+      name: Retro Impact Effect Pack 5 F_74
       rect:
         serializedVersion: 2
         x: 0
@@ -1691,14 +1691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4f0a7c4300ac5f43bc5ba5f678e5e25
-      internalID: 1822625877
+      spriteID: dfdc5e6346679f7428eccdc7f5f42be1
+      internalID: 975797120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_75
+      name: Retro Impact Effect Pack 5 F_75
       rect:
         serializedVersion: 2
         x: 64
@@ -1712,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c78badc8cc3d5545b2ccb3fad7a8139
-      internalID: 1258368137
+      spriteID: 5960f99cdcbd4b545846756686d98589
+      internalID: -512699267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_76
+      name: Retro Impact Effect Pack 5 F_76
       rect:
         serializedVersion: 2
         x: 128
@@ -1733,14 +1733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e978e09ce92d46446a485b6d645d2895
-      internalID: -1260753216
+      spriteID: e9fa16a049b94cf43bda0f14dfce7357
+      internalID: 1623263352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_77
+      name: Retro Impact Effect Pack 5 F_77
       rect:
         serializedVersion: 2
         x: 192
@@ -1754,14 +1754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5c055e94661f0049a795d8cbf2e8776
-      internalID: -403336533
+      spriteID: ef817ec46cd3be04daafb36822910557
+      internalID: -705563125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_78
+      name: Retro Impact Effect Pack 5 F_78
       rect:
         serializedVersion: 2
         x: 256
@@ -1775,14 +1775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bf548ac7adef514fab0c94288e4b842
-      internalID: -1481058976
+      spriteID: b8870724760bff243a2897afb338be14
+      internalID: 1298726612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_79
+      name: Retro Impact Effect Pack 5 F_79
       rect:
         serializedVersion: 2
         x: 320
@@ -1796,14 +1796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 573ae4d73c7784344b437324b0c6c3a1
-      internalID: -835797587
+      spriteID: ea0f08ac21bd1604991d052ff0ce9348
+      internalID: -138303226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_80
+      name: Retro Impact Effect Pack 5 F_80
       rect:
         serializedVersion: 2
         x: 384
@@ -1817,14 +1817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95938d3a1563e4d43a2c0a541b94d843
-      internalID: -63918454
+      spriteID: e33a8b4d74c933f49a94d10b30f62a45
+      internalID: -1541589769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_81
+      name: Retro Impact Effect Pack 5 F_81
       rect:
         serializedVersion: 2
         x: 0
@@ -1838,14 +1838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dafcaecb32b65b449cef677523ddedd
-      internalID: 2092804187
+      spriteID: 0e6ed1111fa784f428a1f6f949835836
+      internalID: -993631033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_82
+      name: Retro Impact Effect Pack 5 F_82
       rect:
         serializedVersion: 2
         x: 64
@@ -1859,14 +1859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ca2f1bf124d4a544b024d41b47fc679
-      internalID: 352628358
+      spriteID: bfb81ea2804213a4a81573cc5b423534
+      internalID: -1481405448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_83
+      name: Retro Impact Effect Pack 5 F_83
       rect:
         serializedVersion: 2
         x: 128
@@ -1880,14 +1880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9deebb5d29265bf4e81a084dc1af9a57
-      internalID: -2063184515
+      spriteID: 4809d39e0c9d0e34789be0e68f40d2b1
+      internalID: -55753089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_84
+      name: Retro Impact Effect Pack 5 F_84
       rect:
         serializedVersion: 2
         x: 192
@@ -1901,14 +1901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 877ce2721de4ee04486e8aac162fdd00
-      internalID: -1856665188
+      spriteID: ff87eaf4093c7474abeb35d62627f66d
+      internalID: -1888913029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_85
+      name: Retro Impact Effect Pack 5 F_85
       rect:
         serializedVersion: 2
         x: 256
@@ -1922,14 +1922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24766fcc3f532a242b80bff721af098a
-      internalID: 1920984809
+      spriteID: 5f78a9621ad1f544394de1db1aa1f1b0
+      internalID: -1860942714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_86
+      name: Retro Impact Effect Pack 5 F_86
       rect:
         serializedVersion: 2
         x: 320
@@ -1943,14 +1943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be15689d2bac0a240871ec1e540e7c57
-      internalID: 532814368
+      spriteID: 7bc413242713bc6498c26adf3686c635
+      internalID: 995020575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_87
+      name: Retro Impact Effect Pack 5 F_87
       rect:
         serializedVersion: 2
         x: 384
@@ -1964,14 +1964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e96abb88b194c74fb1da0fa1a9f0218
-      internalID: -2057531879
+      spriteID: e2970e6fae2719748ae02dcc3a2c60af
+      internalID: -1839697801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_88
+      name: Retro Impact Effect Pack 5 F_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1985,14 +1985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10bebfd75c36c074c90119592ef669f0
-      internalID: -1536908986
+      spriteID: 59dcff9e03173b54caa5958728332cd9
+      internalID: -1910437489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_89
+      name: Retro Impact Effect Pack 5 F_89
       rect:
         serializedVersion: 2
         x: 64
@@ -2006,14 +2006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e81a91ad3bb0ef4999f76c036007e01
-      internalID: 1424245768
+      spriteID: 64379f881bca3dc48a9ecc08758feef1
+      internalID: 923519624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_90
+      name: Retro Impact Effect Pack 5 F_90
       rect:
         serializedVersion: 2
         x: 128
@@ -2027,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ba4b5dc667a1994ba92bb0dbbd01601
-      internalID: -1963886062
+      spriteID: ce79352df6b5efb45b792478e82f46bd
+      internalID: 1845030356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_91
+      name: Retro Impact Effect Pack 5 F_91
       rect:
         serializedVersion: 2
         x: 192
@@ -2048,14 +2048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 218d95a34b37745488263836307c53af
-      internalID: 349513973
+      spriteID: 9383d9929ae9ad044b2e7c519577dd09
+      internalID: -552673135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_92
+      name: Retro Impact Effect Pack 5 F_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2069,14 +2069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34a7186e303a8f44f8f9ce5155c33621
-      internalID: -78464630
+      spriteID: 71f9211b630f52d4e855bc0d289761ce
+      internalID: 2008889993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_93
+      name: Retro Impact Effect Pack 5 F_93
       rect:
         serializedVersion: 2
         x: 320
@@ -2090,14 +2090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 514c681a450acf34897653c21671c5df
-      internalID: -1535858780
+      spriteID: ca135f957c1b7de4382690c76e96daa1
+      internalID: -426898710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_94
+      name: Retro Impact Effect Pack 5 F_94
       rect:
         serializedVersion: 2
         x: 384
@@ -2111,14 +2111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26461bc939f4acd499399fd3373f48b4
-      internalID: -1284135505
+      spriteID: 9be7e030180ad3143bfe544915bfa470
+      internalID: -5277270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_95
+      name: Retro Impact Effect Pack 5 F_95
       rect:
         serializedVersion: 2
         x: 0
@@ -2132,14 +2132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640c8280b9ee1a64a9fa85fb048b8ee4
-      internalID: -2035656113
+      spriteID: 09679c56060d8074780d604c94e268dc
+      internalID: 617769026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_96
+      name: Retro Impact Effect Pack 5 F_96
       rect:
         serializedVersion: 2
         x: 64
@@ -2153,14 +2153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd4bdbb7e914eb548a5709d8c2905c52
-      internalID: 296989723
+      spriteID: fa8dac082463ca94f94a39b7c710b8e8
+      internalID: -1218930314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_97
+      name: Retro Impact Effect Pack 5 F_97
       rect:
         serializedVersion: 2
         x: 128
@@ -2174,14 +2174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07025a9ecfb83e646aab5f8ddf5bd6b3
-      internalID: -1214605361
+      spriteID: 51c9c50b9e946184ab6b220d7247367d
+      internalID: -231649251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_98
+      name: Retro Impact Effect Pack 5 F_98
       rect:
         serializedVersion: 2
         x: 192
@@ -2195,14 +2195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4442fc3d168082458ead2740f00deee
-      internalID: -64287085
+      spriteID: 2aa50ba1b9d1e13438a88ca492afb5c9
+      internalID: 2068010111
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_99
+      name: Retro Impact Effect Pack 5 F_99
       rect:
         serializedVersion: 2
         x: 256
@@ -2216,14 +2216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c00d0bf4ef8f6784c8bdc84f50f6e117
-      internalID: 881487867
+      spriteID: 91327435475123f4ba3bce766b6d3067
+      internalID: 466044520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_100
+      name: Retro Impact Effect Pack 5 F_100
       rect:
         serializedVersion: 2
         x: 320
@@ -2237,14 +2237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49e07635b2f2de7438ad1389110ec7df
-      internalID: -1786294159
+      spriteID: 28e703d2efefd64438da87b931442a33
+      internalID: 2143043384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_101
+      name: Retro Impact Effect Pack 5 F_101
       rect:
         serializedVersion: 2
         x: 384
@@ -2258,14 +2258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c5c048d42c15f244bfe5b1e6dc9fb04
-      internalID: 1788119262
+      spriteID: 4b5f045f750475148afa4228158a938f
+      internalID: -1186802654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_102
+      name: Retro Impact Effect Pack 5 F_102
       rect:
         serializedVersion: 2
         x: 0
@@ -2279,14 +2279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93cf2d99590b4ca4b9f16cf2c232cac0
-      internalID: -261593341
+      spriteID: cc676a080f00813409eaff51611b42c8
+      internalID: -1856577750
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_103
+      name: Retro Impact Effect Pack 5 F_103
       rect:
         serializedVersion: 2
         x: 64
@@ -2300,14 +2300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768f2281d121a654c9e80e65d8da030f
-      internalID: 2022366919
+      spriteID: 9d9da17bc5178624f85e82e987aa02dc
+      internalID: 1832023802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_104
+      name: Retro Impact Effect Pack 5 F_104
       rect:
         serializedVersion: 2
         x: 128
@@ -2321,14 +2321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5958ac023d6e1c47a566251b6aedb05
-      internalID: -1168537091
+      spriteID: d025c6baa57446a4cad68874cf8edf08
+      internalID: 134979523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_105
+      name: Retro Impact Effect Pack 5 F_105
       rect:
         serializedVersion: 2
         x: 192
@@ -2342,14 +2342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85a0b293363233a46a0d2595d5ec1e5e
-      internalID: 1749131256
+      spriteID: e0f97cdc9f497bf44b2512ba32988af7
+      internalID: -2096918424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_106
+      name: Retro Impact Effect Pack 5 F_106
       rect:
         serializedVersion: 2
         x: 256
@@ -2363,14 +2363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e44ffa2863b28f4e9e678c096e4c035
-      internalID: 1811361677
+      spriteID: 89f4d6d38099c264c822dc94b2873f20
+      internalID: -1977000601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_107
+      name: Retro Impact Effect Pack 5 F_107
       rect:
         serializedVersion: 2
         x: 320
@@ -2384,14 +2384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93cd01993d890e4e8ce026cc2896a60
-      internalID: -1814994598
+      spriteID: 46f7bc250ec8f7147b0782eab6506d2a
+      internalID: 106421852
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_108
+      name: Retro Impact Effect Pack 5 F_108
       rect:
         serializedVersion: 2
         x: 384
@@ -2405,14 +2405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a3575a465e9aa847ba73293e4922526
-      internalID: -1216784767
+      spriteID: 368bb6b39306c7349b8f3b1b64fcb979
+      internalID: -1926651819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_109
+      name: Retro Impact Effect Pack 5 F_109
       rect:
         serializedVersion: 2
         x: 0
@@ -2426,14 +2426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5ffef5053e87c34b8cb473466078211
-      internalID: -1988449520
+      spriteID: 99043d094712d2b4b8365234092f4925
+      internalID: 631937134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_110
+      name: Retro Impact Effect Pack 5 F_110
       rect:
         serializedVersion: 2
         x: 64
@@ -2447,14 +2447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 414fbcce267cf964893be51408829be7
-      internalID: -2069762114
+      spriteID: 0a6cf340bfcd29a41935aacb749115ad
+      internalID: -1430729999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_111
+      name: Retro Impact Effect Pack 5 F_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2468,14 +2468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc259994f26d4224fb7e0e8bb06412ba
-      internalID: -992792893
+      spriteID: 58310d94dc8589f49ba782ae0f89659c
+      internalID: -1254482159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_112
+      name: Retro Impact Effect Pack 5 F_112
       rect:
         serializedVersion: 2
         x: 192
@@ -2489,14 +2489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce35b10b403d2e94489ee38fd895fd1a
-      internalID: 218266849
+      spriteID: 78839c64eb520e54cb1c73c51f1c6cee
+      internalID: -36546424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_113
+      name: Retro Impact Effect Pack 5 F_113
       rect:
         serializedVersion: 2
         x: 256
@@ -2510,14 +2510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764118ecb6719fe4dab33383ec35a1f6
-      internalID: -1674001321
+      spriteID: aa6d3e448f81a17439d1dada3ba83a6a
+      internalID: -235819970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_114
+      name: Retro Impact Effect Pack 5 F_114
       rect:
         serializedVersion: 2
         x: 320
@@ -2531,14 +2531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2936cc4452f6ebe4f9f307e62a3786ff
-      internalID: 1420051918
+      spriteID: de33125a4b0e97c47887bd7c4d94b454
+      internalID: -1322984622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_115
+      name: Retro Impact Effect Pack 5 F_115
       rect:
         serializedVersion: 2
         x: 384
@@ -2552,14 +2552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c7a66acc74982f408688e0b6133a05b
-      internalID: -631419501
+      spriteID: 3c891889bb7b48145a4dfcefe1c2b6e0
+      internalID: -1499926933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_116
+      name: Retro Impact Effect Pack 5 F_116
       rect:
         serializedVersion: 2
         x: 448
@@ -2573,14 +2573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 412aef8d071e57a42adf5770ef677cc8
-      internalID: -818963344
+      spriteID: 302bb6ccb49ced24f8a07f0fba8a9d03
+      internalID: -639474436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_117
+      name: Retro Impact Effect Pack 5 F_117
       rect:
         serializedVersion: 2
         x: 0
@@ -2594,14 +2594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22564844fc5967a46be112a46053a27b
-      internalID: 406296221
+      spriteID: 3a7d30deb1fc9e644a5e7e504df2aae8
+      internalID: 190809404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_118
+      name: Retro Impact Effect Pack 5 F_118
       rect:
         serializedVersion: 2
         x: 64
@@ -2615,14 +2615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65d9be19baf55b44dbc424a0d3d72739
-      internalID: 2099115233
+      spriteID: afb4415cf76855b449b0645c9496f943
+      internalID: -1268471152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_119
+      name: Retro Impact Effect Pack 5 F_119
       rect:
         serializedVersion: 2
         x: 128
@@ -2636,14 +2636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b8a2600b8aa884aab266ab8fccd998
-      internalID: 1440727587
+      spriteID: 23a6b8dc46e6c0144839168465017015
+      internalID: -1712604356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_120
+      name: Retro Impact Effect Pack 5 F_120
       rect:
         serializedVersion: 2
         x: 192
@@ -2657,14 +2657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588bdba0c9b14de42ac298654e0d9704
-      internalID: -1415036869
+      spriteID: 5c939e0f6e42910429c5a21f52e6e641
+      internalID: -1727832400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_121
+      name: Retro Impact Effect Pack 5 F_121
       rect:
         serializedVersion: 2
         x: 256
@@ -2678,14 +2678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4b16cd5725026548b75c7a7ce495942
-      internalID: -310710259
+      spriteID: 98cd0fad35255d84bb1b4722b5c8ab4f
+      internalID: 555636874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_122
+      name: Retro Impact Effect Pack 5 F_122
       rect:
         serializedVersion: 2
         x: 320
@@ -2699,14 +2699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 199af3e3099073043a942f9a1b174a94
-      internalID: 2134362867
+      spriteID: 1558d1cefa3dadb44ab99ea0a2143c9d
+      internalID: -414289540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_123
+      name: Retro Impact Effect Pack 5 F_123
       rect:
         serializedVersion: 2
         x: 384
@@ -2720,14 +2720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5132f6a5ba2914a48ae47b19a77f7a1a
-      internalID: -1039513368
+      spriteID: cb0900ff3dff2ac47a914e8699f0f141
+      internalID: 211400701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_124
+      name: Retro Impact Effect Pack 5 F_124
       rect:
         serializedVersion: 2
         x: 448
@@ -2741,14 +2741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8f28507d7a2f24e9485f85809b54c0
-      internalID: 505909654
+      spriteID: db9f058294d841441bbd14582799c404
+      internalID: 1461112031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_125
+      name: Retro Impact Effect Pack 5 F_125
       rect:
         serializedVersion: 2
         x: 0
@@ -2762,14 +2762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff84e57d21d1914a86634d7764dd791
-      internalID: 1176606114
+      spriteID: 85ef32f8c3069ed4a975ff7ddba2e4a3
+      internalID: -1568656469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_126
+      name: Retro Impact Effect Pack 5 F_126
       rect:
         serializedVersion: 2
         x: 64
@@ -2783,14 +2783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61925155ee0c9564dafa00a7872c08b8
-      internalID: -766263039
+      spriteID: e117b2f109824384e90b5350ad4782bf
+      internalID: -1799692454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_127
+      name: Retro Impact Effect Pack 5 F_127
       rect:
         serializedVersion: 2
         x: 128
@@ -2804,14 +2804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04611f6ad483b9044b2f17baf8b1efdb
-      internalID: -1880679946
+      spriteID: c5fb0066b84ef544189936f361f1421f
+      internalID: 1244047524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_128
+      name: Retro Impact Effect Pack 5 F_128
       rect:
         serializedVersion: 2
         x: 192
@@ -2825,14 +2825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7aecbfc582a5e8e49a1f2f7516e6fd14
-      internalID: -522368153
+      spriteID: 75e7a4ae88cbc75459d34d53c836450e
+      internalID: -1862075290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_129
+      name: Retro Impact Effect Pack 5 F_129
       rect:
         serializedVersion: 2
         x: 256
@@ -2846,14 +2846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9f1db2a607f6648ab06b62dfd13a75
-      internalID: -958408581
+      spriteID: b4dbd29939136574f9fb729f6f4f5ffe
+      internalID: 1531195233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_130
+      name: Retro Impact Effect Pack 5 F_130
       rect:
         serializedVersion: 2
         x: 320
@@ -2867,14 +2867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee6b5762d4628d4e8ca8d0cc8b47009
-      internalID: -796768116
+      spriteID: 8e90ec5c53583a6488a7fa31a9d3ad40
+      internalID: 1015476871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_131
+      name: Retro Impact Effect Pack 5 F_131
       rect:
         serializedVersion: 2
         x: 384
@@ -2888,14 +2888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5b55c0dd0eb091419c0e32dd5cf15b9
-      internalID: 975917026
+      spriteID: a602f41e8526d3346909a1fa1deab630
+      internalID: -1025988411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_132
+      name: Retro Impact Effect Pack 5 F_132
       rect:
         serializedVersion: 2
         x: 448
@@ -2909,14 +2909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc9b840faa9fa5e45bc57821c4aef489
-      internalID: 1606351718
+      spriteID: ca8b3dbb9db377f4886c927bcb269f98
+      internalID: 1112643625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_133
+      name: Retro Impact Effect Pack 5 F_133
       rect:
         serializedVersion: 2
         x: 0
@@ -2930,14 +2930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8efbb87831313a744ab8db755e9d602f
-      internalID: -514090086
+      spriteID: 6cd7ac1f1f391aa4c8117588704fb1a9
+      internalID: -471057804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_134
+      name: Retro Impact Effect Pack 5 F_134
       rect:
         serializedVersion: 2
         x: 64
@@ -2951,14 +2951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6642516e05fcc51439c0a8ed306e9d99
-      internalID: 201977330
+      spriteID: 70c6d8026e516b940bd8a2d3988788e8
+      internalID: 1177505564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_135
+      name: Retro Impact Effect Pack 5 F_135
       rect:
         serializedVersion: 2
         x: 128
@@ -2972,14 +2972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b6f25e97fd622843805ce20cd4956f7
-      internalID: 416612194
+      spriteID: 70cd379428bc8d845901af6bf41345d3
+      internalID: 1279493919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_136
+      name: Retro Impact Effect Pack 5 F_136
       rect:
         serializedVersion: 2
         x: 192
@@ -2993,14 +2993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a8491bc8f2523849a64a3197779f0c8
-      internalID: 1643151904
+      spriteID: 1631723e080edbc4e814f1bdcf64e81c
+      internalID: 1219733799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_137
+      name: Retro Impact Effect Pack 5 F_137
       rect:
         serializedVersion: 2
         x: 256
@@ -3014,14 +3014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 115ff5df584dffc4f937b0da34a6128b
-      internalID: 1126081528
+      spriteID: 10d5d87d4e1a658448a62d147cdbbf9e
+      internalID: 72339802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_138
+      name: Retro Impact Effect Pack 5 F_138
       rect:
         serializedVersion: 2
         x: 320
@@ -3035,14 +3035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e8d5826a24cd344597e518746af342d
-      internalID: -1415119161
+      spriteID: efac04a9367de404ba5789a856cd4a27
+      internalID: 377958791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_139
+      name: Retro Impact Effect Pack 5 F_139
       rect:
         serializedVersion: 2
         x: 384
@@ -3056,14 +3056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8981c8466d88c04da568ab3d4c2b623
-      internalID: -2016711535
+      spriteID: 6d27d4ccda9352449badb53e790cbb54
+      internalID: 1190450561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_140
+      name: Retro Impact Effect Pack 5 F_140
       rect:
         serializedVersion: 2
         x: 448
@@ -3077,14 +3077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfdd63c4f2e33e441ad8cb95779c80ca
-      internalID: -2146424807
+      spriteID: 13ada7180aac518478faddcc9ad605cd
+      internalID: -1071495409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_141
+      name: Retro Impact Effect Pack 5 F_141
       rect:
         serializedVersion: 2
         x: 0
@@ -3098,14 +3098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd60fa526ebe74046a6d905775e0a18d
-      internalID: 1018143427
+      spriteID: d401cd9617628be44a2c054c3594216c
+      internalID: 1721911487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_142
+      name: Retro Impact Effect Pack 5 F_142
       rect:
         serializedVersion: 2
         x: 64
@@ -3119,14 +3119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b824aba18d7b1643bd6f460385a800b
-      internalID: -230716726
+      spriteID: f8ef48028eb2f0948880062246af463c
+      internalID: 715172895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_143
+      name: Retro Impact Effect Pack 5 F_143
       rect:
         serializedVersion: 2
         x: 128
@@ -3140,14 +3140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98b1497e3e567a845882d5972955c7ea
-      internalID: 748776013
+      spriteID: 883e76cfa2d6f524ea16448ff4d2a10f
+      internalID: 393125291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_144
+      name: Retro Impact Effect Pack 5 F_144
       rect:
         serializedVersion: 2
         x: 192
@@ -3161,14 +3161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d48401af72fb6944f89f3de90cb45f25
-      internalID: -1213373595
+      spriteID: f0a64ff2cc3c12b4e948cedfe795c48e
+      internalID: 545326663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_145
+      name: Retro Impact Effect Pack 5 F_145
       rect:
         serializedVersion: 2
         x: 256
@@ -3182,14 +3182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b77e0946bb5f7847b5cb8d801203313
-      internalID: 680898421
+      spriteID: 722a6770bcf25904587c7b37f2f1736c
+      internalID: -117358498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_146
+      name: Retro Impact Effect Pack 5 F_146
       rect:
         serializedVersion: 2
         x: 320
@@ -3203,14 +3203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0031efc2a72362f43bd69e22b79acdef
-      internalID: -1468770698
+      spriteID: 3e0a1500d4fefcd44a18392b7659de49
+      internalID: 1060386633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_147
+      name: Retro Impact Effect Pack 5 F_147
       rect:
         serializedVersion: 2
         x: 384
@@ -3224,14 +3224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0947868c8b067f64a9e592ab0ee4a64e
-      internalID: -1075289654
+      spriteID: ab61e0da484e6df4ca88113c46e7697d
+      internalID: -655270194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_148
+      name: Retro Impact Effect Pack 5 F_148
       rect:
         serializedVersion: 2
         x: 448
@@ -3245,14 +3245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cfdfad38813af9499dc2b3f15fc1465
-      internalID: -698055319
+      spriteID: f00da69b1d43e5542a074d251fcee3e8
+      internalID: 912238553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_149
+      name: Retro Impact Effect Pack 5 F_149
       rect:
         serializedVersion: 2
         x: 0
@@ -3266,14 +3266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f0dd27e523ea4740b3026ec09fa954a
-      internalID: -232626841
+      spriteID: b3f08be533ffd5449acbe1c841de4d4e
+      internalID: 91002469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_150
+      name: Retro Impact Effect Pack 5 F_150
       rect:
         serializedVersion: 2
         x: 64
@@ -3287,14 +3287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ed5f613c0c075540a936b7bee56587e
-      internalID: 810961543
+      spriteID: 2a81f2cdb872f194ca15c75d44efd1fa
+      internalID: 181707097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_151
+      name: Retro Impact Effect Pack 5 F_151
       rect:
         serializedVersion: 2
         x: 128
@@ -3308,14 +3308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 793e27a7f0c1bcb42be71adfa1c780c8
-      internalID: 428357684
+      spriteID: 9e8344b38dc733f4a8fc09a8a75c9457
+      internalID: 1983121213
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_152
+      name: Retro Impact Effect Pack 5 F_152
       rect:
         serializedVersion: 2
         x: 192
@@ -3329,14 +3329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f22f04543d1b5f844aac894d54fc0df6
-      internalID: 606513281
+      spriteID: 6435122d72010ad4585ba394c48a1f63
+      internalID: 2011221788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_153
+      name: Retro Impact Effect Pack 5 F_153
       rect:
         serializedVersion: 2
         x: 256
@@ -3350,14 +3350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 101f81b6be49dbf42a33c9c095efa81e
-      internalID: 916999749
+      spriteID: a1caef3977cb01c44aa9c11bb4ae4bf7
+      internalID: 336792266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_154
+      name: Retro Impact Effect Pack 5 F_154
       rect:
         serializedVersion: 2
         x: 320
@@ -3371,14 +3371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 748c7fcf64fa1aa4cbaa67fec900358a
-      internalID: 1717117405
+      spriteID: d7d74fd1a5aa4d641a0d1114238e1539
+      internalID: -1653549316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_155
+      name: Retro Impact Effect Pack 5 F_155
       rect:
         serializedVersion: 2
         x: 384
@@ -3392,14 +3392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2486a5b2fd890604485b2232e4ad6255
-      internalID: -1815589681
+      spriteID: b21b7eecd0beb2749b15c5b4c39bc8f6
+      internalID: -2135369701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_156
+      name: Retro Impact Effect Pack 5 F_156
       rect:
         serializedVersion: 2
         x: 448
@@ -3413,14 +3413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde8bb3b6c9d74844864267a041aab05
-      internalID: 468602571
+      spriteID: abd91a1d4f3753643bbbfa8689eac3d0
+      internalID: -546509503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_157
+      name: Retro Impact Effect Pack 5 F_157
       rect:
         serializedVersion: 2
         x: 0
@@ -3434,14 +3434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a943e4733529170428bc3733fe5b6c83
-      internalID: -651677396
+      spriteID: 76b32525482814b4f8d1516372d5a60a
+      internalID: -1856098261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_158
+      name: Retro Impact Effect Pack 5 F_158
       rect:
         serializedVersion: 2
         x: 64
@@ -3455,14 +3455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbd49c08586ce434eb4ff8e46e2d7932
-      internalID: 1826894074
+      spriteID: 66cae67e70ba272408459c523f131ccb
+      internalID: 1046780258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_159
+      name: Retro Impact Effect Pack 5 F_159
       rect:
         serializedVersion: 2
         x: 128
@@ -3476,14 +3476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c2ec28b30af74b4291146c6c9e0c9ce
-      internalID: 1995520877
+      spriteID: 724cafa587f6ce94b8a42c21e395680c
+      internalID: 1446667266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_160
+      name: Retro Impact Effect Pack 5 F_160
       rect:
         serializedVersion: 2
         x: 192
@@ -3497,14 +3497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf4dc72d3308364296daf1a77160326
-      internalID: 2031557072
+      spriteID: d4db6e77264f8524fb6b6f65dfa1c075
+      internalID: 756882701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_161
+      name: Retro Impact Effect Pack 5 F_161
       rect:
         serializedVersion: 2
         x: 256
@@ -3518,14 +3518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a0ad49d928b0d45baf73c7a9ce8b66
-      internalID: -1841660775
+      spriteID: f35269915367afc40b5c7f730c34766d
+      internalID: -2120695130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_162
+      name: Retro Impact Effect Pack 5 F_162
       rect:
         serializedVersion: 2
         x: 320
@@ -3539,14 +3539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cf4de95fc319a845b53e43f23939f82
-      internalID: -734901244
+      spriteID: adec03525a6e6414b923c87098ce4620
+      internalID: 38703001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_163
+      name: Retro Impact Effect Pack 5 F_163
       rect:
         serializedVersion: 2
         x: 384
@@ -3560,14 +3560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7e06fdf42e31a040889ab94ffba1bc1
-      internalID: 211155159
+      spriteID: 03d6008f2ea454a4bb1566c5771895fc
+      internalID: 791036778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_164
+      name: Retro Impact Effect Pack 5 F_164
       rect:
         serializedVersion: 2
         x: 448
@@ -3581,14 +3581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05a2dd8a6806f4a4a89d17d73fd5cea8
-      internalID: -217475081
+      spriteID: 1a54fbcab25078d4e98b82e9d5d022aa
+      internalID: 772481869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_165
+      name: Retro Impact Effect Pack 5 F_165
       rect:
         serializedVersion: 2
         x: 0
@@ -3602,14 +3602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f36494ecc27a644b0185a528ce53ee
-      internalID: 2009519447
+      spriteID: 3618378069cb20f4ebcc96e0f3131c27
+      internalID: 291549496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_166
+      name: Retro Impact Effect Pack 5 F_166
       rect:
         serializedVersion: 2
         x: 64
@@ -3623,14 +3623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a786ff8e5980da246bb35c3a25ba7aec
-      internalID: 1913056315
+      spriteID: b2f94600324c5ec41940a679b031b1c2
+      internalID: 1980331938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_167
+      name: Retro Impact Effect Pack 5 F_167
       rect:
         serializedVersion: 2
         x: 128
@@ -3644,14 +3644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e3fa3d3cf52c9946bdc4d905529e1de
-      internalID: 548534550
+      spriteID: b0ff2619851d53a4d9053270ce02a2a6
+      internalID: -1294159598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_168
+      name: Retro Impact Effect Pack 5 F_168
       rect:
         serializedVersion: 2
         x: 192
@@ -3665,14 +3665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 768f19e80ef616d42ba577f68e98f9e6
-      internalID: 1316804257
+      spriteID: 21053576247fa2f478e695349e8fe1e0
+      internalID: 2096440746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_169
+      name: Retro Impact Effect Pack 5 F_169
       rect:
         serializedVersion: 2
         x: 256
@@ -3686,14 +3686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18bb9b4dee30e4c45af9fb5d35053245
-      internalID: 1625528937
+      spriteID: 548552e3d62bdc647b748579c24fc1e2
+      internalID: 1603999203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_170
+      name: Retro Impact Effect Pack 5 F_170
       rect:
         serializedVersion: 2
         x: 320
@@ -3707,14 +3707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e079b9e88d913f94c85fb48df2720dea
-      internalID: 478584189
+      spriteID: 849ef8db01d60664b954b8569ed2ec1a
+      internalID: -422603634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_171
+      name: Retro Impact Effect Pack 5 F_171
       rect:
         serializedVersion: 2
         x: 384
@@ -3728,14 +3728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d9dab0c5cf4c1459093038a46fdddc
-      internalID: -890607778
+      spriteID: f578fb8ea5696c84a91d4a607237f42e
+      internalID: -1381735676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_172
+      name: Retro Impact Effect Pack 5 F_172
       rect:
         serializedVersion: 2
         x: 448
@@ -3749,14 +3749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3baa7dfc2574981448d05d14185180ed
-      internalID: -1510369728
+      spriteID: 0e3d8cac1dda4c4498da55c0379a99c2
+      internalID: -12555497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_173
+      name: Retro Impact Effect Pack 5 F_173
       rect:
         serializedVersion: 2
         x: 512
@@ -3770,14 +3770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2563b7e8a41ce5445a985a5b3d773b0d
-      internalID: 361347026
+      spriteID: ca3d72b76bcd64e48909b82c6700968b
+      internalID: -1087283164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_174
+      name: Retro Impact Effect Pack 5 F_174
       rect:
         serializedVersion: 2
         x: 0
@@ -3791,14 +3791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a39d37a7ad21d7447abe2953cb3540ed
-      internalID: 1490558943
+      spriteID: d89bc5323afd7c84bb43a18ee9b3de07
+      internalID: -1885811461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_175
+      name: Retro Impact Effect Pack 5 F_175
       rect:
         serializedVersion: 2
         x: 64
@@ -3812,14 +3812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89584686592f06447b2be9749e8ad2ab
-      internalID: 1735098511
+      spriteID: e5feba01b502189408d23dab6aafa7e8
+      internalID: -880906621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_176
+      name: Retro Impact Effect Pack 5 F_176
       rect:
         serializedVersion: 2
         x: 128
@@ -3833,14 +3833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec39a231d4c06e34eb97462289a51136
-      internalID: -1668704811
+      spriteID: 1a7aca6659f2dec499e391f941517ff7
+      internalID: 1303914201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_177
+      name: Retro Impact Effect Pack 5 F_177
       rect:
         serializedVersion: 2
         x: 192
@@ -3854,14 +3854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c32678c2962e94e47934ae14bf62c6d9
-      internalID: 1458515781
+      spriteID: 61c2a110dee9d67408623912752c0755
+      internalID: 1780797116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_178
+      name: Retro Impact Effect Pack 5 F_178
       rect:
         serializedVersion: 2
         x: 256
@@ -3875,14 +3875,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c0ad2f8deb809554fb789add6c6e794a
-      internalID: 2137846791
+      spriteID: 0e4161bb1f2ee7a4eb6e8ae6ab2f41fb
+      internalID: 1745706557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_179
+      name: Retro Impact Effect Pack 5 F_179
       rect:
         serializedVersion: 2
         x: 320
@@ -3896,14 +3896,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07b8ac04cc0ef8641975bc8482455de6
-      internalID: -138870383
+      spriteID: 6f933456bb9cfc341be179ae304024d9
+      internalID: 958739571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_180
+      name: Retro Impact Effect Pack 5 F_180
       rect:
         serializedVersion: 2
         x: 384
@@ -3917,14 +3917,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70f3083e44e492447a6843594ec75b60
-      internalID: 1244717888
+      spriteID: dac8732ac2435e14d99077efb1c7c019
+      internalID: -647195113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_181
+      name: Retro Impact Effect Pack 5 F_181
       rect:
         serializedVersion: 2
         x: 448
@@ -3938,14 +3938,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b873400fadfe7ed41b850b8f8abc31a2
-      internalID: 1984951112
+      spriteID: 3153140662bdfe34abd1bc68cdb44f25
+      internalID: 98859175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_182
+      name: Retro Impact Effect Pack 5 F_182
       rect:
         serializedVersion: 2
         x: 512
@@ -3959,14 +3959,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 159f682e898649641bac349c8e68009d
-      internalID: 2069975640
+      spriteID: 1d2bb4fb127d41b4e9153cbc5342088b
+      internalID: 1103076703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_183
+      name: Retro Impact Effect Pack 5 F_183
       rect:
         serializedVersion: 2
         x: 0
@@ -3980,14 +3980,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4940c3ef898f0fb4fab60cbddbc24627
-      internalID: -1687967270
+      spriteID: 573b4adf09a9167489e9b0068f9f5b9b
+      internalID: 828371081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_184
+      name: Retro Impact Effect Pack 5 F_184
       rect:
         serializedVersion: 2
         x: 64
@@ -4001,14 +4001,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eceaecc0967f8714184a501bf27f9edd
-      internalID: 1992912709
+      spriteID: b40874f6537ca5c4092a2a802fea029a
+      internalID: 210982856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_185
+      name: Retro Impact Effect Pack 5 F_185
       rect:
         serializedVersion: 2
         x: 128
@@ -4022,14 +4022,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 679bae458f4753f45a2ebdbd7a8b12d8
-      internalID: 1229118152
+      spriteID: b0d1e1e2f7cad8f44a9364cea9e69534
+      internalID: -1785481314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_186
+      name: Retro Impact Effect Pack 5 F_186
       rect:
         serializedVersion: 2
         x: 192
@@ -4043,14 +4043,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06e80bc4d79af4444a7be055f3184d88
-      internalID: 2073476742
+      spriteID: c85620582a053ac4ea89b42e5a370f5b
+      internalID: 60551117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_187
+      name: Retro Impact Effect Pack 5 F_187
       rect:
         serializedVersion: 2
         x: 256
@@ -4064,14 +4064,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f5723ffc45f5dd47a528d341745798a
-      internalID: -961391173
+      spriteID: dfc119d910c35014780c9446ac9757c6
+      internalID: -478461255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_188
+      name: Retro Impact Effect Pack 5 F_188
       rect:
         serializedVersion: 2
         x: 320
@@ -4085,14 +4085,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 698a18846c055f2418d24352f9a1e117
-      internalID: 1930451386
+      spriteID: d598634793bb98d4e9b07bac069d997e
+      internalID: -1249253530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_189
+      name: Retro Impact Effect Pack 5 F_189
       rect:
         serializedVersion: 2
         x: 384
@@ -4106,14 +4106,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a66e17d9830da1642916511adc3b5a4e
-      internalID: 1360119757
+      spriteID: 363dd9938180f0a4f9a6308d2f7bd52a
+      internalID: 1228173678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_190
+      name: Retro Impact Effect Pack 5 F_190
       rect:
         serializedVersion: 2
         x: 448
@@ -4127,14 +4127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b59a4f28a79dc84882e9646389ce43f
-      internalID: -1671178789
+      spriteID: dc7703ec6a288504e9a463d072d627cf
+      internalID: -1309194274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_191
+      name: Retro Impact Effect Pack 5 F_191
       rect:
         serializedVersion: 2
         x: 512
@@ -4148,14 +4148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e58c27fc10ef7649b40268fd1c38246
-      internalID: 937161769
+      spriteID: 73e536458d7984543aed1fa91ef466c8
+      internalID: 1625874597
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_192
+      name: Retro Impact Effect Pack 5 F_192
       rect:
         serializedVersion: 2
         x: 0
@@ -4169,14 +4169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17c0a1c13aba4a54eaee5109a498101e
-      internalID: 1219398338
+      spriteID: c069cb9ae5f45cb46b66b778d745f27f
+      internalID: 1080268801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_193
+      name: Retro Impact Effect Pack 5 F_193
       rect:
         serializedVersion: 2
         x: 64
@@ -4190,14 +4190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d85136c5a6da714693750e9f9d9fe60
-      internalID: 998041427
+      spriteID: 517889df50bb4644bb406c987c702e30
+      internalID: -1719072396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_194
+      name: Retro Impact Effect Pack 5 F_194
       rect:
         serializedVersion: 2
         x: 128
@@ -4211,14 +4211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35b3622ef1656c64da7fa4b733f79537
-      internalID: 1319645266
+      spriteID: 0d0cf0b838d3a664ca06f9d88f6eaf1e
+      internalID: -1754356377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_195
+      name: Retro Impact Effect Pack 5 F_195
       rect:
         serializedVersion: 2
         x: 192
@@ -4232,14 +4232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e79729a8d2df85840a52ec5c4163c611
-      internalID: -447961929
+      spriteID: 0acb6c9c50dfef948bff37ec12d33207
+      internalID: -496287580
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_196
+      name: Retro Impact Effect Pack 5 F_196
       rect:
         serializedVersion: 2
         x: 256
@@ -4253,14 +4253,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32a1415925db95f40b984455b4fd1741
-      internalID: 1071379558
+      spriteID: 0bc43a3ba62a04c44947c5614697d4c9
+      internalID: 1322829290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_197
+      name: Retro Impact Effect Pack 5 F_197
       rect:
         serializedVersion: 2
         x: 320
@@ -4274,14 +4274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e78e364aee979d45af37bc8c50b2666
-      internalID: -1504092249
+      spriteID: e6527fc4f3657cd44812439b22a9c500
+      internalID: -853607169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_198
+      name: Retro Impact Effect Pack 5 F_198
       rect:
         serializedVersion: 2
         x: 384
@@ -4295,14 +4295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9cd5703421f4d5d4cb032cc33b964bd3
-      internalID: -420231512
+      spriteID: ef5e0c04cb1723c49aab8e15184aba99
+      internalID: 1796870142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_199
+      name: Retro Impact Effect Pack 5 F_199
       rect:
         serializedVersion: 2
         x: 448
@@ -4316,14 +4316,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4571163a3379914bbc3ab93aab485b1
-      internalID: 1570225041
+      spriteID: 08e09802ceabf06409b57905777e03b8
+      internalID: 17982603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_200
+      name: Retro Impact Effect Pack 5 F_200
       rect:
         serializedVersion: 2
         x: 512
@@ -4337,14 +4337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36775cac047e3824d9dbe00a42d5beaf
-      internalID: 1952950890
+      spriteID: facdd15f3be67e34cbed03e13bcfcf0b
+      internalID: 1915474319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_201
+      name: Retro Impact Effect Pack 5 F_201
       rect:
         serializedVersion: 2
         x: 0
@@ -4358,14 +4358,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06a2c763e7de4be41b7c6acd5a388994
-      internalID: -1065234066
+      spriteID: 7e222ff33131d4e459ec2e9905ed5b65
+      internalID: 1958120489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_202
+      name: Retro Impact Effect Pack 5 F_202
       rect:
         serializedVersion: 2
         x: 64
@@ -4379,14 +4379,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb4a408a62228549adb2c2db0148336
-      internalID: -754188592
+      spriteID: 6648a0f9daf83ae4c897e6b910906f7e
+      internalID: 13921070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_203
+      name: Retro Impact Effect Pack 5 F_203
       rect:
         serializedVersion: 2
         x: 128
@@ -4400,14 +4400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6bcd7ad1d66014b81f7de9e1f23aab
-      internalID: 1982028121
+      spriteID: 3a7d28192fd237d48b0d4a6f00c5fc22
+      internalID: -1360948107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_204
+      name: Retro Impact Effect Pack 5 F_204
       rect:
         serializedVersion: 2
         x: 192
@@ -4421,14 +4421,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 479f293cefccd5642a0f9d61b76f6c75
-      internalID: -1819191733
+      spriteID: a46b0772ca8c5ab4795c22cccffb8605
+      internalID: -1122671759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_205
+      name: Retro Impact Effect Pack 5 F_205
       rect:
         serializedVersion: 2
         x: 256
@@ -4442,14 +4442,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 028a115ee3160784ea3787f8746bff06
-      internalID: -1723482929
+      spriteID: e58f03bde1c2cd84d8563e81b53f7f5a
+      internalID: -1571429334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_206
+      name: Retro Impact Effect Pack 5 F_206
       rect:
         serializedVersion: 2
         x: 320
@@ -4463,14 +4463,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ccc16debfeb34341ada853577818965
-      internalID: 89089805
+      spriteID: 4259f67c5e1a3a042a04da2d409b3ccc
+      internalID: -1387181481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_207
+      name: Retro Impact Effect Pack 5 F_207
       rect:
         serializedVersion: 2
         x: 384
@@ -4484,14 +4484,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 230f919864bf9134989d02f71ea0cbd2
-      internalID: 1952025520
+      spriteID: 70272f8d55cc3964e8c153871a13f7bf
+      internalID: 972862713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_208
+      name: Retro Impact Effect Pack 5 F_208
       rect:
         serializedVersion: 2
         x: 448
@@ -4505,14 +4505,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d0e46487d6095e45acdf34b72a028f8
-      internalID: 1533650561
+      spriteID: 46a69546188c121459367d26c25e57c5
+      internalID: 1053716120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_209
+      name: Retro Impact Effect Pack 5 F_209
       rect:
         serializedVersion: 2
         x: 512
@@ -4526,14 +4526,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e439ebfdb1882f54da7b225921d6664d
-      internalID: -1694474810
+      spriteID: 5bd23e4b4f4bf0a4cb7a61682970500a
+      internalID: 1763476363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_210
+      name: Retro Impact Effect Pack 5 F_210
       rect:
         serializedVersion: 2
         x: 0
@@ -4547,14 +4547,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9adaa7e652d688244a7ebcd1d663ae8a
-      internalID: 534411689
+      spriteID: c3f1bbf1afc290a44b54a86b7f738933
+      internalID: 9732789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_211
+      name: Retro Impact Effect Pack 5 F_211
       rect:
         serializedVersion: 2
         x: 64
@@ -4568,14 +4568,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a26c8acc20e8b0409f6fc2817652a9e
-      internalID: -1201774611
+      spriteID: 97d9ae88d26a0304ea2fcb28035651bb
+      internalID: -1239578690
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_212
+      name: Retro Impact Effect Pack 5 F_212
       rect:
         serializedVersion: 2
         x: 128
@@ -4589,14 +4589,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 703e8009079e1a64f8136e62f73f01a8
-      internalID: 2025896799
+      spriteID: 185437837d6faf74dbf172a465a4cd0e
+      internalID: 1296640821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_213
+      name: Retro Impact Effect Pack 5 F_213
       rect:
         serializedVersion: 2
         x: 192
@@ -4610,14 +4610,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b9a1c1ab7a03748bacf7ca2cee3eb1
-      internalID: -1065177066
+      spriteID: 9cd02d5cdc600664a9bcbfea785e7d76
+      internalID: -571542243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_214
+      name: Retro Impact Effect Pack 5 F_214
       rect:
         serializedVersion: 2
         x: 256
@@ -4631,14 +4631,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a621fb2527f0ae343bed322ac04dc389
-      internalID: -759493493
+      spriteID: 21895e8cf6da27344a1cfb9b8d3b5953
+      internalID: 2065426425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_215
+      name: Retro Impact Effect Pack 5 F_215
       rect:
         serializedVersion: 2
         x: 320
@@ -4652,14 +4652,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d061f2cdd9690424a8a27719a3c06e99
-      internalID: 1058461420
+      spriteID: 2b2c944fb544ce84ca941e284e97dbeb
+      internalID: 2045104153
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_216
+      name: Retro Impact Effect Pack 5 F_216
       rect:
         serializedVersion: 2
         x: 384
@@ -4673,14 +4673,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34c1386c4965764b9b625ad85a7e70c
-      internalID: -1313601254
+      spriteID: a60b4ca2b6f1f2c4797fe9263b48a49b
+      internalID: -416611767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_217
+      name: Retro Impact Effect Pack 5 F_217
       rect:
         serializedVersion: 2
         x: 448
@@ -4694,14 +4694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be9794a17bda56458f8baa564c46188
-      internalID: 286973078
+      spriteID: 191cdfea02abc1d48b2caa536e0a2ae3
+      internalID: 1176516875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Retro Impact Effect Pack 5 D_218
+      name: Retro Impact Effect Pack 5 F_218
       rect:
         serializedVersion: 2
         x: 512
@@ -4715,8 +4715,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608a3128c6b58f6469f655f4167aeb9d
-      internalID: 1927720541
+      spriteID: f103e7ad49f745e469cb76ceb534d642
+      internalID: -1175046478
       vertices: []
       indices: 
       edges: []
@@ -4732,225 +4732,225 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Retro Impact Effect Pack 5 D_0: 1140410319
-      Retro Impact Effect Pack 5 D_1: 2027541822
-      Retro Impact Effect Pack 5 D_10: 272501180
-      Retro Impact Effect Pack 5 D_100: -1786294159
-      Retro Impact Effect Pack 5 D_101: 1788119262
-      Retro Impact Effect Pack 5 D_102: -261593341
-      Retro Impact Effect Pack 5 D_103: 2022366919
-      Retro Impact Effect Pack 5 D_104: -1168537091
-      Retro Impact Effect Pack 5 D_105: 1749131256
-      Retro Impact Effect Pack 5 D_106: 1811361677
-      Retro Impact Effect Pack 5 D_107: -1814994598
-      Retro Impact Effect Pack 5 D_108: -1216784767
-      Retro Impact Effect Pack 5 D_109: -1988449520
-      Retro Impact Effect Pack 5 D_11: 1037192840
-      Retro Impact Effect Pack 5 D_110: -2069762114
-      Retro Impact Effect Pack 5 D_111: -992792893
-      Retro Impact Effect Pack 5 D_112: 218266849
-      Retro Impact Effect Pack 5 D_113: -1674001321
-      Retro Impact Effect Pack 5 D_114: 1420051918
-      Retro Impact Effect Pack 5 D_115: -631419501
-      Retro Impact Effect Pack 5 D_116: -818963344
-      Retro Impact Effect Pack 5 D_117: 406296221
-      Retro Impact Effect Pack 5 D_118: 2099115233
-      Retro Impact Effect Pack 5 D_119: 1440727587
-      Retro Impact Effect Pack 5 D_12: -296462497
-      Retro Impact Effect Pack 5 D_120: -1415036869
-      Retro Impact Effect Pack 5 D_121: -310710259
-      Retro Impact Effect Pack 5 D_122: 2134362867
-      Retro Impact Effect Pack 5 D_123: -1039513368
-      Retro Impact Effect Pack 5 D_124: 505909654
-      Retro Impact Effect Pack 5 D_125: 1176606114
-      Retro Impact Effect Pack 5 D_126: -766263039
-      Retro Impact Effect Pack 5 D_127: -1880679946
-      Retro Impact Effect Pack 5 D_128: -522368153
-      Retro Impact Effect Pack 5 D_129: -958408581
-      Retro Impact Effect Pack 5 D_13: 289397159
-      Retro Impact Effect Pack 5 D_130: -796768116
-      Retro Impact Effect Pack 5 D_131: 975917026
-      Retro Impact Effect Pack 5 D_132: 1606351718
-      Retro Impact Effect Pack 5 D_133: -514090086
-      Retro Impact Effect Pack 5 D_134: 201977330
-      Retro Impact Effect Pack 5 D_135: 416612194
-      Retro Impact Effect Pack 5 D_136: 1643151904
-      Retro Impact Effect Pack 5 D_137: 1126081528
-      Retro Impact Effect Pack 5 D_138: -1415119161
-      Retro Impact Effect Pack 5 D_139: -2016711535
-      Retro Impact Effect Pack 5 D_14: -992421218
-      Retro Impact Effect Pack 5 D_140: -2146424807
-      Retro Impact Effect Pack 5 D_141: 1018143427
-      Retro Impact Effect Pack 5 D_142: -230716726
-      Retro Impact Effect Pack 5 D_143: 748776013
-      Retro Impact Effect Pack 5 D_144: -1213373595
-      Retro Impact Effect Pack 5 D_145: 680898421
-      Retro Impact Effect Pack 5 D_146: -1468770698
-      Retro Impact Effect Pack 5 D_147: -1075289654
-      Retro Impact Effect Pack 5 D_148: -698055319
-      Retro Impact Effect Pack 5 D_149: -232626841
-      Retro Impact Effect Pack 5 D_15: -1533900635
-      Retro Impact Effect Pack 5 D_150: 810961543
-      Retro Impact Effect Pack 5 D_151: 428357684
-      Retro Impact Effect Pack 5 D_152: 606513281
-      Retro Impact Effect Pack 5 D_153: 916999749
-      Retro Impact Effect Pack 5 D_154: 1717117405
-      Retro Impact Effect Pack 5 D_155: -1815589681
-      Retro Impact Effect Pack 5 D_156: 468602571
-      Retro Impact Effect Pack 5 D_157: -651677396
-      Retro Impact Effect Pack 5 D_158: 1826894074
-      Retro Impact Effect Pack 5 D_159: 1995520877
-      Retro Impact Effect Pack 5 D_16: 1606911724
-      Retro Impact Effect Pack 5 D_160: 2031557072
-      Retro Impact Effect Pack 5 D_161: -1841660775
-      Retro Impact Effect Pack 5 D_162: -734901244
-      Retro Impact Effect Pack 5 D_163: 211155159
-      Retro Impact Effect Pack 5 D_164: -217475081
-      Retro Impact Effect Pack 5 D_165: 2009519447
-      Retro Impact Effect Pack 5 D_166: 1913056315
-      Retro Impact Effect Pack 5 D_167: 548534550
-      Retro Impact Effect Pack 5 D_168: 1316804257
-      Retro Impact Effect Pack 5 D_169: 1625528937
-      Retro Impact Effect Pack 5 D_17: 853798582
-      Retro Impact Effect Pack 5 D_170: 478584189
-      Retro Impact Effect Pack 5 D_171: -890607778
-      Retro Impact Effect Pack 5 D_172: -1510369728
-      Retro Impact Effect Pack 5 D_173: 361347026
-      Retro Impact Effect Pack 5 D_174: 1490558943
-      Retro Impact Effect Pack 5 D_175: 1735098511
-      Retro Impact Effect Pack 5 D_176: -1668704811
-      Retro Impact Effect Pack 5 D_177: 1458515781
-      Retro Impact Effect Pack 5 D_178: 2137846791
-      Retro Impact Effect Pack 5 D_179: -138870383
-      Retro Impact Effect Pack 5 D_18: 1660605880
-      Retro Impact Effect Pack 5 D_180: 1244717888
-      Retro Impact Effect Pack 5 D_181: 1984951112
-      Retro Impact Effect Pack 5 D_182: 2069975640
-      Retro Impact Effect Pack 5 D_183: -1687967270
-      Retro Impact Effect Pack 5 D_184: 1992912709
-      Retro Impact Effect Pack 5 D_185: 1229118152
-      Retro Impact Effect Pack 5 D_186: 2073476742
-      Retro Impact Effect Pack 5 D_187: -961391173
-      Retro Impact Effect Pack 5 D_188: 1930451386
-      Retro Impact Effect Pack 5 D_189: 1360119757
-      Retro Impact Effect Pack 5 D_19: -1167710653
-      Retro Impact Effect Pack 5 D_190: -1671178789
-      Retro Impact Effect Pack 5 D_191: 937161769
-      Retro Impact Effect Pack 5 D_192: 1219398338
-      Retro Impact Effect Pack 5 D_193: 998041427
-      Retro Impact Effect Pack 5 D_194: 1319645266
-      Retro Impact Effect Pack 5 D_195: -447961929
-      Retro Impact Effect Pack 5 D_196: 1071379558
-      Retro Impact Effect Pack 5 D_197: -1504092249
-      Retro Impact Effect Pack 5 D_198: -420231512
-      Retro Impact Effect Pack 5 D_199: 1570225041
-      Retro Impact Effect Pack 5 D_2: 1589187119
-      Retro Impact Effect Pack 5 D_20: 2087321181
-      Retro Impact Effect Pack 5 D_200: 1952950890
-      Retro Impact Effect Pack 5 D_201: -1065234066
-      Retro Impact Effect Pack 5 D_202: -754188592
-      Retro Impact Effect Pack 5 D_203: 1982028121
-      Retro Impact Effect Pack 5 D_204: -1819191733
-      Retro Impact Effect Pack 5 D_205: -1723482929
-      Retro Impact Effect Pack 5 D_206: 89089805
-      Retro Impact Effect Pack 5 D_207: 1952025520
-      Retro Impact Effect Pack 5 D_208: 1533650561
-      Retro Impact Effect Pack 5 D_209: -1694474810
-      Retro Impact Effect Pack 5 D_21: 163300885
-      Retro Impact Effect Pack 5 D_210: 534411689
-      Retro Impact Effect Pack 5 D_211: -1201774611
-      Retro Impact Effect Pack 5 D_212: 2025896799
-      Retro Impact Effect Pack 5 D_213: -1065177066
-      Retro Impact Effect Pack 5 D_214: -759493493
-      Retro Impact Effect Pack 5 D_215: 1058461420
-      Retro Impact Effect Pack 5 D_216: -1313601254
-      Retro Impact Effect Pack 5 D_217: 286973078
-      Retro Impact Effect Pack 5 D_218: 1927720541
-      Retro Impact Effect Pack 5 D_22: -1047303858
-      Retro Impact Effect Pack 5 D_23: -352219967
-      Retro Impact Effect Pack 5 D_24: 1294826720
-      Retro Impact Effect Pack 5 D_25: -193313214
-      Retro Impact Effect Pack 5 D_26: 1283485370
-      Retro Impact Effect Pack 5 D_27: 2081021688
-      Retro Impact Effect Pack 5 D_28: 1270872109
-      Retro Impact Effect Pack 5 D_29: -1914986796
-      Retro Impact Effect Pack 5 D_3: 796851070
-      Retro Impact Effect Pack 5 D_30: 854361396
-      Retro Impact Effect Pack 5 D_31: 849647221
-      Retro Impact Effect Pack 5 D_32: 1585878774
-      Retro Impact Effect Pack 5 D_33: 1896891709
-      Retro Impact Effect Pack 5 D_34: 982895420
-      Retro Impact Effect Pack 5 D_35: 1026917552
-      Retro Impact Effect Pack 5 D_36: 410302040
-      Retro Impact Effect Pack 5 D_37: 747933086
-      Retro Impact Effect Pack 5 D_38: -753891320
-      Retro Impact Effect Pack 5 D_39: -1598421313
-      Retro Impact Effect Pack 5 D_4: 438895918
-      Retro Impact Effect Pack 5 D_40: -844670966
-      Retro Impact Effect Pack 5 D_41: 793026941
-      Retro Impact Effect Pack 5 D_42: -1453357223
-      Retro Impact Effect Pack 5 D_43: 457602307
-      Retro Impact Effect Pack 5 D_44: 1668782895
-      Retro Impact Effect Pack 5 D_45: 995288168
-      Retro Impact Effect Pack 5 D_46: -371275614
-      Retro Impact Effect Pack 5 D_47: 1611608599
-      Retro Impact Effect Pack 5 D_48: -1457688949
-      Retro Impact Effect Pack 5 D_49: -1238124829
-      Retro Impact Effect Pack 5 D_5: 331827767
-      Retro Impact Effect Pack 5 D_50: -1091981786
-      Retro Impact Effect Pack 5 D_51: -542952528
-      Retro Impact Effect Pack 5 D_52: -1382414330
-      Retro Impact Effect Pack 5 D_53: 213679565
-      Retro Impact Effect Pack 5 D_54: 1551922582
-      Retro Impact Effect Pack 5 D_55: 1280175152
-      Retro Impact Effect Pack 5 D_56: -1791287702
-      Retro Impact Effect Pack 5 D_57: -1245301584
-      Retro Impact Effect Pack 5 D_58: 576997599
-      Retro Impact Effect Pack 5 D_59: 458750174
-      Retro Impact Effect Pack 5 D_6: -1077597832
-      Retro Impact Effect Pack 5 D_60: 1875492103
-      Retro Impact Effect Pack 5 D_61: -187759469
-      Retro Impact Effect Pack 5 D_62: 80636743
-      Retro Impact Effect Pack 5 D_63: -1661499694
-      Retro Impact Effect Pack 5 D_64: -1493106390
-      Retro Impact Effect Pack 5 D_65: 663296546
-      Retro Impact Effect Pack 5 D_66: 2033940447
-      Retro Impact Effect Pack 5 D_67: -457772867
-      Retro Impact Effect Pack 5 D_68: 418245939
-      Retro Impact Effect Pack 5 D_69: 1221866322
-      Retro Impact Effect Pack 5 D_7: -1498724738
-      Retro Impact Effect Pack 5 D_70: -533494101
-      Retro Impact Effect Pack 5 D_71: 1844296146
-      Retro Impact Effect Pack 5 D_72: 506999640
-      Retro Impact Effect Pack 5 D_73: -110836295
-      Retro Impact Effect Pack 5 D_74: 1822625877
-      Retro Impact Effect Pack 5 D_75: 1258368137
-      Retro Impact Effect Pack 5 D_76: -1260753216
-      Retro Impact Effect Pack 5 D_77: -403336533
-      Retro Impact Effect Pack 5 D_78: -1481058976
-      Retro Impact Effect Pack 5 D_79: -835797587
-      Retro Impact Effect Pack 5 D_8: 1361484545
-      Retro Impact Effect Pack 5 D_80: -63918454
-      Retro Impact Effect Pack 5 D_81: 2092804187
-      Retro Impact Effect Pack 5 D_82: 352628358
-      Retro Impact Effect Pack 5 D_83: -2063184515
-      Retro Impact Effect Pack 5 D_84: -1856665188
-      Retro Impact Effect Pack 5 D_85: 1920984809
-      Retro Impact Effect Pack 5 D_86: 532814368
-      Retro Impact Effect Pack 5 D_87: -2057531879
-      Retro Impact Effect Pack 5 D_88: -1536908986
-      Retro Impact Effect Pack 5 D_89: 1424245768
-      Retro Impact Effect Pack 5 D_9: 762435330
-      Retro Impact Effect Pack 5 D_90: -1963886062
-      Retro Impact Effect Pack 5 D_91: 349513973
-      Retro Impact Effect Pack 5 D_92: -78464630
-      Retro Impact Effect Pack 5 D_93: -1535858780
-      Retro Impact Effect Pack 5 D_94: -1284135505
-      Retro Impact Effect Pack 5 D_95: -2035656113
-      Retro Impact Effect Pack 5 D_96: 296989723
-      Retro Impact Effect Pack 5 D_97: -1214605361
-      Retro Impact Effect Pack 5 D_98: -64287085
-      Retro Impact Effect Pack 5 D_99: 881487867
+      Retro Impact Effect Pack 5 F_0: -186847058
+      Retro Impact Effect Pack 5 F_1: -541815908
+      Retro Impact Effect Pack 5 F_10: 556102535
+      Retro Impact Effect Pack 5 F_100: 2143043384
+      Retro Impact Effect Pack 5 F_101: -1186802654
+      Retro Impact Effect Pack 5 F_102: -1856577750
+      Retro Impact Effect Pack 5 F_103: 1832023802
+      Retro Impact Effect Pack 5 F_104: 134979523
+      Retro Impact Effect Pack 5 F_105: -2096918424
+      Retro Impact Effect Pack 5 F_106: -1977000601
+      Retro Impact Effect Pack 5 F_107: 106421852
+      Retro Impact Effect Pack 5 F_108: -1926651819
+      Retro Impact Effect Pack 5 F_109: 631937134
+      Retro Impact Effect Pack 5 F_11: 8454243
+      Retro Impact Effect Pack 5 F_110: -1430729999
+      Retro Impact Effect Pack 5 F_111: -1254482159
+      Retro Impact Effect Pack 5 F_112: -36546424
+      Retro Impact Effect Pack 5 F_113: -235819970
+      Retro Impact Effect Pack 5 F_114: -1322984622
+      Retro Impact Effect Pack 5 F_115: -1499926933
+      Retro Impact Effect Pack 5 F_116: -639474436
+      Retro Impact Effect Pack 5 F_117: 190809404
+      Retro Impact Effect Pack 5 F_118: -1268471152
+      Retro Impact Effect Pack 5 F_119: -1712604356
+      Retro Impact Effect Pack 5 F_12: 159010106
+      Retro Impact Effect Pack 5 F_120: -1727832400
+      Retro Impact Effect Pack 5 F_121: 555636874
+      Retro Impact Effect Pack 5 F_122: -414289540
+      Retro Impact Effect Pack 5 F_123: 211400701
+      Retro Impact Effect Pack 5 F_124: 1461112031
+      Retro Impact Effect Pack 5 F_125: -1568656469
+      Retro Impact Effect Pack 5 F_126: -1799692454
+      Retro Impact Effect Pack 5 F_127: 1244047524
+      Retro Impact Effect Pack 5 F_128: -1862075290
+      Retro Impact Effect Pack 5 F_129: 1531195233
+      Retro Impact Effect Pack 5 F_13: 991823606
+      Retro Impact Effect Pack 5 F_130: 1015476871
+      Retro Impact Effect Pack 5 F_131: -1025988411
+      Retro Impact Effect Pack 5 F_132: 1112643625
+      Retro Impact Effect Pack 5 F_133: -471057804
+      Retro Impact Effect Pack 5 F_134: 1177505564
+      Retro Impact Effect Pack 5 F_135: 1279493919
+      Retro Impact Effect Pack 5 F_136: 1219733799
+      Retro Impact Effect Pack 5 F_137: 72339802
+      Retro Impact Effect Pack 5 F_138: 377958791
+      Retro Impact Effect Pack 5 F_139: 1190450561
+      Retro Impact Effect Pack 5 F_14: -188312201
+      Retro Impact Effect Pack 5 F_140: -1071495409
+      Retro Impact Effect Pack 5 F_141: 1721911487
+      Retro Impact Effect Pack 5 F_142: 715172895
+      Retro Impact Effect Pack 5 F_143: 393125291
+      Retro Impact Effect Pack 5 F_144: 545326663
+      Retro Impact Effect Pack 5 F_145: -117358498
+      Retro Impact Effect Pack 5 F_146: 1060386633
+      Retro Impact Effect Pack 5 F_147: -655270194
+      Retro Impact Effect Pack 5 F_148: 912238553
+      Retro Impact Effect Pack 5 F_149: 91002469
+      Retro Impact Effect Pack 5 F_15: 1196780272
+      Retro Impact Effect Pack 5 F_150: 181707097
+      Retro Impact Effect Pack 5 F_151: 1983121213
+      Retro Impact Effect Pack 5 F_152: 2011221788
+      Retro Impact Effect Pack 5 F_153: 336792266
+      Retro Impact Effect Pack 5 F_154: -1653549316
+      Retro Impact Effect Pack 5 F_155: -2135369701
+      Retro Impact Effect Pack 5 F_156: -546509503
+      Retro Impact Effect Pack 5 F_157: -1856098261
+      Retro Impact Effect Pack 5 F_158: 1046780258
+      Retro Impact Effect Pack 5 F_159: 1446667266
+      Retro Impact Effect Pack 5 F_16: -1301912250
+      Retro Impact Effect Pack 5 F_160: 756882701
+      Retro Impact Effect Pack 5 F_161: -2120695130
+      Retro Impact Effect Pack 5 F_162: 38703001
+      Retro Impact Effect Pack 5 F_163: 791036778
+      Retro Impact Effect Pack 5 F_164: 772481869
+      Retro Impact Effect Pack 5 F_165: 291549496
+      Retro Impact Effect Pack 5 F_166: 1980331938
+      Retro Impact Effect Pack 5 F_167: -1294159598
+      Retro Impact Effect Pack 5 F_168: 2096440746
+      Retro Impact Effect Pack 5 F_169: 1603999203
+      Retro Impact Effect Pack 5 F_17: -139309170
+      Retro Impact Effect Pack 5 F_170: -422603634
+      Retro Impact Effect Pack 5 F_171: -1381735676
+      Retro Impact Effect Pack 5 F_172: -12555497
+      Retro Impact Effect Pack 5 F_173: -1087283164
+      Retro Impact Effect Pack 5 F_174: -1885811461
+      Retro Impact Effect Pack 5 F_175: -880906621
+      Retro Impact Effect Pack 5 F_176: 1303914201
+      Retro Impact Effect Pack 5 F_177: 1780797116
+      Retro Impact Effect Pack 5 F_178: 1745706557
+      Retro Impact Effect Pack 5 F_179: 958739571
+      Retro Impact Effect Pack 5 F_18: 2138636745
+      Retro Impact Effect Pack 5 F_180: -647195113
+      Retro Impact Effect Pack 5 F_181: 98859175
+      Retro Impact Effect Pack 5 F_182: 1103076703
+      Retro Impact Effect Pack 5 F_183: 828371081
+      Retro Impact Effect Pack 5 F_184: 210982856
+      Retro Impact Effect Pack 5 F_185: -1785481314
+      Retro Impact Effect Pack 5 F_186: 60551117
+      Retro Impact Effect Pack 5 F_187: -478461255
+      Retro Impact Effect Pack 5 F_188: -1249253530
+      Retro Impact Effect Pack 5 F_189: 1228173678
+      Retro Impact Effect Pack 5 F_19: -460754131
+      Retro Impact Effect Pack 5 F_190: -1309194274
+      Retro Impact Effect Pack 5 F_191: 1625874597
+      Retro Impact Effect Pack 5 F_192: 1080268801
+      Retro Impact Effect Pack 5 F_193: -1719072396
+      Retro Impact Effect Pack 5 F_194: -1754356377
+      Retro Impact Effect Pack 5 F_195: -496287580
+      Retro Impact Effect Pack 5 F_196: 1322829290
+      Retro Impact Effect Pack 5 F_197: -853607169
+      Retro Impact Effect Pack 5 F_198: 1796870142
+      Retro Impact Effect Pack 5 F_199: 17982603
+      Retro Impact Effect Pack 5 F_2: -626265590
+      Retro Impact Effect Pack 5 F_20: -438785263
+      Retro Impact Effect Pack 5 F_200: 1915474319
+      Retro Impact Effect Pack 5 F_201: 1958120489
+      Retro Impact Effect Pack 5 F_202: 13921070
+      Retro Impact Effect Pack 5 F_203: -1360948107
+      Retro Impact Effect Pack 5 F_204: -1122671759
+      Retro Impact Effect Pack 5 F_205: -1571429334
+      Retro Impact Effect Pack 5 F_206: -1387181481
+      Retro Impact Effect Pack 5 F_207: 972862713
+      Retro Impact Effect Pack 5 F_208: 1053716120
+      Retro Impact Effect Pack 5 F_209: 1763476363
+      Retro Impact Effect Pack 5 F_21: 737093459
+      Retro Impact Effect Pack 5 F_210: 9732789
+      Retro Impact Effect Pack 5 F_211: -1239578690
+      Retro Impact Effect Pack 5 F_212: 1296640821
+      Retro Impact Effect Pack 5 F_213: -571542243
+      Retro Impact Effect Pack 5 F_214: 2065426425
+      Retro Impact Effect Pack 5 F_215: 2045104153
+      Retro Impact Effect Pack 5 F_216: -416611767
+      Retro Impact Effect Pack 5 F_217: 1176516875
+      Retro Impact Effect Pack 5 F_218: -1175046478
+      Retro Impact Effect Pack 5 F_22: -238928049
+      Retro Impact Effect Pack 5 F_23: 686548677
+      Retro Impact Effect Pack 5 F_24: 1624659828
+      Retro Impact Effect Pack 5 F_25: -383042586
+      Retro Impact Effect Pack 5 F_26: -1749349986
+      Retro Impact Effect Pack 5 F_27: 1692143114
+      Retro Impact Effect Pack 5 F_28: 114347722
+      Retro Impact Effect Pack 5 F_29: 1770279346
+      Retro Impact Effect Pack 5 F_3: 1769663443
+      Retro Impact Effect Pack 5 F_30: 87256520
+      Retro Impact Effect Pack 5 F_31: 1504773712
+      Retro Impact Effect Pack 5 F_32: -1173000437
+      Retro Impact Effect Pack 5 F_33: -1403615056
+      Retro Impact Effect Pack 5 F_34: 1433713865
+      Retro Impact Effect Pack 5 F_35: -96244846
+      Retro Impact Effect Pack 5 F_36: -1475320114
+      Retro Impact Effect Pack 5 F_37: -34660570
+      Retro Impact Effect Pack 5 F_38: 866001618
+      Retro Impact Effect Pack 5 F_39: -1307935522
+      Retro Impact Effect Pack 5 F_4: -1828579745
+      Retro Impact Effect Pack 5 F_40: -1403789532
+      Retro Impact Effect Pack 5 F_41: -1430572722
+      Retro Impact Effect Pack 5 F_42: 1596950193
+      Retro Impact Effect Pack 5 F_43: -31496551
+      Retro Impact Effect Pack 5 F_44: 416078140
+      Retro Impact Effect Pack 5 F_45: 1173099816
+      Retro Impact Effect Pack 5 F_46: -832982356
+      Retro Impact Effect Pack 5 F_47: 2128147145
+      Retro Impact Effect Pack 5 F_48: 645647056
+      Retro Impact Effect Pack 5 F_49: -431743654
+      Retro Impact Effect Pack 5 F_5: 130981743
+      Retro Impact Effect Pack 5 F_50: 1439438148
+      Retro Impact Effect Pack 5 F_51: 1967489184
+      Retro Impact Effect Pack 5 F_52: -161787861
+      Retro Impact Effect Pack 5 F_53: -1147219241
+      Retro Impact Effect Pack 5 F_54: -1174009337
+      Retro Impact Effect Pack 5 F_55: 1587233365
+      Retro Impact Effect Pack 5 F_56: 433165668
+      Retro Impact Effect Pack 5 F_57: 1279225719
+      Retro Impact Effect Pack 5 F_58: -1274031112
+      Retro Impact Effect Pack 5 F_59: 1845048323
+      Retro Impact Effect Pack 5 F_6: -1601070545
+      Retro Impact Effect Pack 5 F_60: 620837067
+      Retro Impact Effect Pack 5 F_61: 1777254375
+      Retro Impact Effect Pack 5 F_62: 2040229647
+      Retro Impact Effect Pack 5 F_63: -1368417837
+      Retro Impact Effect Pack 5 F_64: -1512930626
+      Retro Impact Effect Pack 5 F_65: 1383867535
+      Retro Impact Effect Pack 5 F_66: 241167850
+      Retro Impact Effect Pack 5 F_67: -1778228568
+      Retro Impact Effect Pack 5 F_68: 76283154
+      Retro Impact Effect Pack 5 F_69: 1529866322
+      Retro Impact Effect Pack 5 F_7: 1913309756
+      Retro Impact Effect Pack 5 F_70: 1988383605
+      Retro Impact Effect Pack 5 F_71: 266349646
+      Retro Impact Effect Pack 5 F_72: -2054715203
+      Retro Impact Effect Pack 5 F_73: 361990696
+      Retro Impact Effect Pack 5 F_74: 975797120
+      Retro Impact Effect Pack 5 F_75: -512699267
+      Retro Impact Effect Pack 5 F_76: 1623263352
+      Retro Impact Effect Pack 5 F_77: -705563125
+      Retro Impact Effect Pack 5 F_78: 1298726612
+      Retro Impact Effect Pack 5 F_79: -138303226
+      Retro Impact Effect Pack 5 F_8: 75147933
+      Retro Impact Effect Pack 5 F_80: -1541589769
+      Retro Impact Effect Pack 5 F_81: -993631033
+      Retro Impact Effect Pack 5 F_82: -1481405448
+      Retro Impact Effect Pack 5 F_83: -55753089
+      Retro Impact Effect Pack 5 F_84: -1888913029
+      Retro Impact Effect Pack 5 F_85: -1860942714
+      Retro Impact Effect Pack 5 F_86: 995020575
+      Retro Impact Effect Pack 5 F_87: -1839697801
+      Retro Impact Effect Pack 5 F_88: -1910437489
+      Retro Impact Effect Pack 5 F_89: 923519624
+      Retro Impact Effect Pack 5 F_9: -930857482
+      Retro Impact Effect Pack 5 F_90: 1845030356
+      Retro Impact Effect Pack 5 F_91: -552673135
+      Retro Impact Effect Pack 5 F_92: 2008889993
+      Retro Impact Effect Pack 5 F_93: -426898710
+      Retro Impact Effect Pack 5 F_94: -5277270
+      Retro Impact Effect Pack 5 F_95: 617769026
+      Retro Impact Effect Pack 5 F_96: -1218930314
+      Retro Impact Effect Pack 5 F_97: -231649251
+      Retro Impact Effect Pack 5 F_98: 2068010111
+      Retro Impact Effect Pack 5 F_99: 466044520
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
