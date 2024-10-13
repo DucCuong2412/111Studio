@@ -20,7 +20,7 @@ public class Player_controler : MonoBehaviour
     public float jump = 20f;
     public Animator anim;
     public Slider _slider;
-    public float maxheal = 10;
+    private float maxheal = 20;
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;
@@ -101,6 +101,15 @@ public class Player_controler : MonoBehaviour
         {
             _slider.value--;
         }
+        if (collision.gameObject.CompareTag("chieudacbiet"))
+        {
+            _slider.value -= 5;
+        }
+        if (collision.gameObject.CompareTag("atkboss"))
+        {
+            _slider.value -= 3;
+        }
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)

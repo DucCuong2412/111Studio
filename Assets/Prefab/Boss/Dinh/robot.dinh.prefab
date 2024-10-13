@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4027378375621274887}
   - component: {fileID: 2909086300183279332}
   - component: {fileID: 2335249465841495771}
+  - component: {fileID: 2674815046189480436}
+  - component: {fileID: 4121498917711470588}
   m_Layer: 0
   m_Name: robot.dinh
   m_TagString: Untagged
@@ -106,3 +108,95 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!61 &2674815046189480436
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137625775959696472}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.027999878, y: 3.6021345}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 6, y: 7.875}
+    newSize: {x: 6, y: 7.875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9440002, y: 7.204269}
+  m_EdgeRadius: 0
+--- !u!114 &4121498917711470588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137625775959696472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 576df0b413f8e1b4d8140dc7ee812138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  anim: {fileID: 0}
+  isFliped: 0
+  consong: 1
+  speed: 5
+  laze: {fileID: 0}
+  dacbiet: {fileID: 0}
+  Item_lab: {fileID: 0}
+  bulet_left: {fileID: 0}
+  butlet_right: {fileID: 0}
+  tranformAtk: {fileID: 0}
+  tranformdacbiet: {fileID: 0}
+  left: {fileID: 0}
+  right: {fileID: 0}
+  _slider: {fileID: 0}
+  maxheal: 20
+  panel: {fileID: 0}
+  panel_boss_die: {fileID: 0}
+  Panel_text: {fileID: 0}
+  text_chat: {fileID: 0}
+  text_chat_boss_die: {fileID: 0}
+  text1: "Ng\u01B0\u01A1i c\xF3 gan \u0111\u1EBFn t\u1EADn \u0111\xE2y sao"
+  text2: "Ta c\xF3 l\u1EDDi khen cho ng\u01B0\u01A1i \u0111\xF3"
+  text3: "nh\u01B0ng gi\u1EDD ng\u01B0\u01A1i s\u1EBD b\u1ECF m\u1EA1ng \u1EDF \u0111\xE2y
+    th\xF4i"
+  text4: "Boss: \u0110i ch\u1EBFt \u0111i"
+  textcc: "xem chi\xEAu cu\u1ED1i m\u1EA1nh nh\u1EA5t c\u1EE7a ta \u0111\xE2y"
+  text5: "\u1EF1a.... nh\u1EA5t \u0111\u1ECBnh ta s\u1EBD b\xE1o th\xF9"
+  text_none: 
+  coutText: 0
+  landau: 1
+  count_dacbiet: 0
+  count_chieucuoi: 0
+  coubulet: 0
+  timer: 0

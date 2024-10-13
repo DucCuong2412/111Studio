@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Thaylap : MonoBehaviour
+public class thaydinh : MonoBehaviour
 {
     public Transform player;
     public Animator anim;
@@ -27,7 +27,7 @@ public class Thaylap : MonoBehaviour
     public string textcc = "xem chiêu cuối mạnh nhất của ta đây";
     public string text5 = "ựa.... nhất định ta sẽ báo thù";
     public string text_none = "";
-    private float coutText = 1;//đếm thay đổi khi bấm nút
+    public float coutText = 0;//đếm thay đổi khi bấm nút
     //count khi người chơi gặp boss lần đầu tiên
     public int landau = 1;
 
@@ -69,7 +69,6 @@ public class Thaylap : MonoBehaviour
             if (distanceToPlayer > 10 & distanceToPlayer < 30)
             {
                 landau++;
-                
                 panel.SetActive(true);
             }
             if (coutText == 1)
@@ -119,13 +118,13 @@ public class Thaylap : MonoBehaviour
 
                     Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
                     text_chat.text = text4.ToString();
-                   
+
 
                 }
-                if (count_dacbiet ==11)
+                if (count_dacbiet == 11)
                 {
                     Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
-                    
+
 
                     count_dacbiet = 0;
 

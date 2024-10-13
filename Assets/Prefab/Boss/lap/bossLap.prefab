@@ -173,7 +173,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 5.8125}
+  m_Offset: {x: -0.03691101, y: 3.416214}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -184,7 +184,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.25, y: 11.625}
+  m_Size: {x: 5.943695, y: 6.832428}
   m_EdgeRadius: 0
 --- !u!114 &3451543008463699497
 MonoBehaviour:
@@ -203,27 +203,36 @@ MonoBehaviour:
   isFliped: 0
   consong: 1
   speed: 5
-  count_laze: 0
-  count_dacbiet: 0
   laze: {fileID: 1964179757208408798, guid: 4cd89b6da165ab04e91d93067a47307a, type: 3}
   dacbiet: {fileID: 5427017597459521373, guid: e1f7ee14c9ec9944f85482ca1d30305b, type: 3}
   Item_lab: {fileID: 7131747611785544205, guid: 09f6b9d79616cd34f8a1a67190d6dfab, type: 3}
+  bulet_left: {fileID: 612815082917202343, guid: 21c0d2fd7580953479fc898550da7146, type: 3}
+  butlet_right: {fileID: 483723575300455627, guid: 9c20ec705f0d22d46853da046bea50d7, type: 3}
   tranformAtk: {fileID: 5424944249259803292}
   tranformdacbiet: {fileID: 8339270253183331395}
+  left: {fileID: 6994577879044391215}
+  right: {fileID: 5213696795028132801}
   _slider: {fileID: 4547475568317162286}
   maxheal: 10
   panel: {fileID: 0}
+  panel_boss_die: {fileID: 0}
   Panel_text: {fileID: 0}
   text_chat: {fileID: 0}
+  text_chat_boss_die: {fileID: 0}
   text1: "Ng\u01B0\u01A1i c\xF3 gan \u0111\u1EBFn t\u1EADn \u0111\xE2y sao"
   text2: "Ta c\xF3 l\u1EDDi khen cho ng\u01B0\u01A1i \u0111\xF3"
   text3: " nh\u01B0ng gi\u1EDD ng\u01B0\u01A1i s\u1EBD b\u1ECF m\u1EA1ng \u1EDF \u0111\xE2y
     th\xF4i"
-  text4: "\u0110i ch\u1EBFt \u0111i"
+  text4: "Boss: \u0110i ch\u1EBFt \u0111i"
+  textcc: "xem chi\xEAu cu\u1ED1i m\u1EA1nh nh\u1EA5t c\u1EE7a ta \u0111\xE2y"
   text5: "\u1EF1a.... nh\u1EA5t \u0111\u1ECBnh ta s\u1EBD b\xE1o th\xF9"
   text_none: 
   coutText: 0
   landau: 1
+  count_dacbiet: 0
+  count_chieucuoi: 0
+  coubulet: 0
+  timer: 0
 --- !u!1 &1720503309737127770
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +509,7 @@ GameObject:
   m_Component:
   - component: {fileID: 177652659158553178}
   m_Layer: 0
-  m_Name: chieucuoi2
+  m_Name: chieucuoiright
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -515,7 +524,7 @@ Transform:
   m_GameObject: {fileID: 5213696795028132801}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.0538483, y: 5.3046036, z: 1725.5248}
+  m_LocalPosition: {x: 3.5, y: 2.82, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -637,7 +646,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4767991868350500629}
   m_Layer: 0
-  m_Name: chieucuoi1
+  m_Name: chieucuoileft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +661,7 @@ Transform:
   m_GameObject: {fileID: 6994577879044391215}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.0538483, y: 5.3046036, z: 1725.5248}
+  m_LocalPosition: {x: -3.88, y: 2.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
