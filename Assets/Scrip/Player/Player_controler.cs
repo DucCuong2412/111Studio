@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml.Serialization;
@@ -20,13 +20,19 @@ public class Player_controler : MonoBehaviour
     public float jump = 20f;
     public Animator anim;
     public Slider _slider;
-    public float maxheal=10;
+    public float maxheal = 10;
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;
     public data scriptable;
     public TextMeshProUGUI scoreText;
 
+
+    // Thêm biến kiểm soát lướt
+    public float countdash = 0;
+    public float dashDistance = 10f;
+    public float dashSpeed = 30f;
+    private bool isDashing = false;
 
     void Start()
     {
@@ -40,18 +46,23 @@ public class Player_controler : MonoBehaviour
     void Update()
     {
         flip();
-        scoreText.text= scriptable.scoreee.ToString();
+        countdash += Time.deltaTime;
+
+        scoreText.text = scriptable.scoreee.ToString();
         if (consong == true)
         {
             Vector2 vt = transform.localScale;
             trai_phai = Input.GetAxis("Horizontal");
-            rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
+            if (!isDashing) // Ngăn di chuyển bình thường khi đang lướt
+            {
+                rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
+            }
             anim.SetFloat("move", math.abs(trai_phai));
 
             onjump();
             atk();
+            dash(); // Gọi hàm lướt
             die();
-
         }
         else
         {
@@ -61,62 +72,45 @@ public class Player_controler : MonoBehaviour
                 panelDead.SetActive(true);
             }
         }
-
-
-
-
     }
-
-
 
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("tilemap"))
         {
             checkJump = true;
-
-
-
         }
-
         else if (collision.gameObject.CompareTag("trap"))
         {
             checkJump = true;
-
-
         }
         if (collision.gameObject.CompareTag("score"))
         {
             scriptable.scoreee++;
-              Destroy(collision.gameObject);
-
-
+            Destroy(collision.gameObject);
         }
     }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("atk"))
         {
-
-
             _slider.value--;
-
         }
         if (collision.gameObject.CompareTag("trap"))
         {
             _slider.value--;
-
         }
-
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
-
         if (collision.gameObject.CompareTag("tilemap"))
         {
             checkJump = false;
         }
     }
+
     void atk()
     {
         if (Input.GetKeyDown(KeyCode.J))
@@ -128,15 +122,13 @@ public class Player_controler : MonoBehaviour
             anim.SetTrigger("atk2");
         }
     }
+
     void die()
     {
         if (_slider.value == 0)
         {
             consong = false;
             anim.SetTrigger("die");
-          
-          
-
         }
     }
 
@@ -150,6 +142,7 @@ public class Player_controler : MonoBehaviour
             transform.localScale = scale;
         }
     }
+
     public void onjump()
     {
         if (checkJump == true)
@@ -162,4 +155,28 @@ public class Player_controler : MonoBehaviour
         }
     }
 
+    // Thêm hàm xử lý lướt
+    void dash()
+    {
+        if (Input.GetKeyDown(KeyCode.L) && !isDashing)
+        {
+            if (countdash >= 2)
+            {
+
+                isDashing = true;
+                float dashDirection = isfacingRight ? 1 : -1;
+                Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
+                rg.velocity = dashVelocity;
+                Invoke("EndDash", dashDistance / dashSpeed); // Kết thúc lướt sau một thời gian
+                countdash = 0;
+            }
+
+        }
+    }
+
+    // Hàm kết thúc lướt
+    void EndDash()
+    {
+        isDashing = false;
+    }
 }

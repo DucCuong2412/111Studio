@@ -12,6 +12,9 @@ TagManager:
   - fireball
   - score
   - bullet
+  - player_givedame
+  - chieudacbiet
+  - atkboss
   layers:
   - Default
   - TransparentFX
