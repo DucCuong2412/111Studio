@@ -44,7 +44,7 @@ public class ThayAnMove : StateMachineBehaviour
             timer += Time.deltaTime;
             if (timer > 3)
             {
-                if (distance <= 20)
+                if (distance <= 30)
                 {
                     RandomAtk = UnityEngine.Random.Range(0, 2);
 
@@ -60,12 +60,14 @@ public class ThayAnMove : StateMachineBehaviour
                 timer = 0f;
             }if(timer>= 2 && distance <=4)
             {
-                if (distance < 4 )
+                if(distance <= 4)
                 {
-                    animator.SetTrigger("atk3");
-                    shoot.tuluc();
                     
-                }if (distance < 2  ) 
+                        animator.SetTrigger("atk3");
+                        shoot.tuluc();
+                    
+                }
+              if (distance < 2  ) 
                 {
                     animator.SetTrigger("atk4");
                 }
