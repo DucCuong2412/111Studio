@@ -6,16 +6,11 @@ using UnityEngine;
 
 public class loithoai : MonoBehaviour
 {
-    float time = 0f;
-    public GameObject panel;
+    float time = 0f,time1;
+    public GameObject panel,Boss;
     public TextMeshProUGUI text;
-    public HealthBossAn healthBoss;
     public int count = 0;  // Bắt đầu với giá trị 0
-    bool isRunning = false;
-    bool hasShownText1 = false;
-    bool hasShownText1a = false;
-    bool hasShownText2 = false;
-    bool hasShownHealthUnder50 = false;
+  
 
     [Header("thoại")]
     public string text1 = " Ngươi đã đến rồi à!";
@@ -39,62 +34,52 @@ public class loithoai : MonoBehaviour
 
     void Update()
     {
-        time += Time.deltaTime;
-
         
-        if (Input.GetKeyUp(KeyCode.E) && isRunning)
+        time += Time.deltaTime;
+        
+        if (Input.GetKeyUp(KeyCode.E) )
         {
             count++;  
         }
-        if (time >= 3f && !hasShownText1)
+        if (time >= 3f)
         {
             panel.SetActive(true);
             text.text = text1;  
-            hasShownText1 = true;  
+            
         }
 
-        if ((time >= 6f || count >= 1) && !hasShownText1a)
+        if ((time >= 5f || count >= 1) )
         {
-            text.text = text1a;  
-            hasShownText1a = true;  
-            isRunning = true;  
+            text.text = text1a;
+            count = 1;
+            
         }
 
-        if ((time >= 9f || count >= 2) && !hasShownText2)
+        if ((time >= 7f || count >= 2) )
         {
             text.text = text2;  
-            hasShownText2 = true;  
-            count++; 
-            isRunning = true;
+             
+            count=2; 
+            
         }
 
-        if ((time >= 12f || count >= 3) && hasShownText2)
+        if ((time >= 9f || count >= 3) )
         {
             panel.SetActive(false);  
-            isRunning = false;  
+            count = 3;
         }
 
-        
-        if ((healthBoss.currentHealth / healthBoss.maxheal) * 100 < 50 && !hasShownHealthUnder50)
+        if(Boss == null  && count >=4)
         {
+            time1 += Time.deltaTime;
             panel.SetActive(true);
-            text.text = text4;  
-            hasShownHealthUnder50 = true; 
-            isRunning = true;
+            text.text = text6.ToString();
+            if (time >= 3)
+            {
+                panel.SetActive(false);
+            }
         }
-        if ((healthBoss.currentHealth / healthBoss.maxheal) * 100 < 80 )
-        {
-            panel.SetActive(true);
-            text.text = text5; 
-            hasShownHealthUnder50 = true;  
-            isRunning = true;
-        }
-        if ((healthBoss.currentHealth / healthBoss.maxheal) * 100 < 1 )
-        {
-            panel.SetActive(true);
-            text.text = text6;  
-            hasShownHealthUnder50 = true; 
-            isRunning = true;
-        }
+ 
+       
     }
 }

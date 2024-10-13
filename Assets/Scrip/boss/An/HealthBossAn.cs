@@ -44,7 +44,7 @@ public class HealthBossAn : MonoBehaviour
         if(currentHealth <= 0)
         {
             animator.SetTrigger("dead");
-            Destroy(gameObject, 3f);
+            Destroy(gameObject, 2f);
         }
        
     }
