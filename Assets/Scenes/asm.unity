@@ -7528,6 +7528,7 @@ MonoBehaviour:
   healthBoss: {fileID: 501890938}
   wall: {fileID: 508230664}
   timer: 0
+  thoai: {fileID: 1637136623}
 --- !u!4 &229642703
 Transform:
   m_ObjectHideFlags: 0
@@ -10335,8 +10336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panel: {fileID: 1178174757}
+  Boss: {fileID: 0}
   text: {fileID: 1058038705}
-  healthBoss: {fileID: 1772642892}
   count: 0
   text1: " Ng\u01B0\u01A1i \u0111\xE3 \u0111\u1EBFn r\u1ED3i \xE0!"
   text1a: "Ng\u01B0\u01A1i \u0111\xE3 \u0111\xE1nh b\u1EA1i l\u1EADp v\xE0 \u0111\u0129nh
