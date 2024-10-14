@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5606737178900060855}
   - component: {fileID: 2885567731337068956}
   - component: {fileID: 421358531866165428}
-  - component: {fileID: 3591336995712393836}
+  - component: {fileID: 6137806223219846805}
   m_Layer: 0
   m_Name: door
   m_TagString: door
@@ -72,8 +72,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 2108574861
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -1947507989, guid: 96127e83cb720db4d87f8454ca6eb959, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 3}
   m_EdgeRadius: 0
---- !u!114 &3591336995712393836
+--- !u!114 &6137806223219846805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,6 +140,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 3582083058656236334}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e082e0af2c56914a8c1c73716b0a4a3, type: 3}
+  m_Script: {fileID: 11500000, guid: cdffd72815b4c864f814d389e3683a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  door: {fileID: 0}
+  confiner: {fileID: 0}
+  c1: {fileID: 0}
+  c2: {fileID: 0}
