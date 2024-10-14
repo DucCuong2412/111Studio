@@ -15,6 +15,7 @@ TagManager:
   - player_givedame
   - chieudacbiet
   - atkboss
+  - boss
   layers:
   - Default
   - TransparentFX

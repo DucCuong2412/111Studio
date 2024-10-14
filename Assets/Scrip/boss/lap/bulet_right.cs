@@ -15,7 +15,7 @@ public class bulet_right : MonoBehaviour
     private void Update()
     {
         rb.velocity = new Vector2(speed, 0);
-        Destroy(gameObject, 3f);
+        Destroy(gameObject, 2f);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -5,7 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Thaylap : MonoBehaviour
+public class thaydinh : MonoBehaviour
 {
     public Transform player;
     public Animator anim;
@@ -69,8 +69,8 @@ public class Thaylap : MonoBehaviour
             if (distanceToPlayer > 10 & distanceToPlayer < 30)
             {
                 landau++;
-                
                 panel.SetActive(true);
+
             }
             if (coutText == 1)
             {
@@ -104,32 +104,23 @@ public class Thaylap : MonoBehaviour
             if (distanceToPlayer < 20)//atk
             {
                 /////////////////////
-                if (coubulet >= 2)
+                if (coubulet == 3)
                 {
                     Instantiate(laze, tranformAtk.transform.position, Quaternion.identity);
-
-
                     anim.SetTrigger("atk");
                     coubulet = 0;
                 }
                 ///////////////////////
-                if (count_dacbiet == 10)
+                if (count_dacbiet >= 10)
                 {
 
 
                     Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
                     text_chat.text = text4.ToString();
-                   
-
-                }
-                if (count_dacbiet ==11)
-                {
-                    Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
-                    
 
                     count_dacbiet = 0;
-
                 }
+          
                 if (count_dacbiet >= 2)
                 {
                     text_chat.text = text_none.ToString();
@@ -179,6 +170,10 @@ public class Thaylap : MonoBehaviour
         if (collision.gameObject.CompareTag("atk"))
         {
             _slider.value--;
+        }
+        if (collision.gameObject.CompareTag("chieudacbiet"))
+        {
+            _slider.value-=5;
         }
     }
 
