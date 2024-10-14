@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3124940450975615367}
   - component: {fileID: 5750688340292865488}
   - component: {fileID: 7061686513667039502}
-  - component: {fileID: 3311449687318256257}
+  - component: {fileID: 8925274600540539807}
   m_Layer: 0
   m_Name: thangmay
   m_TagString: machine_stair
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 1a85272a8ea343645bf6df84ba6b959c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -131,7 +131,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 7.765625, y: 8}
   m_EdgeRadius: 0
---- !u!114 &3311449687318256257
+--- !u!114 &8925274600540539807
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -140,7 +140,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7716360115053841337}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e082e0af2c56914a8c1c73716b0a4a3, type: 3}
+  m_Script: {fileID: 11500000, guid: cdffd72815b4c864f814d389e3683a37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  door2: {fileID: 0}
+  door: {fileID: 0}
+  confiner: {fileID: 0}
+  c1: {fileID: 0}
+  c2: {fileID: 0}
+  animator: {fileID: 0}
