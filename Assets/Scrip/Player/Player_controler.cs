@@ -26,6 +26,7 @@ public class Player_controler : MonoBehaviour
     public float count = 0;
     public data scriptable;
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI wingame;
 
 
     // Thêm biến kiểm soát lướt
@@ -49,6 +50,7 @@ public class Player_controler : MonoBehaviour
         countdash += Time.deltaTime;
 
         scoreText.text = scriptable.scoreee.ToString();
+        wingame.text=scriptable.scoreee.ToString(); 
         if (consong == true)
         {
             Vector2 vt = transform.localScale;
