@@ -27,7 +27,7 @@ public class Player_controler : MonoBehaviour
     public data scriptable;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI wingame;
-
+    
 
     // Thêm biến kiểm soát lướt
     public float countdash = 0;
@@ -91,6 +91,7 @@ public class Player_controler : MonoBehaviour
             scriptable.scoreee++;
             Destroy(collision.gameObject);
         }
+    
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -166,7 +167,6 @@ public class Player_controler : MonoBehaviour
         }
     }
 
-    // Thêm hàm xử lý lướt
     void dash()
     {
         if (Input.GetKeyDown(KeyCode.L) && !isDashing)
@@ -178,7 +178,8 @@ public class Player_controler : MonoBehaviour
                 float dashDirection = isfacingRight ? 1 : -1;
                 Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
                 rg.velocity = dashVelocity;
-                Invoke("EndDash", dashDistance / dashSpeed); // Kết thúc lướt sau một thời gian
+                anim.SetTrigger("dash");
+                Invoke("EndDash", dashDistance / dashSpeed); 
                 countdash = 0;
             }
 
