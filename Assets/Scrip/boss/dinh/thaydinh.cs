@@ -36,7 +36,7 @@ public class thaydinh : MonoBehaviour
     public int coubulet;
     public float timer;
 
-
+    public GameObject boom;
 
 
     private void Start()
@@ -70,6 +70,7 @@ public class thaydinh : MonoBehaviour
             {
                 landau++;
                 panel.SetActive(true);
+                boom.SetActive(true);
 
             }
             if (coutText == 1)
