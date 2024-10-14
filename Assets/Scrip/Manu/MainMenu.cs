@@ -8,7 +8,8 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject Menu, Updategame, Tutorial, HighScore,setting;
+    public GameObject Menu, Updategame, Tutorial, HighScore,setting,quiz;
+
 
 
     public float volume;
@@ -66,6 +67,7 @@ public class MainMenu : MonoBehaviour
         Menu.SetActive(false );
         setting.SetActive(true);
     }
+
 
     //het chuc nang menu
     public void _BackMenu()
