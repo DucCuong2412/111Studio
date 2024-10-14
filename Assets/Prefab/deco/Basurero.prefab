@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5043048180293204236}
   - component: {fileID: 1591122740184453523}
   - component: {fileID: 1976023692237501292}
-  - component: {fileID: 1430838428500255001}
+  - component: {fileID: 6095358546067883250}
   m_Layer: 0
   m_Name: Basurero
   m_TagString: tilemap
@@ -113,8 +113,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!68 &1430838428500255001
-EdgeCollider2D:
+--- !u!61 &6095358546067883250
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -145,25 +145,16 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.034870148, y: -1.0112534}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.55, y: 3.7}
+    newSize: {x: 0.51, y: 0.74}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.2481613, y: 1.3752747}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -0.40018308, y: -1.7260132}
-  - {x: -0.5158386, y: -1.5898399}
-  - {x: -0.6012268, y: -1.4418983}
-  - {x: -0.6364136, y: -1.1244354}
-  - {x: -0.6851196, y: -0.96221924}
-  - {x: -0.72476196, y: -0.5070572}
-  - {x: -0.56970215, y: -0.35043716}
-  - {x: 0.44485474, y: -0.33896637}
-  - {x: 0.6352844, y: -0.52334595}
-  - {x: 0.62667847, y: -0.91215134}
-  - {x: 0.5420227, y: -1.145359}
-  - {x: 0.5348816, y: -1.3184204}
-  - {x: 0.47546387, y: -1.5409355}
-  - {x: 0.34365845, y: -1.7078133}
-  - {x: -0.38005984, y: -1.7082787}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0

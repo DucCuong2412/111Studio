@@ -207,7 +207,7 @@ public class Thaylap : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
 
-        if (distanceToPlayer > 2 & distanceToPlayer < 20)
+        if (distanceToPlayer > 5 & distanceToPlayer < 20)
         {
             Vector3 direction = new Vector3(player.position.x - transform.position.x, 0, 0).normalized;
             transform.position += direction * speed * Time.deltaTime;

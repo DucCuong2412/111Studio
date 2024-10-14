@@ -27,7 +27,7 @@ public class thaydinh : MonoBehaviour
     public string textcc = "xem chiêu cuối mạnh nhất của ta đây";
     public string text5 = "ựa.... nhất định ta sẽ báo thù";
     public string text_none = "";
-    public float coutText = 0;//đếm thay đổi khi bấm nút
+    private float coutText = 1;//đếm thay đổi khi bấm nút
     //count khi người chơi gặp boss lần đầu tiên
     public int landau = 1;
 
@@ -70,6 +70,7 @@ public class thaydinh : MonoBehaviour
             {
                 landau++;
                 panel.SetActive(true);
+
             }
             if (coutText == 1)
             {
@@ -103,32 +104,23 @@ public class thaydinh : MonoBehaviour
             if (distanceToPlayer < 20)//atk
             {
                 /////////////////////
-                if (coubulet >= 2)
+                if (coubulet == 3)
                 {
                     Instantiate(laze, tranformAtk.transform.position, Quaternion.identity);
-
-
                     anim.SetTrigger("atk");
                     coubulet = 0;
                 }
                 ///////////////////////
-                if (count_dacbiet == 10)
+                if (count_dacbiet >= 10)
                 {
 
 
                     Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
                     text_chat.text = text4.ToString();
 
-
-                }
-                if (count_dacbiet == 11)
-                {
-                    Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
-
-
                     count_dacbiet = 0;
-
                 }
+          
                 if (count_dacbiet >= 2)
                 {
                     text_chat.text = text_none.ToString();
@@ -179,6 +171,10 @@ public class thaydinh : MonoBehaviour
         {
             _slider.value--;
         }
+        if (collision.gameObject.CompareTag("chieudacbiet"))
+        {
+            _slider.value-=5;
+        }
     }
 
     public void LookatPlayer()
@@ -206,7 +202,7 @@ public class thaydinh : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
 
 
-        if (distanceToPlayer > 2 & distanceToPlayer < 20)
+        if (distanceToPlayer > 5 & distanceToPlayer < 20)
         {
             Vector3 direction = new Vector3(player.position.x - transform.position.x, 0, 0).normalized;
             transform.position += direction * speed * Time.deltaTime;
