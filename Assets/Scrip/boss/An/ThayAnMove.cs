@@ -69,14 +69,12 @@ public class ThayAnMove : StateMachineBehaviour
                         animator.SetTrigger("atk3");
                         shoot.tuluc();
                         timer = 0f;
-                    
                 }
                 if (distance <= 3)
                 {
                     animator.SetTrigger("atk4");
                     timer = 0f;
-                }
-                
+                }  
             }
 
         }
