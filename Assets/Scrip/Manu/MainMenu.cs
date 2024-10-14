@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,11 +8,14 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject Menu, Updategame, Tutorial, HighScore,setting;
+    public GameObject Menu, Updategame, Tutorial, HighScore,setting,quiz;
+
 
 
     public float volume;
+    public float save_volume;
     public AudioMixer mixer;
+    public Slider Slider;
 
     
     void Start()
@@ -22,6 +25,21 @@ public class MainMenu : MonoBehaviour
         Tutorial.SetActive(false);
         HighScore.SetActive(false);
         setting.SetActive(false);
+       
+        if (PlayerPrefs.HasKey("mussic_volume"))
+        {
+            loadmusic();
+            Slider.value = save_volume;
+        }
+        else
+        {
+            _Music(save_volume);
+        }
+    }
+    private void Update()
+    {
+        
+        Debug.Log("âm lượng:"+PlayerPrefs.GetFloat("mussic_volume"));
     }
     // chuc nang cua Menu
     public void _ClickUpdate()
@@ -50,6 +68,7 @@ public class MainMenu : MonoBehaviour
         setting.SetActive(true);
     }
 
+
     //het chuc nang menu
     public void _BackMenu()
     {
@@ -73,8 +92,18 @@ public class MainMenu : MonoBehaviour
     public void _Music(float volume)
     {
         mixer.SetFloat("volume",volume);
+        save_volume = volume;
         Debug.Log("volume" + volume);
+        PlayerPrefs.SetFloat("mussic_volume", save_volume);
         
+    }
+    public void loadmusic()
+    {
+        save_volume = PlayerPrefs.GetFloat("mussic_volume");
+        volume = save_volume;
+        _Music(volume);
+        Slider.value= volume;   
+
     }
     public void play()
     {
