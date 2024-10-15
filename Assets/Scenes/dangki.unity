@@ -1069,7 +1069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 397040f1197e5dc4981395399b153df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloud: {fileID: 2100000, guid: 7b72100bb8203f443ace0797b6ee0db0, type: 2}
+  cloud: {fileID: 2100000, guid: 045ca51d2bba3ab47a1e6eceb50d3343, type: 2}
 --- !u!4 &601803117
 Transform:
   m_ObjectHideFlags: 0
@@ -2839,6 +2839,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71d3f5a433f757441b55095a52ecc3ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  idTexts1: {fileID: 0}
+  scoreTexts1: {fileID: 0}
+  idTexts2: {fileID: 0}
+  scoreTexts2: {fileID: 0}
+  idTexts3: {fileID: 0}
+  scoreTexts3: {fileID: 0}
 --- !u!114 &1415580613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3640,7 +3647,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b72100bb8203f443ace0797b6ee0db0, type: 2}
+  - {fileID: 2100000, guid: 045ca51d2bba3ab47a1e6eceb50d3343, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
