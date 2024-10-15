@@ -13,9 +13,11 @@ public class trigerCam : MonoBehaviour
     public  int count = 1;
     bool isC1runing = true;
     bool isC2runing = false;
+    float time;
     private void Start()
     {
         count = 1;
+        
         
     }
     public void OnTriggerEnter2D(Collider2D collision)

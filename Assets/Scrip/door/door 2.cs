@@ -12,17 +12,17 @@ public class door2 : MonoBehaviour
     public Collider2D c1;
     public Collider2D c2;
      Collider2D c3;
-   
+    float time;
     public Animator animator;
-    
-    private void Start()
+
+    private void Update()
     {
-        
+        time += Time.deltaTime;
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && time >2.5f)
         {
             if (Input.GetKeyDown(KeyCode.F)  )
             {
