@@ -17,7 +17,7 @@ public class door2 : MonoBehaviour
     
     private void Start()
     {
-        c1 = c3;
+        
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -30,25 +30,21 @@ public class door2 : MonoBehaviour
                 StartCoroutine(TeleportAfterDelay(collision));
                 if (confiner.m_BoundingShape2D == c1)
                 {
+                    
                     confiner.m_BoundingShape2D = c2;
-                    animator.SetTrigger("endroom");
+                    
                 }
                 else confiner.m_BoundingShape2D = c1;
-                        
-                
-
             }
-            
         }
-       
-
     }
 
     IEnumerator TeleportAfterDelay(Collider2D collision)
     {
         
-        yield return new WaitForSeconds(1.5f);
-        collision.transform.position = door.transform.position; 
+        yield return new WaitForSeconds(1f);
+        collision.transform.position = door.transform.position;
+        animator.SetTrigger("endroom");
     }
 
 
