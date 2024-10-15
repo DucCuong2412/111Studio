@@ -9,7 +9,7 @@ public class ActionCam : MonoBehaviour
     public CinemachineVirtualCamera camtong;
     public GameObject boss,healthBoss,wall;
     public float timer ;
-    public loithoai thoai;
+   
 
     private void Start()
     {
@@ -36,7 +36,7 @@ public class ActionCam : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            thoai.count = 4;
+            
             timer = 0f;
             healthBoss.SetActive(true);
             wall.SetActive(true);
