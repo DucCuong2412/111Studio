@@ -11,15 +11,13 @@ public class door2 : MonoBehaviour
     public CinemachineConfiner2D confiner;
     public Collider2D c1;
     public Collider2D c2;
-    public Collider2D c3;
+     Collider2D c3;
    
     public Animator animator;
     
     private void Start()
     {
-        
         c1 = c3;
-       
     }
 
     private void OnTriggerStay2D(Collider2D collision)
