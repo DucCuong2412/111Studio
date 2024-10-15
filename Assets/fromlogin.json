@@ -9,11 +9,11 @@
             "hightScore3": "6",
             "hightScore4": "8",
             "hightScoreASM": "10",
-            "checklevel1": 7,
-            "checklevel2": 11,
-            "checklevel3": 3,
-            "checklevel4": 3,
-            "asm": 2
+            "checklevel1": 0,
+            "checklevel2": 0,
+            "checklevel3": 0,
+            "checklevel4": 0,
+            "asm": 0
         }
     ]
 }
