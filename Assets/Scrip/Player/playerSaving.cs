@@ -222,7 +222,7 @@ public class PlayerSaving : MonoBehaviour
             totalScore += float.Parse(account.hightScore4);
 
             tonglab = (totalScore / 4) * 0.6f;
-            tongasm = float.Parse(account.hightScoreASM);
+            tongasm = float.Parse(account.hightScoreASM)*0.4f;
 
 
             float tongall = tonglab + tongasm;

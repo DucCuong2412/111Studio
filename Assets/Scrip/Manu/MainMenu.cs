@@ -57,6 +57,10 @@ public class MainMenu : MonoBehaviour
 
         Application.Quit();
     }
+    public void _quiz()
+    {
+        quiz.SetActive(true);
+    }
     public void _ClickScore()
     {
         Menu.SetActive(false);
@@ -77,6 +81,7 @@ public class MainMenu : MonoBehaviour
         Tutorial.SetActive(false);
         HighScore.SetActive(false);
         setting .SetActive(false);
+        quiz.SetActive(false);
     }
 
     //build seting
