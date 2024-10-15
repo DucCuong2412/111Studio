@@ -121,6 +121,10 @@ public class Player_controler : MonoBehaviour
         {
             checkJump = false;
         }
+        if (collision.gameObject.CompareTag("trap"))
+        {
+            checkJump = false;
+        }
     }
 
     void atk()
