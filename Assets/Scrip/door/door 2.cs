@@ -22,19 +22,26 @@ public class door2 : MonoBehaviour
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player") && time >2.5f)
+        if(time > 3)
         {
-            if (Input.GetKeyDown(KeyCode.F)  )
+            if (collision.gameObject.CompareTag("Player") )
             {
-                animator.SetTrigger("startroom");
-                StartCoroutine(TeleportAfterDelay(collision));
-                if (confiner.m_BoundingShape2D == c1)
+                if (Input.GetKeyDown(KeyCode.F))
                 {
-                    
-                    confiner.m_BoundingShape2D = c2;
-                    
+                    animator.SetTrigger("startroom");
+                    StartCoroutine(TeleportAfterDelay(collision));
+                    if (confiner.m_BoundingShape2D == c1)
+                    {
+
+                        confiner.m_BoundingShape2D = c2;
+                        
+
+                    }
+                    else confiner.m_BoundingShape2D = c1;
+                    time = 0;
+
+
                 }
-                else confiner.m_BoundingShape2D = c1;
             }
         }
     }
