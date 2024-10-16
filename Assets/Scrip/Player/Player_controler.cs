@@ -27,7 +27,7 @@ public class Player_controler : MonoBehaviour
     public data scriptable;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI wingame;
-    
+
 
     // Thêm biến kiểm soát lướt
     public float countdash = 0;
@@ -50,7 +50,7 @@ public class Player_controler : MonoBehaviour
         countdash += Time.deltaTime;
 
         scoreText.text = scriptable.scoreee.ToString();
-        wingame.text=scriptable.scoreee.ToString(); 
+        wingame.text = scriptable.scoreee.ToString();
         if (consong == true)
         {
             Vector2 vt = transform.localScale;
@@ -91,7 +91,7 @@ public class Player_controler : MonoBehaviour
             scriptable.scoreee++;
             Destroy(collision.gameObject);
         }
-    
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -132,10 +132,12 @@ public class Player_controler : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.J))
         {
             anim.SetTrigger("atk1");
+            AudioManager.instance.sound_atk1();
         }
         if (Input.GetKeyDown(KeyCode.K))
         {
             anim.SetTrigger("atk2");
+            AudioManager.instance.sound_atk2();
         }
     }
 
@@ -144,7 +146,10 @@ public class Player_controler : MonoBehaviour
         if (_slider.value == 0)
         {
             consong = false;
+            AudioManager.instance.sound_die();
             anim.SetTrigger("die");
+
+
         }
     }
 
@@ -166,6 +171,7 @@ public class Player_controler : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 rg.velocity += new Vector2(0f, jump);
+                AudioManager.instance.sound_jump();
                 anim.SetTrigger("jump");
             }
         }
@@ -183,7 +189,7 @@ public class Player_controler : MonoBehaviour
                 Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
                 rg.velocity = dashVelocity;
                 anim.SetTrigger("dash");
-                Invoke("EndDash", dashDistance / dashSpeed); 
+                Invoke("EndDash", dashDistance / dashSpeed);
                 countdash = 0;
             }
 
