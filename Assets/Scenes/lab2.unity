@@ -23368,11 +23368,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4027378375621274887, guid: b9bca434842f16c48a7e405fde38dc91, type: 3}
   m_PrefabInstance: {fileID: 1343477254}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1343477256 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 137625775959696472, guid: b9bca434842f16c48a7e405fde38dc91, type: 3}
-  m_PrefabInstance: {fileID: 1343477254}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1349437662
 GameObject:
   m_ObjectHideFlags: 0
@@ -25017,8 +25012,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1591486623}
-  - component: {fileID: 1591486624}
   - component: {fileID: 1591486625}
+  - component: {fileID: 1591486626}
   m_Layer: 0
   m_Name: Actioncamera
   m_TagString: Untagged
@@ -25041,24 +25036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1591486624
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1591486621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca2a438637bb6994688f6274b5e9ddc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  camboss: {fileID: 2027334653}
-  camtong: {fileID: 1931930134}
-  boss: {fileID: 1343477256}
-  healthBoss: {fileID: 156905311}
-  wall: {fileID: 156905311}
-  timer: 0
 --- !u!61 &1591486625
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25104,6 +25081,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 9.491708}
   m_EdgeRadius: 0
+--- !u!114 &1591486626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1591486621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45f7630269f5cca4db303b78dfa3d8b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camtong: {fileID: 1931930134}
 --- !u!1 &1608545000
 GameObject:
   m_ObjectHideFlags: 0
@@ -77147,7 +77137,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4121498917711470588, guid: b9bca434842f16c48a7e405fde38dc91, type: 3}
   m_PrefabInstance: {fileID: 1343477254}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1343477256}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 576df0b413f8e1b4d8140dc7ee812138, type: 3}

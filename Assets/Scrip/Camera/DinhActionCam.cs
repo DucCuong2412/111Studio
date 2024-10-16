@@ -22,7 +22,7 @@ public class DinhActionCam : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")){
             CameraCinematic.SwitchCamera(camtong);
-
+            this.gameObject.SetActive(false);
         }
 
     }
