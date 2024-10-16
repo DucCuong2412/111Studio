@@ -49,10 +49,7 @@ public class inGameMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(index);
     }
-    public void _LoadSceneDead(string index)
-    {
-        SceneManager.LoadSceneAsync(index);
-    }
+   
     public void backMenu()
     {
         SceneManager.LoadScene(2);
