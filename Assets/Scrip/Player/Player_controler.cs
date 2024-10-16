@@ -189,9 +189,9 @@ public class Player_controler : MonoBehaviour
                 Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
                 rg.velocity = dashVelocity;
                 anim.SetTrigger("dash");
-                AudioManager.instance.sounddash();
                 Invoke("EndDash", dashDistance / dashSpeed);
                 countdash = 0;
+                AudioManager.instance.sounddash();
             }
 
         }
