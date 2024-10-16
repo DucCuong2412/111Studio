@@ -18233,7 +18233,7 @@ MonoBehaviour:
   atk2: {fileID: 8300000, guid: 810b7e6b69e8b6c47822a83d9efdba2b, type: 3}
   boom: {fileID: 8300000, guid: 6718470dd52b5e44c95c3d0b03f2f7d9, type: 3}
   jump: {fileID: 8300000, guid: a013ba0276756c3458d4a4824c4da163, type: 3}
-  dash: {fileID: 0}
+  dash: {fileID: 8300000, guid: 2f523e555c82ea849bcd30a18de2c1ea, type: 3}
   die: {fileID: 8300000, guid: 3e8c0fe50b89681429b51b8deda2b48d, type: 3}
   an1: {fileID: 8300000, guid: 0fd641fa45ecbf34bba73477d487e276, type: 3}
   an2: {fileID: 8300000, guid: 51129fefd13031247a80809cfc5f7510, type: 3}

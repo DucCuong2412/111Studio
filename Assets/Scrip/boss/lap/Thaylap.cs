@@ -159,10 +159,11 @@ public class Thaylap : MonoBehaviour
                 }
 
             }
-            else
-            {
-                Debug.Log("cheest");
-            }
+         
+        }
+        else
+        {
+            Debug.Log("cheest");
         }
     }
     public void next()

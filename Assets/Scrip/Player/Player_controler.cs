@@ -11,7 +11,7 @@ using UnityEngine.UI;
 
 public class Player_controler : MonoBehaviour
 {
-
+    // Start is called before the first frame update
     public Rigidbody2D rg;
     private float trai_phai;
     private bool isfacingRight = true;
@@ -28,7 +28,8 @@ public class Player_controler : MonoBehaviour
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI wingame;
 
-    //  biến kiểm soát lướt
+
+    // Thêm biến kiểm soát lướt
     public float countdash = 0;
     public float dashDistance = 10f;
     public float dashSpeed = 30f;
@@ -62,7 +63,7 @@ public class Player_controler : MonoBehaviour
 
             onjump();
             atk();
-            dash(); 
+            dash(); // Gọi hàm lướt
             die();
         }
         else
@@ -147,6 +148,8 @@ public class Player_controler : MonoBehaviour
             consong = false;
             AudioManager.instance.sound_die();
             anim.SetTrigger("die");
+
+
         }
     }
 
@@ -155,7 +158,9 @@ public class Player_controler : MonoBehaviour
         if (isfacingRight && trai_phai < 0 || !isfacingRight && trai_phai > 0)
         {
             isfacingRight = !isfacingRight;
-            GetComponent<SpriteRenderer>().flipX = !isfacingRight;
+            Vector3 scale = transform.localScale;
+            scale.x = scale.x * -1;
+            transform.localScale = scale;
         }
     }
 
@@ -178,15 +183,17 @@ public class Player_controler : MonoBehaviour
         {
             if (countdash >= 2)
             {
+
                 isDashing = true;
                 float dashDirection = isfacingRight ? 1 : -1;
                 Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
                 rg.velocity = dashVelocity;
-                anim.SetTrigger("dash"); 
+                anim.SetTrigger("dash");
                 AudioManager.instance.sounddash();
                 Invoke("EndDash", dashDistance / dashSpeed);
                 countdash = 0;
             }
+
         }
     }
 
