@@ -6,16 +6,18 @@ using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class audioManager : MonoBehaviour
+public class AudioManager : MonoBehaviour
 {
-
-
-
-
     public float volume;
     public float save_volume;
     public AudioMixer mixer;
     public Slider Slider;
+    // audio
+    public static AudioManager instance;
+    public AudioSource sfxSource;
+
+
+
     //player
     public AudioClip atk1;
     public AudioClip atk2;
@@ -41,8 +43,17 @@ public class audioManager : MonoBehaviour
 
     private void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
+
     void Start()
     {
 
@@ -81,6 +92,71 @@ public class audioManager : MonoBehaviour
 
     }
 
+    public void sound_jump()
+    {
+        sfxSource.PlayOneShot(jump);
 
+    }
+    public void sound_atk1()
+    {
+        sfxSource.PlayOneShot(atk1);
+    }
+    public void sound_atk2()
+    {
+        sfxSource.PlayOneShot(atk2);
+    }
+    public void sound_die()
+    {
+        sfxSource.PlayOneShot(die);
+    }
+
+    public void sound_lap1()
+    {
+        sfxSource.PlayOneShot(lap1);
+    }
+    public void sound_lap1_stop()
+    {
+        sfxSource.Stop();
+    }
+    public void sound_lap2()
+    {
+
+        sfxSource.PlayOneShot(lap2);
+    }
+
+
+    public void sound_an1()
+    {
+        sfxSource.PlayOneShot(an1);
+    }
+    public void sound_an2()
+    {
+        sfxSource.PlayOneShot(an2);
+    }
+    public void sound_an3()
+    {
+        sfxSource.PlayOneShot(an3);
+    }
+
+    public void sound_an4()
+    {
+        sfxSource.PlayOneShot(an4);
+    }
+    public void sound_an5()
+    {
+        sfxSource.PlayOneShot(an5);
+    }
+    public void sound_an6()
+    {
+        sfxSource.PlayOneShot(an6);
+    }
+    public void sound_an7()
+    {
+        sfxSource.PlayOneShot(an7);
+    }
+    public void sound_an8()
+    {
+        sfxSource.PlayOneShot(an8);
+    }
 
 }
