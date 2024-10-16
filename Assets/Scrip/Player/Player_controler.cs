@@ -182,7 +182,8 @@ public class Player_controler : MonoBehaviour
                 float dashDirection = isfacingRight ? 1 : -1;
                 Vector2 dashVelocity = new Vector2(dashDirection * dashSpeed, rg.velocity.y);
                 rg.velocity = dashVelocity;
-                anim.SetTrigger("dash");
+                anim.SetTrigger("dash"); 
+                AudioManager.instance.sounddash();
                 Invoke("EndDash", dashDistance / dashSpeed);
                 countdash = 0;
             }

@@ -23,6 +23,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip atk2;
     public AudioClip boom;
     public AudioClip jump;
+    public AudioClip dash;
     public AudioClip die;
 
 
@@ -108,6 +109,10 @@ public class AudioManager : MonoBehaviour
     public void sound_die()
     {
         sfxSource.PlayOneShot(die);
+    }
+    public void sounddash()
+    {
+        sfxSource.PlayOneShot(dash); 
     }
 
     public void sound_lap1()
