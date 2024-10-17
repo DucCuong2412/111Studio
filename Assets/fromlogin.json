@@ -4,16 +4,16 @@
             "id": "cuong2412",
             "password": "2412",
             "againpasss": "2412",
-            "hightScore1": "20",
+            "hightScore1": "31",
             "hightScore2": "7",
             "hightScore3": "6",
             "hightScore4": "8",
             "hightScoreASM": "10",
-            "checklevel1": 0,
-            "checklevel2": 0,
+            "checklevel1": 3,
+            "checklevel2": 2,
             "checklevel3": 0,
-            "checklevel4": 0,
-            "asm": 0
+            "checklevel4": 3,
+            "asm": 1
         }
     ]
 }

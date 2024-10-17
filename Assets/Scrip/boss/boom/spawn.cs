@@ -14,7 +14,7 @@ public class spawn : MonoBehaviour
     public GameObject boomb;
     public float timer;
     public int count;
-
+        
 
     void Start()
     {

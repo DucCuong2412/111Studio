@@ -65,7 +65,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6.6476, y: -5.83}
+  m_AnchoredPosition: {x: 6.6476135, y: -5.830001}
   m_SizeDelta: {x: -13.295, y: 11.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4592409398118395139
@@ -305,11 +305,14 @@ MonoBehaviour:
   textcc: "xem chi\xEAu cu\u1ED1i m\u1EA1nh nh\u1EA5t c\u1EE7a ta \u0111\xE2y"
   text5: "\u1EF1a.... nh\u1EA5t \u0111\u1ECBnh ta s\u1EBD b\xE1o th\xF9"
   text_none: 
+  coutText: 1
   landau: 1
   count_dacbiet: 0
   count_chieucuoi: 0
   coubulet: 0
   timer: 0
+  boom: {fileID: 0}
+  door_wingame: {fileID: 0}
 --- !u!1 &292893209309613498
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,9 +396,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 1
+  m_MaxValue: 20
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 20
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []

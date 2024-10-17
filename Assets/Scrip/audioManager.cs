@@ -115,6 +115,12 @@ public class AudioManager : MonoBehaviour
         sfxSource.PlayOneShot(dash); 
     }
 
+    //booom
+    public void sound_boom()
+    {
+        sfxSource.PlayOneShot(boom);
+
+    }
     public void sound_lap1()
     {
         sfxSource.PlayOneShot(lap1);

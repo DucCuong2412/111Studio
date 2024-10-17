@@ -20,6 +20,10 @@ public class Boom : MonoBehaviour
 
         // Di chuyển bom về hướng boss ngay từ đầu
         MoveTowardsBoss();
+        if (boss == null)
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Update()
@@ -30,6 +34,7 @@ public class Boom : MonoBehaviour
             if (newhitball != null)
             {
                 Destroy(gameObject);
+             
                 GameObject spawnedHitball = Instantiate(newhitball, transform.position, transform.rotation);
                 Destroy(spawnedHitball, 0.5f);
             }
@@ -48,6 +53,7 @@ public class Boom : MonoBehaviour
             Destroy(gameObject);
             GameObject spawnedHitball = Instantiate(newhitball, transform.position, transform.rotation);
             Destroy(spawnedHitball, 0.5f);
+            AudioManager.instance.sound_boom();
         }
     }
 
