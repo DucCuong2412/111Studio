@@ -4,49 +4,51 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-public class HealthBossAn : MonoBehaviour
+
+
+public class Health : MonoBehaviour
 {
-    public Slider _slider;
-    public float maxheal = 100f;
+    public Slider healthSlider;
+    public float maxhealth;
     public float currentHealth;
     Animator animator;
+   
     void Start()
     {
-        _slider.maxValue = maxheal;
-        currentHealth = maxheal;
-        _slider.value = currentHealth;
+        healthSlider.maxValue = maxhealth;
+        currentHealth = maxhealth;
+        healthSlider.value = currentHealth;
         animator = GetComponent<Animator>();
+        
     }
 
+   
     void Update()
     {
+        healthSlider.value = currentHealth;
         die();
-        _slider.value = currentHealth;
-    }
 
+        
+    }
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("atk"))
         {
             TakeDamage(1);
-            
         }
     }
-
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage; 
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxheal);
-        _slider.value = currentHealth; 
+        currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxhealth);
+        healthSlider.value = currentHealth;
     }
     public void die()
     {
         if(currentHealth <= 0)
         {
-            animator.SetTrigger("dead");
-            Destroy(gameObject, 1.8f);
+            animator.SetTrigger("die");
+            Destroy(gameObject, 1.5f);
         }
-       
     }
-    
 }
