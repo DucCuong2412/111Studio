@@ -17,6 +17,9 @@ public class login
     public int checklevel4;
     public int asm;
 
+    public int heal;
+    public int speed;
+    public int count;
     public login(string id, string password, string againpass)
     {
         this.id = id;
@@ -32,6 +35,9 @@ public class login
         this.checklevel3 = 0;
         this.checklevel4 = 0;
         this.asm = 0;
+        this.heal = 20;
+        this.speed = 10;
+        this.count = 5;
 
     }
 }

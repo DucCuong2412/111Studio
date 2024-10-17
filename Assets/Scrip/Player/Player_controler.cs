@@ -16,11 +16,11 @@ public class Player_controler : MonoBehaviour
     private float trai_phai;
     private bool isfacingRight = true;
     public bool checkJump = true;
-    public float speed = 10f;
+    public float speed ;//defalt=10;
     public float jump = 20f;
     public Animator anim;
     public Slider _slider;
-    private float maxheal = 20;
+    private float maxheal ;//defalt=20
     public bool consong = true;
     public GameObject panelDead;
     public float count = 0;
@@ -35,6 +35,11 @@ public class Player_controler : MonoBehaviour
     public float dashSpeed = 30f;
     private bool isDashing = false;
 
+    private void Awake()
+    {
+        maxheal=scriptable.heal;
+        speed = scriptable.speed;   
+    }
     void Start()
     {
         rg = GetComponent<Rigidbody2D>();

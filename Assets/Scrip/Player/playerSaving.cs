@@ -26,6 +26,9 @@ public class PlayerSaving : MonoBehaviour
     public TMP_Text idTexts3;
     public TMP_Text scoreTexts3;
 
+    public TMP_Text heal;
+    public TMP_Text speed;
+    public TMP_Text score;
 
     private void Start()
     {
@@ -45,6 +48,18 @@ public class PlayerSaving : MonoBehaviour
 
     private void Update()
     {
+        foreach(var i in accounts)
+        {
+            heal.text = i.heal.ToString();
+            speed.text = i.speed.ToString();
+            score.text = i.count.ToString();
+            data.heal =i.heal;
+            data.speed= i.speed;    
+
+
+        }
+
+       
 
       
 
@@ -103,9 +118,15 @@ public class PlayerSaving : MonoBehaviour
         }
     }
 
+    public void _update_speed()
+    {
+        update_speed(data.account);
+    }
 
-
-
+    public void _update_heal()
+    {
+        update_heal(data.account);
+    }
 
 
     public void again(string index)
@@ -115,7 +136,46 @@ public class PlayerSaving : MonoBehaviour
         UpdateCheckLevel(data.account);
         SaveAccounts();
     }
+    public void update_speed(string accountId)
+    {
+        // Tìm tài khoản cần cập nhật theo ID
+        login accountToUpdate = accounts.Find(account => account.id == accountId);
 
+        if (accountToUpdate != null)
+        {
+            if (accountToUpdate.count > 0) 
+            {
+            accountToUpdate.speed += 1;
+                accountToUpdate.count -= 1;
+            }
+            else if(accountToUpdate.count == 0)
+            {
+                Debug.Log($"score={accountToUpdate.count} <0");
+            }
+            SaveAccounts();
+        }
+        else
+        {
+            Debug.Log("Không tìm thấy tài khoản với ID: " + accountId);
+        }
+    }
+    public void update_heal(string accountID)
+    {
+        login account = accounts.Find(account => account.id == accountID);
+        if(account != null)
+        {
+            if(account.count > 0)
+            {
+                account.heal += 1;
+                account.count -= 1;
+            }
+            else
+            {
+                Debug.Log($"score={account.count} <0");
+            }
+            SaveAccounts();
+        }
+    }
 
     public void UpdateHighScore(string id, int newHighScore)
     {
@@ -130,7 +190,7 @@ public class PlayerSaving : MonoBehaviour
 
             int currentHighScore = 0; // Biến lưu hightscoree hiện tại
 
-            // Lấy điểm cao hiện tại dựa trên cấp độ
+   
             if (data.level == 1)
             {
                 currentHighScore = int.Parse(accountToUpdate.hightScore1);
@@ -148,38 +208,38 @@ public class PlayerSaving : MonoBehaviour
                 currentHighScore = int.Parse(accountToUpdate.hightScore4);
             }
 
-            // So sánh điểm mới và điểm cao hiện tại
+            // So sánh điểm mới và điểm hiện tại
             if (newHighScore > currentHighScore)
             {
-                // Cập nhật điểm cao cho cấp độ
+                // Cập nhật điểm  cho cấp độ
                 if (data.level == 1)
                 {
-                    accountToUpdate.hightScore1 = newHighScore.ToString(); // Cập nhật điểm cao cho cấp độ 1
+                    accountToUpdate.hightScore1 = newHighScore.ToString(); 
                 }
                 else if (data.level == 2)
                 {
-                    accountToUpdate.hightScore2 = newHighScore.ToString(); // Cập nhật điểm cao cho cấp độ 2
+                    accountToUpdate.hightScore2 = newHighScore.ToString(); 
                 }
                 else if (data.level == 3)
                 {
-                    accountToUpdate.hightScore3 = newHighScore.ToString(); // Cập nhật điểm cao cho cấp độ 3
+                    accountToUpdate.hightScore3 = newHighScore.ToString();
                 }
                 else if (data.level == 4)
                 {
-                    accountToUpdate.hightScore4 = newHighScore.ToString(); // Cập nhật điểm cao cho cấp độ 4
+                    accountToUpdate.hightScore4 = newHighScore.ToString(); 
                 }
 
-                SaveAccounts(); // Lưu danh sách tài khoản đã cập nhật vào file JSON
-                Debug.Log("Điểm cao đã được cập nhật!"); // Thông báo cập nhật thành công
+                SaveAccounts();
+                Debug.Log("Điểm cao đã được cập nhật!");
             }
             else
             {
-                Debug.Log("Điểm mới không cao hơn điểm cũ. Không cập nhật."); // Thông báo không cập nhật
+                Debug.Log("Điểm mới không cao hơn điểm cũ. Không cập nhật.");
             }
         }
         else
         {
-            Debug.Log("Không tìm thấy tài khoản với ID: " + id); // Thông báo nếu không tìm thấy tài khoản
+            Debug.Log("Không tìm thấy tài khoản với ID: " + id);
         }
     }
 
@@ -205,7 +265,7 @@ public class PlayerSaving : MonoBehaviour
         File.WriteAllText(filePath, json);
     }
 
-    // Hiển thị bảng điểm cao
+    // Hiển thị higscore
     private void DisplayHighScores()
     {
         List<(string id, float tongall)> scores = new List<(string, float)>();

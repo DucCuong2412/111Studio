@@ -39,7 +39,7 @@ public class MainMenu : MonoBehaviour
     private void Update()
     {
         
-        Debug.Log("âm lượng:"+PlayerPrefs.GetFloat("mussic_volume"));
+      
     }
     // chuc nang cua Menu
     public void _ClickUpdate()
