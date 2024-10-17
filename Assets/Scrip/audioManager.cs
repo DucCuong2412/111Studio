@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.Experimental.GlobalIllumination;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -26,7 +27,8 @@ public class AudioManager : MonoBehaviour
     public AudioClip dash;
     public AudioClip die;
 
-
+    //score
+    public AudioClip asm_lab;
 
     //sound boss An
     public AudioClip an1;
@@ -114,6 +116,14 @@ public class AudioManager : MonoBehaviour
     {
         sfxSource.PlayOneShot(dash); 
     }
+    //lab
+    public void sound_score()
+    {
+        sfxSource.PlayOneShot(asm_lab);
+    }
+
+
+
 
     //booom
     public void sound_boom()

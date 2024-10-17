@@ -94,6 +94,7 @@ public class Player_controler : MonoBehaviour
         if (collision.gameObject.CompareTag("score"))
         {
             scriptable.scoreee++;
+            AudioManager.instance.sound_score();
             Destroy(collision.gameObject);
         }
 

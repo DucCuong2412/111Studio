@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2229352116333892129}
   - component: {fileID: 281198527777605766}
   - component: {fileID: 2926423008895477968}
+  - component: {fileID: -1347485067180914952}
   m_Layer: 0
   m_Name: Asm
   m_TagString: score
@@ -130,3 +131,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.1716385, y: 1.8247623}
   m_EdgeRadius: 0
+--- !u!114 &-1347485067180914952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623286920887049131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 350de1d502b84d84e860670275d2c3a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
