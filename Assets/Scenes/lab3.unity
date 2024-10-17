@@ -1468,6 +1468,9 @@ MonoBehaviour:
   scoreTexts2: {fileID: 1608463022}
   idTexts3: {fileID: 1608463021}
   scoreTexts3: {fileID: 1608463020}
+  heal: {fileID: 0}
+  speed: {fileID: 0}
+  score: {fileID: 0}
 --- !u!4 &124783476
 Transform:
   m_ObjectHideFlags: 0
@@ -56470,6 +56473,9 @@ MonoBehaviour:
   scoreTexts2: {fileID: 788540289}
   idTexts3: {fileID: 1608463021}
   scoreTexts3: {fileID: 1608463020}
+  heal: {fileID: 788540289}
+  speed: {fileID: 1608463021}
+  score: {fileID: 1608463020}
 --- !u!1 &1852047525
 GameObject:
   m_ObjectHideFlags: 0

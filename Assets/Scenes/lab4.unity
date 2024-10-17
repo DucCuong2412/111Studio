@@ -72080,6 +72080,9 @@ MonoBehaviour:
   scoreTexts2: {fileID: 2075925508}
   idTexts3: {fileID: 2075925507}
   scoreTexts3: {fileID: 2075925506}
+  heal: {fileID: 2075925508}
+  speed: {fileID: 2075925508}
+  score: {fileID: 2075925508}
 --- !u!4 &1435562119
 Transform:
   m_ObjectHideFlags: 0

@@ -31424,9 +31424,9 @@ MonoBehaviour:
   scoreTexts2: {fileID: 1982338765}
   idTexts3: {fileID: 923607924}
   scoreTexts3: {fileID: 1098052409}
-  heal: {fileID: 0}
-  speed: {fileID: 0}
-  score: {fileID: 0}
+  heal: {fileID: 1098052409}
+  speed: {fileID: 1098052409}
+  score: {fileID: 1098052409}
 --- !u!4 &975902156
 Transform:
   m_ObjectHideFlags: 0
