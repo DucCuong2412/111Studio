@@ -14,9 +14,6 @@ public class PlayerSaving : MonoBehaviour
     private string filePath; // Đường dẫn đến file JSON
     public data data;
 
-
-
-
     public TMP_Text idTexts1;
     public TMP_Text scoreTexts1;
 
