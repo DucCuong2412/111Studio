@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class loithoai : MonoBehaviour
 {
-   public float time = 0f,time1;
-    public GameObject panel,Boss;
+    float time = 0f,time1;
+    public GameObject panel;
     public TextMeshProUGUI text;
     public HealthBossAn bossAn;
     public int count = 0;  // Bắt đầu với giá trị 0
@@ -69,25 +69,39 @@ public class loithoai : MonoBehaviour
             isRuning = false ;
             panel.SetActive(false);  
             count = 0;
+            time = Time.deltaTime ;
         }
         if( bossAn.currentHealth <=0)
         {
             time1 += Time.deltaTime;
-            Debug.Log("thoi gian boss da chet" + time1);
-            
             text.text = text6.ToString();
-            if (time >= 2)
+            if (time1 >= 2)
             {
                 panel.SetActive(true);
                 isRuning = true;
+            }if(time1 >= 5)
+            {
+                text.text = text7.ToString();
+            }
+            if (time1 >= 8)
+            {
+                panel.SetActive(false);
             }
         }
 
-        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 50 ) 
+        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 80 ) 
         {
-
+            //sound text3
         }
- 
-       
+        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 50)
+        {
+            //sound text4
+        }
+        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 30)
+        {
+            //sound text5
+        }
+
+
     }
 }
