@@ -9,8 +9,9 @@ public class loithoai : MonoBehaviour
     float time = 0f,time1;
     public GameObject panel,Boss;
     public TextMeshProUGUI text;
+    public HealthBossAn bossAn;
     public int count = 0;  // Bắt đầu với giá trị 0
-  
+    private bool isRuning = false;
 
     [Header("thoại")]
     public string text1 = " Ngươi đã đến rồi à!";
@@ -37,7 +38,7 @@ public class loithoai : MonoBehaviour
         
         time += Time.deltaTime;
         
-        if (Input.GetKeyUp(KeyCode.E) )
+        if (Input.GetKeyUp(KeyCode.E) && isRuning )
         {
             count++;  
         }
@@ -52,24 +53,26 @@ public class loithoai : MonoBehaviour
         {
             text.text = text1a;
             count = 1;
-            
+            isRuning = true;
         }
 
         if ((time >= 7f || count >= 2) )
         {
             text.text = text2;  
-             
+            isRuning = true ;
             count=2; 
             
         }
 
         if ((time >= 9f || count >= 3) )
         {
+            isRuning = false ;
             panel.SetActive(false);  
-            count = 3;
+            count = 0;
         }
 
-        if(Boss == null  && count >=4)
+
+        if(bossAn.currentHealth == 0 && Boss != null)
         {
             time1 += Time.deltaTime;
             panel.SetActive(true);
@@ -78,6 +81,11 @@ public class loithoai : MonoBehaviour
             {
                 panel.SetActive(false);
             }
+        }
+
+        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 50 ) 
+        {
+
         }
  
        

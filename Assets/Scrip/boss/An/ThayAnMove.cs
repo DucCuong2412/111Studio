@@ -33,51 +33,50 @@ public class ThayAnMove : StateMachineBehaviour
     {
         
         flipboss.LookatPlayer();
-        
-        Vector2 target = new Vector2(player.position.x, rb.position.y);
-        Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.deltaTime);
-        rb.position = newPos;
-        Debug.Log("New Position: " + newPos);
         float distance = Vector2.Distance(player.position, rb.position);
 
-        Debug.Log("khonag cach"+distance);
-        if (distance <= atkRange && atkRange != 0)
+        if (distance < 25)
         {
-
-            timer += Time.deltaTime;
-            if (timer >=3) 
+            if (distance <= atkRange && atkRange != 0)
             {
-                if (distance <= 30)
-                {
-                    RandomAtk = UnityEngine.Random.Range(0, 2);
 
-                }
-                if (RandomAtk == 0)
+                timer += Time.deltaTime;
+                if (timer >= 3)
                 {
-                    animator.SetTrigger("atk2");
+                    if (distance <= 20)
+                    {
+                        RandomAtk = UnityEngine.Random.Range(0, 2);
+
+                    }
+                    if (RandomAtk == 0)
+                    {
+                        animator.SetTrigger("atk2");
+                    }
+                    else
+                    {
+                        animator.SetTrigger("atk1");
+                    }
+                    timer = 0f;
                 }
-                else
+                if (timer >= 2 && distance <= 5)
                 {
-                    animator.SetTrigger("atk1");
-                }
-                timer = 0f;
-            }if(timer>= 2 && distance <=5)
-            {
-                if(distance <= 5 && distance >=4 )
-                {
-                    
+                    if (distance <= 5 && distance >= 4)
+                    {
+
                         animator.SetTrigger("atk3");
                         shoot.tuluc();
                         timer = 0f;
+                    }
+                    if (distance <= 3)
+                    {
+                        animator.SetTrigger("atk4");
+                        timer = 0f;
+                    }
                 }
-                if (distance <= 3)
-                {
-                    animator.SetTrigger("atk4");
-                    timer = 0f;
-                }  
-            }
 
+            }
         }
+        
         
     }
     public void performaAtk()

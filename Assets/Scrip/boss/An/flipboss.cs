@@ -21,7 +21,7 @@ public class flipboss : MonoBehaviour
         if (transform.position.x < player.position.x && isFliped)
         {
             transform.localScale = flipped;
-            transform.Rotate(0f, 0f, 0f);
+            transform.Rotate(0f, 180f, 0f);
             isFliped = false; 
         }
         else if (transform.position.x > player.position.x && !isFliped)
