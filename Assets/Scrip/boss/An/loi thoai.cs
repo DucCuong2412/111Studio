@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class loithoai : MonoBehaviour
 {
-    float time = 0f,time1;
+   public float time = 0f,time1;
     public GameObject panel,Boss;
     public TextMeshProUGUI text;
     public HealthBossAn bossAn;
@@ -42,21 +42,21 @@ public class loithoai : MonoBehaviour
         {
             count++;  
         }
-        if (time >= 3f)
+        if (time >= 2f)
         {
             panel.SetActive(true);
             text.text = text1;  
             
         }
 
-        if ((time >= 5f || count >= 1) )
+        if ((time >= 4f || count >= 1) )
         {
             text.text = text1a;
             count = 1;
             isRuning = true;
         }
 
-        if ((time >= 7f || count >= 2) )
+        if ((time >= 6f || count >= 2) )
         {
             text.text = text2;  
             isRuning = true ;
@@ -70,16 +70,16 @@ public class loithoai : MonoBehaviour
             panel.SetActive(false);  
             count = 0;
         }
-
-
-        if(bossAn.currentHealth == 0 && Boss != null)
+        if( bossAn.currentHealth <=0)
         {
             time1 += Time.deltaTime;
-            panel.SetActive(true);
+            Debug.Log("thoi gian boss da chet" + time1);
+            
             text.text = text6.ToString();
-            if (time >= 3)
+            if (time >= 2)
             {
-                panel.SetActive(false);
+                panel.SetActive(true);
+                isRuning = true;
             }
         }
 

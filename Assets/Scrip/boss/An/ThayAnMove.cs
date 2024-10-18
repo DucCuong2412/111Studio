@@ -21,7 +21,7 @@ public class ThayAnMove : StateMachineBehaviour
   
     override public void OnStateEnter(Animator animator, AnimatorStateInfo animatorState, int layerIndex)
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindGameObjectWithTag("takedame").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         flipboss = animator.GetComponent<flipboss>();
         shoot = animator.GetComponent <shootAn>();
@@ -35,8 +35,11 @@ public class ThayAnMove : StateMachineBehaviour
         flipboss.LookatPlayer();
         float distance = Vector2.Distance(player.position, rb.position);
 
-        if (distance < 25)
+        if (distance < 30)
         {
+            Vector2 target = new Vector2(player.position.x, rb.position.y);
+            Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.deltaTime);
+            rb.position = newPos;
             if (distance <= atkRange && atkRange != 0)
             {
 

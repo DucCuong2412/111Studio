@@ -13,7 +13,7 @@ public class shootAn : MonoBehaviour
     
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
+        player = GameObject.FindGameObjectWithTag("takedame");
     }
     public  void atk1()
     {

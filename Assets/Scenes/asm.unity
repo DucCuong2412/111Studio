@@ -7083,6 +7083,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6507256721452908610, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
+      propertyPath: health
+      value: 
+      objectReference: {fileID: 501890938}
+    - target: {fileID: 6507256721452908610, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
       propertyPath: _slider
       value: 
       objectReference: {fileID: 968933967}
@@ -7271,6 +7275,14 @@ PrefabInstance:
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640381491025202443, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 4640381491025202443, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.54
       objectReference: {fileID: 0}
     - target: {fileID: 5368588336449951107, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Size.x

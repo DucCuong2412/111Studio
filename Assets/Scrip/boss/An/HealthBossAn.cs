@@ -10,6 +10,7 @@ public class HealthBossAn : MonoBehaviour
     public float maxheal = 100f;
     public float currentHealth;
     Animator animator;
+    public GameObject health;
     void Start()
     {
         _slider.maxValue = maxheal;
@@ -41,12 +42,19 @@ public class HealthBossAn : MonoBehaviour
     }
     public void die()
     {
-        if(currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             animator.SetTrigger("dead");
-            Destroy(gameObject, 1.8f);
+            StartCoroutine(Delay());
         }
-       
+
+        IEnumerator Delay()
+        {
+            yield return new WaitForSeconds(1.5f);
+            health.SetActive(false);
+            this.gameObject.SetActive(false);
+        }
+
     }
     
-}
+}   

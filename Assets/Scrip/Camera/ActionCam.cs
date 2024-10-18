@@ -13,7 +13,7 @@ public class ActionCam : MonoBehaviour
 
     private void Start()
     {
-        boss.SetActive(false);
+       
         timer = 10;
         healthBoss.SetActive(false);
         wall.SetActive(false);
@@ -41,7 +41,7 @@ public class ActionCam : MonoBehaviour
             healthBoss.SetActive(true);
             wall.SetActive(true);
             CameraCinematic.SwitchCamera(camboss);
-            boss.SetActive(true);
+            
             
         }
         
