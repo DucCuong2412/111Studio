@@ -32,10 +32,7 @@ public class Player_controler : MonoBehaviour
     public float dashDistance = 10f;
     public float dashSpeed = 30f;
     private bool isDashing = false;
-
-    // Tham chiếu đến trigger dừng dash
-    public GameObject dashTrigger;
-
+    public bool checkDash=true; 
     private void Awake()
     {
         maxheal = scriptable.heal;
@@ -61,7 +58,7 @@ public class Player_controler : MonoBehaviour
         {
             Vector2 vt = transform.localScale;
             trai_phai = Input.GetAxis("Horizontal");
-            if (!isDashing) // Ngăn di chuyển bình thường khi dash
+            if (!isDashing) // Ngăn di chuyển bình thường khi đang lướt
             {
                 rg.velocity = new Vector2(trai_phai * speed, rg.velocity.y);
             }
@@ -69,7 +66,11 @@ public class Player_controler : MonoBehaviour
 
             onjump();
             atk();
-            dash(); 
+            if (checkDash == true)
+            {
+                dash();
+
+            }
             die();
         }
         else
@@ -79,6 +80,14 @@ public class Player_controler : MonoBehaviour
             {
                 panelDead.SetActive(true);
             }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("tilemap") && isDashing)
+        {
+            EndDash(); // Dừng dash khi va chạm với tilemap
         }
     }
 
@@ -198,14 +207,8 @@ public class Player_controler : MonoBehaviour
         }
     }
 
-    void EndDash()
+    public  void EndDash()
     {
         isDashing = false;
-    }
-
-    // Dừng lướt từ DashTrigger
-    public void StopDash()
-    {
-        EndDash();
     }
 }
