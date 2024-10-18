@@ -8,16 +8,13 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
-    public Slider healthSlider;
-    public float maxhealth;
-    public float currentHealth;
+    public Slider _slider;
+    private float maxheal;
     Animator animator;
    
     void Start()
     {
-        healthSlider.maxValue = maxhealth;
-        currentHealth = maxhealth;
-        healthSlider.value = currentHealth;
+  
         animator = GetComponent<Animator>();
         
     }
@@ -25,7 +22,7 @@ public class Health : MonoBehaviour
    
     void Update()
     {
-        healthSlider.value = currentHealth;
+      
         die();
 
         
@@ -34,18 +31,13 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("atk"))
         {
-            TakeDamage(1);
+           _slider.value--;
         }
     }
-    public void TakeDamage(float damage)
-    {
-        currentHealth -= damage;
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxhealth);
-        healthSlider.value = currentHealth;
-    }
+  
     public void die()
     {
-        if(currentHealth <= 0)
+        if(_slider.value == 0)
         {
             animator.SetTrigger("die");
             Destroy(gameObject, 1.5f);
