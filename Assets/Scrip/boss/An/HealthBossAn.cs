@@ -11,6 +11,7 @@ public class HealthBossAn : MonoBehaviour
     public float currentHealth;
     Animator animator;
     public GameObject health;
+    public GameObject spawn_boom, doow_wwin;
     void Start()
     {
         _slider.maxValue = maxheal;
@@ -23,6 +24,10 @@ public class HealthBossAn : MonoBehaviour
     {
         die();
         _slider.value = currentHealth;
+        if (_slider.value == 49)
+        {
+            spawn_boom.SetActive(true);
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D collision)
@@ -31,6 +36,11 @@ public class HealthBossAn : MonoBehaviour
         {
             TakeDamage(1);
             
+        }
+        if (collision.gameObject.CompareTag("chieudacbiet"))
+        {
+            TakeDamage(5);
+
         }
     }
 
@@ -42,18 +52,22 @@ public class HealthBossAn : MonoBehaviour
     }
     public void die()
     {
-        if (currentHealth <= 0)
+        if (_slider.value == 0)
         {
             animator.SetTrigger("dead");
             StartCoroutine(Delay());
+            spawn_boom.SetActive(false);
+            doow_wwin.SetActive(true);
+
         }
 
         IEnumerator Delay()
         {
-            yield return new WaitForSeconds(1.5f);
+            yield return new WaitForSeconds(2f);
             health.SetActive(false);
             this.gameObject.SetActive(false);
         }
+  
 
     }
     

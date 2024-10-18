@@ -31,7 +31,7 @@ public class spawn : MonoBehaviour
             count++;
             timer = 0;
         }
-        if (count == 5 )
+        if (count == 10 )
         {
         List<Transform> spawnPoints = new List<Transform> { spanw1, spanw2, spanw3, spanw4, spanw5 };
 

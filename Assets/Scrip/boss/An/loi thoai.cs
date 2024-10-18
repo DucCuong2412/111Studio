@@ -100,21 +100,21 @@ public class loithoai : MonoBehaviour
         if (bossAn.currentHealth == 0)
         {
             time1 += Time.deltaTime;
-            if ((time > 1f) && !hasPlayedSound6)
+            if ((time1 > 1f) && !hasPlayedSound6)
             {
                 text.text = text6.ToString();
                 hasPlayedSound6 = true;
                 AudioManager.instance.sound_an6();
 
             }
-            if ((time>4f)&& !hasPlayedSound7)
+            if ((time1>3f)&& !hasPlayedSound7)
             {
                 text.text = text6.ToString();
                 hasPlayedSound7=true;
                 AudioManager.instance.sound_an7();
 
             }
-            if (time > 7f && !hasPlayedSound8){
+            if (time1 > 5f && !hasPlayedSound8){
                 text.text = text7.ToString();
                 AudioManager.instance.sound_an8();
                 hasPlayedSound8 = true;
@@ -126,17 +126,17 @@ public class loithoai : MonoBehaviour
             }
         }
 
-        if (bossAn.currentHealth>=40||bossAn.currentHealth<=45  && !hasPlayerSound4Angain)
+        if ((bossAn.currentHealth>=40&&bossAn.currentHealth<45 )&& !hasPlayerSound4Angain)
         {
             AudioManager.instance.sound_an4();
             hasPlayerSound4Angain = true;
         }
-        if (bossAn.currentHealth==30 || bossAn.currentHealth <= 35 && !hasPlayerSound3Angain)
+        if (bossAn.currentHealth==30   && !hasPlayerSound3Angain)
         {
             AudioManager.instance.sound_an3();
             hasPlayerSound3Angain = true;
         }
-        if (bossAn.currentHealth==20 || bossAn.currentHealth <= 25 && !hasPlayerSound5Angain)
+        if (bossAn.currentHealth==20  && !hasPlayerSound5Angain)
         {
             AudioManager.instance.sound_an5();
             hasPlayerSound5Angain = true;
