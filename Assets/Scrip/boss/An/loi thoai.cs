@@ -1,16 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using JetBrains.Annotations;
+using System.Collections;
+using System.Threading;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class loithoai : MonoBehaviour
 {
-    float time = 0f,time1;
+    float time = 0f, time1;
     public GameObject panel;
     public TextMeshProUGUI text;
     public HealthBossAn bossAn;
-    public int count = 0;  // Bắt đầu với giá trị 0
+    public int count = 0;
     private bool isRuning = false;
 
     [Header("thoại")]
@@ -27,81 +27,120 @@ public class loithoai : MonoBehaviour
     public string text6 = "Ngươi đã thắng";
     public string text7 = "Ngươi cũng nên tỉnh lại thôi";
 
+    private bool hasPlayedSound1 = false;
+    private bool hasPlayedSound2 = false;
+    private bool hasPlayedSound3 = false;
+    private bool hasPlayedSound4 = false;
+    private bool hasPlayedSound5 = false;
+
+    private bool hasPlayedSound6 = false;
+    private bool hasPlayedSound7 = false;
+    private bool hasPlayedSound8 = false;
+
+    private bool hasPlayerSound3Angain = false;
+    private bool hasPlayerSound4Angain = false;
+    private bool hasPlayerSound5Angain = false;
+
+
+
+
+
+    public int count_text_die = 0;
+
     void Start()
     {
-        
-        panel.SetActive(false); 
+        panel.SetActive(false);
     }
 
     void Update()
     {
-        
         time += Time.deltaTime;
-        
-        if (Input.GetKeyUp(KeyCode.E) && isRuning )
+  
+
+        if (Input.GetKeyUp(KeyCode.E) && isRuning)
         {
-            count++;  
-        }
-        if (time >= 2f)
-        {
-            panel.SetActive(true);
-            text.text = text1;  
-            
+            count++;
         }
 
-        if ((time >= 4f || count >= 1) )
+        if (time >= 2f && !hasPlayedSound1)
+        {
+            panel.SetActive(true);
+            text.text = text1;
+            AudioManager.instance.sound_an1();
+            hasPlayedSound1 = true;
+        }
+
+        if ((time >= 5f || count == 1) && !hasPlayedSound2)
         {
             text.text = text1a;
             count = 1;
             isRuning = true;
+            AudioManager.instance.sound_an2();
+            hasPlayedSound2 = true;
         }
 
-        if ((time >= 6f || count >= 2) )
+        if ((time >= 10f || count == 2) && !hasPlayedSound3)
         {
-            text.text = text2;  
-            isRuning = true ;
-            count=2; 
-            
+            text.text = text2;
+            isRuning = true;
+            count = 2;
+            AudioManager.instance.sound_an3();
+            hasPlayedSound3 = true;
         }
 
-        if ((time >= 9f || count >= 3) )
+        if ((time >= 15f || count == 3) && !hasPlayedSound4)
         {
-            isRuning = false ;
-            panel.SetActive(false);  
-            count = 0;
-            time = Time.deltaTime ;
+            isRuning = false;
+            panel.SetActive(false);
+            time = Time.deltaTime;
+            AudioManager.instance.sound_an4();
+            hasPlayedSound4 = true;
         }
-        if( bossAn.currentHealth <=0)
+        
+        if (bossAn.currentHealth == 0)
         {
             time1 += Time.deltaTime;
-            text.text = text6.ToString();
-            if (time1 >= 2)
+            if ((time > 1f) && !hasPlayedSound6)
             {
-                panel.SetActive(true);
-                isRuning = true;
-            }if(time1 >= 5)
-            {
-                text.text = text7.ToString();
+                text.text = text6.ToString();
+                hasPlayedSound6 = true;
+                AudioManager.instance.sound_an6();
+
             }
-            if (time1 >= 8)
+            if ((time>4f)&& !hasPlayedSound7)
+            {
+                text.text = text6.ToString();
+                hasPlayedSound7=true;
+                AudioManager.instance.sound_an7();
+
+            }
+            if (time > 7f && !hasPlayedSound8){
+                text.text = text7.ToString();
+                AudioManager.instance.sound_an8();
+                hasPlayedSound8 = true;
+            }
+   
+            if (time1 >= 9)
             {
                 panel.SetActive(false);
             }
         }
 
-        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 80 ) 
+        if (bossAn.currentHealth>=40||bossAn.currentHealth<=45  && !hasPlayerSound4Angain)
         {
-            //sound text3
+            AudioManager.instance.sound_an4();
+            hasPlayerSound4Angain = true;
         }
-        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 50)
+        if (bossAn.currentHealth==30 || bossAn.currentHealth <= 35 && !hasPlayerSound3Angain)
         {
-            //sound text4
+            AudioManager.instance.sound_an3();
+            hasPlayerSound3Angain = true;
         }
-        if ((bossAn.currentHealth / bossAn.maxheal) * 100 < 30)
+        if (bossAn.currentHealth==20 || bossAn.currentHealth <= 25 && !hasPlayerSound5Angain)
         {
-            //sound text5
+            AudioManager.instance.sound_an5();
+            hasPlayerSound5Angain = true;
         }
-
-
+      
     }
 }
