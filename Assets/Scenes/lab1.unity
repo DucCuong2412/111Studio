@@ -26940,14 +26940,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 525134051343924488, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1300132731006557572, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Layer
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.x
       value: 153.21
@@ -26988,22 +26980,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1487730593821621302, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Size.x
-      value: 0.7886658
-      objectReference: {fileID: 0}
-    - target: {fileID: 1487730593821621302, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Size.y
-      value: 0.23793453
-      objectReference: {fileID: 0}
-    - target: {fileID: 1487730593821621302, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.35942078
-      objectReference: {fileID: 0}
-    - target: {fileID: 1487730593821621302, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.07007831
-      objectReference: {fileID: 0}
     - target: {fileID: 2419552339335062504, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: _slider
       value: 
@@ -27020,33 +26996,9 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 712653889}
-    - target: {fileID: 3578002774437503683, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_FlipX
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5368588336449951107, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Size.x
-      value: 0.9277191
-      objectReference: {fileID: 0}
-    - target: {fileID: 5368588336449951107, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.30321503
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057189077604885535, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6057189077604885535, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
-      propertyPath: m_TagString
-      value: takedame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

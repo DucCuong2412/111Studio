@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7241316426010833624}
   - component: {fileID: 1487730593821621302}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: onGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.3571701, y: -0.15825835}
+  m_Offset: {x: -0.35942078, y: -0.07007831}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -75,7 +75,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6115875, y: 0.4142946}
+  m_Size: {x: 0.7886658, y: 0.23793453}
   m_EdgeRadius: 0
 --- !u!1 &1300132731006557572
 GameObject:
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 5368588336449951107}
   - component: {fileID: 2419552339335062504}
   - component: {fileID: 997233418244332461}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -316,8 +316,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.271698, y: 1.1286254}
-  m_Size: {x: 0.97943115, y: 2.2465553}
+  m_Offset: {x: 0.0446949, y: 0.04642439}
+  m_Size: {x: 1.141285, y: 2.999999}
   m_Direction: 0
 --- !u!114 &2419552339335062504
 MonoBehaviour:
@@ -368,9 +368,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4640381491025202443}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: dame
-  m_TagString: player_givedame
+  m_TagString: takedame
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
