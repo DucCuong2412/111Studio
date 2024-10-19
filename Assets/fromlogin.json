@@ -35,6 +35,24 @@
             "heal": 20,
             "speed": 10,
             "count": 5
+        },
+        {
+            "id": "tiennam",
+            "password": "1",
+            "againpasss": "1",
+            "hightScore1": "0",
+            "hightScore2": "0",
+            "hightScore3": "0",
+            "hightScore4": "0",
+            "hightScoreASM": "0",
+            "checklevel1": 0,
+            "checklevel2": 0,
+            "checklevel3": 0,
+            "checklevel4": 0,
+            "asm": 0,
+            "heal": 20,
+            "speed": 10,
+            "count": 5
         }
     ]
 }

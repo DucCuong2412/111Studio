@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public Slider _slider;
-    private float maxheal;
+    public float maxheal;
     Animator animator;
    
     void Start()

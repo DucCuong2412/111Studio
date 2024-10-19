@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1591122740184453523}
   - component: {fileID: 1976023692237501292}
   - component: {fileID: 6095358546067883250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Basurero
   m_TagString: tilemap
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3939640959243198815}
   - component: {fileID: 3322509196729739764}
   - component: {fileID: 7932678648038376021}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: tree3
   m_TagString: tilemap
   m_Icon: {fileID: 0}

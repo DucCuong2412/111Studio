@@ -10,7 +10,7 @@ public class MoveShadow : MonoBehaviour
     Animator animator;
     float timer;
     public Transform player;
-    
+    public float Distance = 0;  
     public bool isFliped = false;
 
     void Start()
@@ -26,10 +26,8 @@ public class MoveShadow : MonoBehaviour
         
         float distanceX = Mathf.Abs(transform.position.x - player.transform.position.x);
         float distancey = Mathf.Abs(transform.position.y - player.transform.position.y);
-        
-        
 
-            if (distanceX < 20 && distancey <3)
+            if (distanceX < Distance && distancey <3)
             {
                 timer += Time.deltaTime;
                 if (timer > 4) 
