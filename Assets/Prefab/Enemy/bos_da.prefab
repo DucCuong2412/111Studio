@@ -367,11 +367,11 @@ MonoBehaviour:
   khoangcach: 0
   speed: 5
   anim: {fileID: 7496327019942593359}
-  score: 0
   ScoreLab: {fileID: 7131747611785544205, guid: 09f6b9d79616cd34f8a1a67190d6dfab, type: 3}
   _slider: {fileID: 3237730013224731509}
   maxheal: 2
   have_score: 0
+  sound_die: 0
 --- !u!70 &7465954814708395393
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 5683678939953647847}
   m_Layer: 0
   m_Name: atk
-  m_TagString: atk
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

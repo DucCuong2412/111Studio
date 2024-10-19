@@ -10,11 +10,11 @@ public class Boss_da : MonoBehaviour
     public float khoangcach;
     public float speed = 5f;
     public Animator anim;
-    public bool score=false;
     public GameObject ScoreLab;
     public Slider _slider;
     public float maxheal=2;
     public bool have_score=false;
+    public bool sound_die=false;
 
 
 
@@ -79,10 +79,16 @@ public class Boss_da : MonoBehaviour
     {
         if (_slider.value == 0)
         {
+            if (!sound_die)
+            {
             anim.SetTrigger("die");
+                AudioManager.instance.sound_bot_die();
+                sound_die = true;
+
+            }
             Destroy(gameObject, 2f);
 
-            if (score == true && !have_score)
+            if (!have_score)
             {
 
                 Vector2 scorePosition = new Vector2(transform.position.x , transform.position.y + 3f);

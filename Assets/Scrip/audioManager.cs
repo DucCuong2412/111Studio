@@ -29,6 +29,9 @@ public class AudioManager : MonoBehaviour
 
     //score
     public AudioClip asm_lab;
+    //bot
+    public AudioClip bot_die;
+
 
     //sound boss An
     public AudioClip an1;
@@ -121,7 +124,11 @@ public class AudioManager : MonoBehaviour
     {
         sfxSource.PlayOneShot(asm_lab);
     }
-
+    //bot_die
+    public void sound_bot_die()
+    {
+        sfxSource.PlayOneShot(bot_die);
+    }
 
 
 

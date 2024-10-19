@@ -111,6 +111,10 @@ public class Player_controler : MonoBehaviour
         {
             _slider.value--;
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            _slider.value--;
+        }
         if (collision.gameObject.CompareTag("trap"))
         {
             _slider.value--;
