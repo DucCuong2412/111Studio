@@ -18,14 +18,9 @@ public class Health : MonoBehaviour
         animator = GetComponent<Animator>();
         
     }
-
-   
     void Update()
     {
-      
         die();
-
-        
     }
     public void OnTriggerEnter2D(Collider2D collision)
     {
