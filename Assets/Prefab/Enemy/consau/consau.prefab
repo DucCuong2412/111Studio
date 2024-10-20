@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6033877131156043260}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bulletPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6797205602080936645}
   - component: {fileID: 2682864995133010189}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 2712786275465478910}
   - component: {fileID: 2188134634946977982}
   - component: {fileID: 9157505412777670793}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,9 +211,9 @@ GameObject:
   - component: {fileID: 1840135758656028492}
   - component: {fileID: 8851997892174714868}
   - component: {fileID: 8096083097101524099}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: consau
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,6 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _slider: {fileID: 2682864995133010189}
+  maxheal: 0
 --- !u!1 &6712224708020355028
 GameObject:
   m_ObjectHideFlags: 0
@@ -422,7 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6987642565301399855}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -461,7 +462,7 @@ GameObject:
   - component: {fileID: 4658761778826105953}
   - component: {fileID: 1236566473237688749}
   - component: {fileID: 2006974592937054212}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -562,7 +563,7 @@ GameObject:
   - component: {fileID: 8937786148926380674}
   - component: {fileID: 6681981902276262528}
   - component: {fileID: 564236316200576578}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}

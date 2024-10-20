@@ -905,6 +905,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: thangmay (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8925274600540539807, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+      propertyPath: c1
+      value: 
+      objectReference: {fileID: 1945957152}
+    - target: {fileID: 8925274600540539807, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+      propertyPath: c2
+      value: 
+      objectReference: {fileID: 1608545002}
+    - target: {fileID: 8925274600540539807, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+      propertyPath: door
+      value: 
+      objectReference: {fileID: 1756888232}
+    - target: {fileID: 8925274600540539807, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 2119952442}
+    - target: {fileID: 8925274600540539807, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+      propertyPath: confiner
+      value: 
+      objectReference: {fileID: 1266517628}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17758,7 +17778,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.9
+      value: 7.43
       objectReference: {fileID: 0}
     - target: {fileID: 1300427445759058756, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -23090,7 +23110,7 @@ Transform:
   m_GameObject: {fileID: 1266517625}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 96.4, y: 7.9, z: -10}
+  m_LocalPosition: {x: 96.4, y: 7.43, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -74678,6 +74698,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+--- !u!1 &1756888232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7716360115053841337, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
+  m_PrefabInstance: {fileID: 1756888231}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1756888233 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3124940450975615367, guid: 2c1890e3290e02f42957da7edd9caba7, type: 3}
@@ -76626,7 +76651,7 @@ Transform:
   m_GameObject: {fileID: 1931930133}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.502075, y: -124.69828, z: -9.708443}
+  m_LocalPosition: {x: -15.502075, y: -125.16828, z: -9.708443}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

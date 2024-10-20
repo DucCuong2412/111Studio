@@ -9,13 +9,14 @@ public class MoveEnemy : MonoBehaviour
     public float speed = 1f;
     public Animator animator;
 
-
+    float timeSkill;
     public bool isRuning = false;
     public bool isAttacking = false;
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponentInChildren<Animator>();
+        timeSkill = 2f;
     }
 
     // Update is called once per frame
@@ -23,30 +24,48 @@ public class MoveEnemy : MonoBehaviour
     {
         float DistanceX = Mathf.Abs(Enemy.transform.position.x - Player.transform.position.x);
         float DistanceY = Mathf.Abs(Enemy.transform.position.y - Player.transform.position.y);
-
-        Vector3 targetPos = Vector3.MoveTowards(transform.position, Player.transform.position, speed * Time.deltaTime);
         
+        Debug.Log(timeSkill);
+
+
         if (Player != null)
         {
             LookatPlayer();
-            if (DistanceX  >4&& DistanceX <=10 && DistanceY<5 && !isAttacking ) 
+            if (!isAttacking)
             {
-                isRuning = true;
-                transform.position = targetPos;
-                animator.SetTrigger("run");
+                Vector3 targetPos = Vector3.MoveTowards(transform.position, Player.transform.position, speed * Time.deltaTime);
                 
+
+                if (DistanceX > 3 && DistanceX <= 10 && DistanceY < 5)
+                {
+                   
+                    isRuning = true;
+                    transform.position = targetPos;
+                    animator.SetTrigger("run");
+                }
+                else
+                {
+                    isRuning = false;
+                }
             }
-            else
+            if ( DistanceY <= 2 && DistanceX <= 4 && !isRuning)
             {
-                isRuning=false;
+                timeSkill -= Time.deltaTime;
+                timeSkill = Mathf.Abs(timeSkill);
+                if (timeSkill <  1)
+                {
+                    
+                    animator.SetTrigger("atk");
+                    isAttacking = true;
+                    timeSkill = 2;
+                }
+                else
+                {
+                    isAttacking = false;
+                }
             }
-            if (DistanceY >1 && DistanceY <=2 && DistanceX < 5 && !isRuning)
-            {
-                animator.SetTrigger("atk");
-                isAttacking = true;
-            }
-            
-           
+
+
         }
     }
     
@@ -64,5 +83,12 @@ public class MoveEnemy : MonoBehaviour
 
             Enemy.transform.rotation = Quaternion.Euler(0, 180, 0); 
         }
+    }
+
+    public void atk()
+    {
+        animator.SetTrigger("atk");
+        isAttacking = true;
+        
     }
 }

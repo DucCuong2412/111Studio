@@ -30,10 +30,11 @@ public class MoveShadow : MonoBehaviour
             if (distanceX < Distance && distancey <3)
             {
                 timer += Time.deltaTime;
-                if (timer > 4) 
+                if (timer > 3) 
                 {
-                animator.SetTrigger("atk");
-                LookatPlayer();
+                    animator.SetTrigger("atk");
+                    LookatPlayer();
+                    timer = 0;
                 }
                 
             }

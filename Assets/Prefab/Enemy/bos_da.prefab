@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6078988216333904966}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47,7 +47,7 @@ GameObject:
   - component: {fileID: 7024201615463835919}
   - component: {fileID: 893753577423183382}
   - component: {fileID: 402616497974237758}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 662967261457748632}
   - component: {fileID: 7355894025059628691}
   - component: {fileID: 1301990418278136427}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: heal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 6675914473189953737}
   - component: {fileID: 5059686878605252709}
   - component: {fileID: 7465954814708395393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: bos_da
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832579354031498490}
   - component: {fileID: 3237730013224731509}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 3326222295307401234}
   - component: {fileID: 3688581578080484031}
   - component: {fileID: 1741439046868035113}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -581,7 +581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4491907676546245002}
   - component: {fileID: 5683678939953647847}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: atk
   m_TagString: Enemy
   m_Icon: {fileID: 0}
