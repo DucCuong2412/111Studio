@@ -17,6 +17,7 @@ TagManager:
   - atkboss
   - boss
   - takedame
+  - Enemy
   layers:
   - Default
   - TransparentFX

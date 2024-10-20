@@ -1,11 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
-using System.Xml.Serialization;
+﻿
 using TMPro;
 using Unity.Mathematics;
-using Unity.VisualScripting;
-using UnityEditor.XR;
+
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -112,6 +108,10 @@ public class Player_controler : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("atk"))
+        {
+            _slider.value--;
+        }
+        if (collision.gameObject.CompareTag("Enemy"))
         {
             _slider.value--;
         }
