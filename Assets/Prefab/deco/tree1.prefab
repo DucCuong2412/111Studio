@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4239210653497569837}
   - component: {fileID: 3257575803552805304}
   - component: {fileID: 611013281822661935}
-  - component: {fileID: 3781724619408192583}
+  - component: {fileID: 4826174139081107971}
   m_Layer: 9
   m_Name: tree1
   m_TagString: tilemap
@@ -73,9 +73,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 524635077
+  m_SortingLayer: 4
+  m_SortingOrder: 2
   m_Sprite: {fileID: 405857398, guid: 0d1a7aaafc8e3b44ca8f5e5885477c4f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -149,17 +149,39 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -0.19192505, y: 0.00004196167}
-  - {x: -0.22906494, y: 0.0431633}
-  - {x: 0.24072266, y: 0.056949615}
-  - {x: 0.20651245, y: -0.0033416748}
-  - {x: -0.1930542, y: 0.004184723}
+  - {x: 0.03703308, y: 0.0038585663}
+  - {x: -0.39842224, y: -0.0041065216}
+  - {x: -0.55433655, y: 0.19173622}
+  - {x: -0.62882996, y: 0.34928036}
+  - {x: -0.6528473, y: 0.5447397}
+  - {x: -0.58836365, y: 0.75413513}
+  - {x: -0.48155212, y: 0.9402876}
+  - {x: -0.35940552, y: 1.0233774}
+  - {x: -0.44766235, y: 1.3332558}
+  - {x: -0.45851135, y: 1.4669218}
+  - {x: -0.42749023, y: 1.5619059}
+  - {x: -0.2000885, y: 1.3714552}
+  - {x: -0.1556549, y: 1.5756311}
+  - {x: -0.06059265, y: 1.7628012}
+  - {x: 0.062316895, y: 1.5867252}
+  - {x: 0.10221863, y: 1.2815962}
+  - {x: 0.22573853, y: 1.4722986}
+  - {x: 0.34510803, y: 1.5601597}
+  - {x: 0.402359, y: 1.3750658}
+  - {x: 0.3294983, y: 1.0331688}
+  - {x: 0.399292, y: 1.0263567}
+  - {x: 0.5671387, y: 0.8372402}
+  - {x: 0.6176605, y: 0.67977905}
+  - {x: 0.6604767, y: 0.5224943}
+  - {x: 0.58880615, y: 0.22994995}
+  - {x: 0.42401123, y: 0.0004749298}
+  - {x: 0.0184021, y: 0.0058345795}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!58 &3781724619408192583
-CircleCollider2D:
+--- !u!61 &4826174139081107971
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -190,6 +212,16 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0039520264, y: 0.29590034}
+  m_Offset: {x: -0.029590607, y: 0.49096525}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.2890625, y: 1.7578125}
+    newSize: {x: 0.5136719, y: 0.8984375}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   serializedVersion: 2
-  m_Radius: 0.2884693
+  m_Size: {x: 0.9339676, y: 0.9819305}
+  m_EdgeRadius: 0

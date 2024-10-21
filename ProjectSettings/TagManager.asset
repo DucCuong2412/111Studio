@@ -9,7 +9,6 @@ TagManager:
   - trap
   - machine_stair
   - door
-  - fireball
   - score
   - bullet
   - player_givedame

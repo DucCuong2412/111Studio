@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1426052360165839320}
   m_Layer: 0
   m_Name: FireBall
-  m_TagString: fireball
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -184,4 +184,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newhitball: {fileID: 1539750638032180181, guid: fec1908a7409f6f4bb14e6b8e6cd38d2, type: 3}
+  rotate: 0
   force: 5
