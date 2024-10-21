@@ -138,7 +138,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4310222722296747815}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.00962963, y: 0.00962963, z: 0.00962963}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -370,7 +370,7 @@ MonoBehaviour:
   ScoreLab: {fileID: 7131747611785544205, guid: 09f6b9d79616cd34f8a1a67190d6dfab, type: 3}
   _slider: {fileID: 3237730013224731509}
   maxheal: 2
-  have_score: 0
+  have_score: 1
   sound_die: 0
 --- !u!70 &7465954814708395393
 CapsuleCollider2D:
@@ -581,7 +581,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4491907676546245002}
   - component: {fileID: 5683678939953647847}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: atk
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ Transform:
   m_GameObject: {fileID: 7707494539951518561}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04, y: -0.69, z: 0.6234838}
+  m_LocalPosition: {x: -0.04, y: -0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -635,7 +635,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.040990353, y: 0.17359412}
+  m_Offset: {x: -0.022823334, y: 0.17359412}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -646,5 +646,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.7273731, y: 0.8522494}
+  m_Size: {x: 4.0181046, y: 0.8522494}
   m_EdgeRadius: 0
