@@ -184,5 +184,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   newhitball: {fileID: 1539750638032180181, guid: fec1908a7409f6f4bb14e6b8e6cd38d2, type: 3}
-  rotate: 0
+  rotate: 180
   force: 5
