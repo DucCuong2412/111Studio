@@ -122,6 +122,7 @@ public class Player_controler : MonoBehaviour
         if (collision.gameObject.CompareTag("chieudacbiet"))
         {
             _slider.value -= 5;
+            Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("atkboss"))
         {
@@ -139,6 +140,7 @@ public class Player_controler : MonoBehaviour
         {
             checkJump = false;
         }
+    
     }
 
     void atk()

@@ -47,6 +47,16 @@ public class AudioManager : MonoBehaviour
     public AudioClip lap1;
     public AudioClip lap2;
 
+    //sound Boss Dinh
+    public AudioClip dinh1;
+    public AudioClip dinh2;
+    public AudioClip dinh3;
+    public AudioClip dinh4;
+    public AudioClip dinh5;
+    public AudioClip dinh_cc;
+
+
+
     private void Awake()
     {
         if (instance == null)
@@ -77,7 +87,7 @@ public class AudioManager : MonoBehaviour
     private void Update()
     {
 
-    
+
     }
     // chuc nang cua Menu
     //build music
@@ -117,7 +127,7 @@ public class AudioManager : MonoBehaviour
     }
     public void sounddash()
     {
-        sfxSource.PlayOneShot(dash); 
+        sfxSource.PlayOneShot(dash);
     }
     //lab
     public void sound_score()
@@ -186,5 +196,32 @@ public class AudioManager : MonoBehaviour
     {
         sfxSource.PlayOneShot(an8);
     }
+
+    public void sound_dinh1()
+    {
+        sfxSource.PlayOneShot(dinh1);
+    }
+    public void sound_dinh2()
+    {
+        sfxSource.PlayOneShot(dinh2);
+    }
+    public void sound_dinh3()
+    {
+        sfxSource.PlayOneShot(dinh3);
+    }
+    public void sound_dinh4()
+    {
+        sfxSource.PlayOneShot(dinh4);
+    }
+    public void sound_dinh5()
+    {
+        sfxSource.PlayOneShot(dinh5);
+    }
+    public void sound_dinhcc()
+    {
+        sfxSource.PlayOneShot(dinh_cc);
+    }
+
+
 
 }
