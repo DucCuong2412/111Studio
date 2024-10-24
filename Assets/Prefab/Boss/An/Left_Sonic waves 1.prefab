@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3314321983190723655}
   - component: {fileID: 7862541946761734360}
   - component: {fileID: 7151915272267060983}
-  - component: {fileID: 5575879653971011122}
-  m_Layer: 8
+  - component: {fileID: -8044833331492151162}
+  m_Layer: 0
   m_Name: Left_Sonic waves 1
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -149,7 +149,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.45804024, y: 0.040714502}
   m_Size: {x: 0.9617729, y: 2.081429}
   m_Direction: 0
---- !u!114 &5575879653971011122
+--- !u!114 &-8044833331492151162
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,8 +158,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3919818133875321354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8eb53e6c3931a87438d69f43c7cec45e, type: 3}
+  m_Script: {fileID: 11500000, guid: e2960c3b3eb2c9640b8d3e52bd5f996d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 0
   speed: 30

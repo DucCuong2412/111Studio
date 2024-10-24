@@ -13,8 +13,13 @@
             "checklevel2": 0,
             "checklevel3": 0,
             "checklevel4": 0,
+<<<<<<< HEAD
             "asm": 0,
             "heal": 25,
+=======
+            "asm": 2,
+            "heal": 30,
+>>>>>>> Nam3
             "speed": 10,
             "count": 0
         },
@@ -28,8 +33,13 @@
             "hightScore4": "0",
             "hightScoreASM": "0",
             "checklevel1": 1,
+<<<<<<< HEAD
             "checklevel2": 1,
             "checklevel3": 0,
+=======
+            "checklevel2": 0,
+            "checklevel3": 2,
+>>>>>>> Nam3
             "checklevel4": 0,
             "asm": 0,
             "heal": 24,
