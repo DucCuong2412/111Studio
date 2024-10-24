@@ -16914,7 +16914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 397040f1197e5dc4981395399b153df8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloud: {fileID: 2100000, guid: 045ca51d2bba3ab47a1e6eceb50d3343, type: 2}
+  cloud: {fileID: 2100000, guid: 68725eaf518976a4db67a12f581995d8, type: 2}
 --- !u!4 &2008319630
 Transform:
   m_ObjectHideFlags: 0
@@ -17028,7 +17028,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 68725eaf518976a4db67a12f581995d8, type: 2}
+  - {fileID: 2100000, guid: 12c7ba63c6822604f871a6f3d2834bd0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17119,7 +17119,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 045ca51d2bba3ab47a1e6eceb50d3343, type: 2}
+  - {fileID: 2100000, guid: 68725eaf518976a4db67a12f581995d8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
