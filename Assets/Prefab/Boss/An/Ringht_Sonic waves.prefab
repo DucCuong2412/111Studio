@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 3314321983190723655}
   - component: {fileID: 7862541946761734360}
   - component: {fileID: 7151915272267060983}
-  - component: {fileID: 3769512889044611066}
-  m_Layer: 8
+  - component: {fileID: 951721646686325123}
+  m_Layer: 0
   m_Name: Ringht_Sonic waves
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,13 +28,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3919818133875321354}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 25.08, y: -0.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!212 &3314321983190723655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -149,7 +149,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.45804024, y: 0.040714502}
   m_Size: {x: 0.9617729, y: 2.081429}
   m_Direction: 0
---- !u!114 &3769512889044611066
+--- !u!114 &951721646686325123
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,7 +158,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 3919818133875321354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2960c3b3eb2c9640b8d3e52bd5f996d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8eb53e6c3931a87438d69f43c7cec45e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timer: 0
   speed: 30

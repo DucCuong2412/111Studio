@@ -18,7 +18,7 @@ public class ThayAnMove : StateMachineBehaviour
   
     override public void OnStateEnter(Animator animator, AnimatorStateInfo animatorState, int layerIndex)
     {
-        player = GameObject.FindGameObjectWithTag("takedame").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator.GetComponent<Rigidbody2D>();
         flipboss = animator.GetComponent<flipboss>();
         shoot = animator.GetComponent <shootAn>();

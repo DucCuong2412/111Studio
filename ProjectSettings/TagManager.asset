@@ -75,3 +75,6 @@ TagManager:
   - name: Menu
     uniqueID: 1774535917
     locked: 0
+  - name: font menu
+    uniqueID: 1658504063
+    locked: 0

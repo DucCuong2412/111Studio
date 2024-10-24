@@ -13,7 +13,7 @@
             "checklevel2": 4,
             "checklevel3": 0,
             "checklevel4": 0,
-            "asm": 0,
+            "asm": 2,
             "heal": 30,
             "speed": 10,
             "count": 0
@@ -27,7 +27,7 @@
             "hightScore3": "0",
             "hightScore4": "0",
             "hightScoreASM": "0",
-            "checklevel1": 0,
+            "checklevel1": 1,
             "checklevel2": 0,
             "checklevel3": 2,
             "checklevel4": 0,
