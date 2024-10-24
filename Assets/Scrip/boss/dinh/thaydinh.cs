@@ -38,6 +38,7 @@ public class thaydinh : MonoBehaviour
     private bool hasPlayedSound4 = false;
     private bool hasPlayedSound5 = false;
     private bool hasPlayedSound_cc = false;
+    private bool hasScore = false;
 
     
     public float sound4 = 0;
@@ -197,7 +198,7 @@ public class thaydinh : MonoBehaviour
             if (_slider.value == 0)
             {
                 consong = false;
-                Instantiate(Item_lab, transform.position, Quaternion.identity);
+           
                 panel_boss_die.SetActive(true);
                 if(!hasPlayedSound_cc)
                 {
@@ -208,6 +209,17 @@ public class thaydinh : MonoBehaviour
                 text_chat.text = text_none.ToString();
                 anim.SetTrigger("die");
                 Destroy(gameObject, 3f);
+                if (!hasScore)
+                {
+                    for (int i = 0; i < 5; i++)
+                    {
+         
+                        Vector2 scorePossis = new Vector2(transform.position.x, transform.position.y + 2f);
+                        Instantiate(Item_lab, scorePossis, Quaternion.identity);
+                        hasScore = true;
+
+                    }
+                }
                 AudioManager.instance.sound_die();
                 boom.SetActive(false);
                 door_wingame.SetActive(true);

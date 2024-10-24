@@ -1,40 +1,40 @@
 {
     "accounts": [
         {
-            "id": "cuong",
+            "id": "cuong1",
             "password": "1",
             "againpasss": "1",
-            "hightScore1": "0",
-            "hightScore2": "1",
-            "hightScore3": "0",
-            "hightScore4": "0",
-            "hightScoreASM": "0",
-            "checklevel1": 2,
-            "checklevel2": 4,
+            "hightScore1": "10",
+            "hightScore2": "8",
+            "hightScore3": "8",
+            "hightScore4": "7",
+            "hightScoreASM": "9",
+            "checklevel1": 0,
+            "checklevel2": 0,
             "checklevel3": 0,
             "checklevel4": 0,
             "asm": 0,
-            "heal": 30,
+            "heal": 25,
             "speed": 10,
             "count": 0
         },
         {
-            "id": "tiennam",
+            "id": "fpoly",
             "password": "1",
             "againpasss": "1",
-            "hightScore1": "0",
-            "hightScore2": "0",
+            "hightScore1": "3",
+            "hightScore2": "5",
             "hightScore3": "0",
             "hightScore4": "0",
             "hightScoreASM": "0",
-            "checklevel1": 0,
-            "checklevel2": 0,
-            "checklevel3": 2,
+            "checklevel1": 1,
+            "checklevel2": 1,
+            "checklevel3": 0,
             "checklevel4": 0,
             "asm": 0,
-            "heal": 20,
-            "speed": 10,
-            "count": 5
+            "heal": 24,
+            "speed": 11,
+            "count": 0
         }
     ]
 }
