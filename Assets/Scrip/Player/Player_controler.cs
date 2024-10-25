@@ -119,7 +119,7 @@ public class Player_controler : MonoBehaviour
         {
             _slider.value--;
         }
-        if (collision.gameObject.CompareTag("chieudacbiet"))
+        if (collision.gameObject.CompareTag("dacbiet_Boss"))
         {
             _slider.value -= 5;
             Destroy(collision.gameObject);

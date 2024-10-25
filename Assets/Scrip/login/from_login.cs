@@ -35,7 +35,7 @@ public class login
         this.checklevel3 = 0;
         this.checklevel4 = 0;
         this.asm = 0;
-        this.heal = 20;
+        this.heal = 25;
         this.speed = 10;
         this.count = 5;
 

@@ -17,6 +17,7 @@ TagManager:
   - boss
   - takedame
   - Enemy
+  - dacbiet_Boss
   layers:
   - Default
   - TransparentFX

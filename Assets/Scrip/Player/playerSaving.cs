@@ -130,6 +130,8 @@ public class PlayerSaving : MonoBehaviour
         SceneManager.LoadScene(index);
         UpdateCheckLevel(data.account);
         SaveAccounts();
+        data.scoreee = 0;
+
     }
     public void update_speed(string accountId)
     {

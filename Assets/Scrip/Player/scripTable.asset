@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66fb716791b914b42bfd532f2a794598, type: 3}
   m_Name: scripTable
   m_EditorClassIdentifier: 
-  scoreee: 0
-  level: 5
-  account: fpoly
+  scoreee: 1
+  level: 4
+  account: cuong1
   password: 1
   checkscene: 0
   checklevel1: 0
@@ -22,5 +22,5 @@ MonoBehaviour:
   checklevel3: 0
   checklevel4: 0
   asm: 0
-  heal: 20
-  speed: 10
+  heal: 24
+  speed: 11

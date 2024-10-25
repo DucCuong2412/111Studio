@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7683643660839764750}
   m_Layer: 0
   m_Name: bulet_right
-  m_TagString: chieudacbiet
+  m_TagString: dacbiet_Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
