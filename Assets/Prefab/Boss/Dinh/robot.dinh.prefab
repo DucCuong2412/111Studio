@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 72654820238439738}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.21, y: 2.79, z: 0}
+  m_LocalPosition: {x: 3.42, y: 2.79, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -175,7 +175,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.027999878, y: 3.6021345}
+  m_Offset: {x: -0.05558014, y: 3.4504948}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -186,7 +186,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.9440002, y: 7.204269}
+  m_Size: {x: 4.565445, y: 6.9009895}
   m_EdgeRadius: 0
 --- !u!114 &4121498917711470588
 MonoBehaviour:
@@ -224,8 +224,8 @@ MonoBehaviour:
   text_chat_boss_die: {fileID: 0}
   text4: "Boss: \u0110i ch\u1EBFt \u0111i"
   text_none: 
-  coutText: 1
-  landau: 1
+  coutText: 0
+  landau: 0
   count_dacbiet: 0
   count_chieucuoi: 0
   coubulet: 0
@@ -321,7 +321,7 @@ Transform:
   m_GameObject: {fileID: 5091368088661978648}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.01, y: 2.86, z: 0}
+  m_LocalPosition: {x: -4.25, y: 2.86, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

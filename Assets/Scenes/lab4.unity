@@ -1106,6 +1106,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5062150425852228881, guid: 8885a3f59c8175d49813b730391fa667, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 956322942}
     - target: {fileID: 7355874856989892610, guid: 8885a3f59c8175d49813b730391fa667, type: 3}
       propertyPath: m_Value
       value: 20
@@ -3166,6 +3170,10 @@ PrefabInstance:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 132031893}
+    - target: {fileID: 3578002774437503683, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1299599436, guid: da18b8efeddeb9040b0ccdc47efe389f, type: 3}
     - target: {fileID: 4140513914475554441, guid: cc4fe49f2c4c51a449a47d9bb27d7706, type: 3}
       propertyPath: m_Name
       value: player
@@ -4683,10 +4691,6 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 148369691}
-    - target: {fileID: 8344344521332300401, guid: 2f72db934f83185499e4f3c2551d0e45, type: 3}
-      propertyPath: Distance
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7895,6 +7899,12 @@ MonoBehaviour:
   an8: {fileID: 8300000, guid: af49a7b9c0e5a9247a8972f1809c4fbb, type: 3}
   lap1: {fileID: 8300000, guid: 6780857f69f16da4e9f1c75f6d5f3e98, type: 3}
   lap2: {fileID: 8300000, guid: cc3cb73a5e3128246a76f6f3901a26ec, type: 3}
+  dinh1: {fileID: 0}
+  dinh2: {fileID: 0}
+  dinh3: {fileID: 0}
+  dinh4: {fileID: 0}
+  dinh5: {fileID: 0}
+  dinh_cc: {fileID: 0}
 --- !u!4 &980768596
 Transform:
   m_ObjectHideFlags: 0

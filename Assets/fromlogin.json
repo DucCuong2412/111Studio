@@ -4,44 +4,34 @@
             "id": "cuong1",
             "password": "1",
             "againpasss": "1",
-            "hightScore1": "10",
-            "hightScore2": "8",
-            "hightScore3": "8",
-            "hightScore4": "7",
-            "hightScoreASM": "9",
+            "hightScore1": "8",
+            "hightScore2": "10",
+            "hightScore3": "9",
+            "hightScore4": "8",
+            "hightScoreASM": "8",
             "checklevel1": 0,
             "checklevel2": 0,
             "checklevel3": 0,
             "checklevel4": 0,
-<<<<<<< HEAD
             "asm": 0,
-            "heal": 25,
-=======
-            "asm": 2,
-            "heal": 30,
->>>>>>> Nam3
+            "heal": 20,
             "speed": 10,
-            "count": 0
+            "count": 5
         },
         {
             "id": "fpoly",
             "password": "1",
             "againpasss": "1",
-            "hightScore1": "3",
-            "hightScore2": "5",
-            "hightScore3": "0",
-            "hightScore4": "0",
-            "hightScoreASM": "0",
+            "hightScore1": "10",
+            "hightScore2": "10",
+            "hightScore3": "9",
+            "hightScore4": "10",
+            "hightScoreASM": "8",
             "checklevel1": 1,
-<<<<<<< HEAD
             "checklevel2": 1,
             "checklevel3": 0,
-=======
-            "checklevel2": 0,
-            "checklevel3": 2,
->>>>>>> Nam3
-            "checklevel4": 0,
-            "asm": 0,
+            "checklevel4": 2,
+            "asm": 4,
             "heal": 24,
             "speed": 11,
             "count": 0

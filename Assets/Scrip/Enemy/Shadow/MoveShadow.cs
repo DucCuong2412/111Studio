@@ -30,7 +30,7 @@ public class MoveShadow : MonoBehaviour
             if (distanceX < Distance && distancey <3)
             {
                 timer += Time.deltaTime;
-                if (timer > 2) 
+                if (timer > 1.5) 
                 {
                     animator.SetTrigger("atk");
                     LookatPlayer();
@@ -44,9 +44,15 @@ public class MoveShadow : MonoBehaviour
     }
     public void Atk()
     {
-        
+
+        float distanceX = Mathf.Abs(transform.position.x - player.transform.position.x);
+        float distancey = Mathf.Abs(transform.position.y - player.transform.position.y);
+        if (distanceX < 3f)
+        {
+
         GameObject castskill = Instantiate(spell, player.transform.position, Quaternion.identity);
         Destroy(castskill,1f);
+        }
     }
 
     public void LookatPlayer()
