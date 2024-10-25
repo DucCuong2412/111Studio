@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3450831901558826719}
   m_Layer: 3
   m_Name: bulet_left
-  m_TagString: chieudacbiet
+  m_TagString: atkboss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

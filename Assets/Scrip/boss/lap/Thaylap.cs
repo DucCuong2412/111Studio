@@ -12,6 +12,7 @@ public class Thaylap : MonoBehaviour
     public GameObject laze, dacbiet, Item_lab, bulet_left, butlet_right;
     public GameObject tranformAtk, tranformdacbiet, left, right;
     public Slider _slider;
+    public GameObject slider_set;
     public float maxheal = 20;
     public GameObject panel, panel_boss_die;
     public TextMeshProUGUI Panel_text;
@@ -26,11 +27,11 @@ public class Thaylap : MonoBehaviour
     public string text_none = "";
     public float coutText = 1;
     public int landau = 1;
-    public int count_dacbiet;
-    public int count_chieucuoi;
-    public int coubulet;
+    public float count_dacbiet;
+    public float count_chieucuoi;
+    public float coubulet;
     public float timer;
-    public GameObject boom,door_wingame;
+    public GameObject boom, door_wingame;
 
     private bool hasPlayedSound1 = false;
     private bool hasPlayedSound2 = false;
@@ -60,12 +61,54 @@ public class Thaylap : MonoBehaviour
             LookatPlayer();
             FollowPlayer();
 
-            float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-            if (distanceToPlayer > 10 && distanceToPlayer < 30)
+            float distanceX = Mathf.Abs(transform.position.x - player.transform.position.x);
+            float distancey = Mathf.Abs(transform.position.y - player.transform.position.y);
+            if (distanceX < 30 && distancey < 30)
             {
+                Debug.Log($"khoảng cách x={distanceX}");
+                slider_set.SetActive(true);
                 landau++;
                 panel.SetActive(true);
                 boom.SetActive(true);
+                if (coubulet >= 1.5f)
+                {
+                    Instantiate(laze, tranformAtk.transform.position, Quaternion.identity);
+                    anim.SetTrigger("atk");
+                    coubulet = 0;
+                }
+
+                if (count_dacbiet >= 5f)
+                {
+                    Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
+                    text_chat.text = text4.ToString();
+                    count_dacbiet = 0;
+                }
+
+                if (count_dacbiet >= 2)
+                {
+                    text_chat.text = text_none.ToString();
+                }
+
+                if (count_chieucuoi >= 15f)
+                {
+                    text_chat.text = textcc.ToString();
+                    if (isFliped == false)
+                    {
+                        Instantiate(bulet_left, left.transform.position, Quaternion.identity);
+                        Instantiate(butlet_right, right.transform.position, Quaternion.identity);
+                    }
+                    else
+                    {
+                        Instantiate(bulet_left, right.transform.position, Quaternion.identity);
+                        Instantiate(butlet_right, left.transform.position, Quaternion.identity);
+                    }
+                    count_chieucuoi = 0;
+                }
+
+                if (count_chieucuoi >= 2)
+                {
+                    text_chat.text = text_none.ToString();
+                }
             }
 
             if (panel.activeSelf) // Chỉ phát âm thanh khi panel đang hiện lên
@@ -78,6 +121,8 @@ public class Thaylap : MonoBehaviour
                         AudioManager.instance.sound_lap1();
                         hasPlayedSound1 = true;
                     }
+                    Time.timeScale = 0;
+
                 }
                 else if (coutText == 2)
                 {
@@ -102,13 +147,16 @@ public class Thaylap : MonoBehaviour
                 else if (coutText == 4)
                 {
                     panel.SetActive(false);
+                    Time.timeScale = 1;
                 }
+                
+
             }
 
             if (_slider.value == 0)
             {
                 consong = false;
-                Instantiate(Item_lab, transform.position, Quaternion.identity);
+              
                 panel_boss_die.SetActive(true);
                 text_chat_boss_die.text = text5.ToString();
                 text_chat.text = text_none.ToString();
@@ -117,51 +165,17 @@ public class Thaylap : MonoBehaviour
                 AudioManager.instance.sound_die();
                 boom.SetActive(false);
                 door_wingame.SetActive(true);
-                
+                slider_set.SetActive(false);
+                for (int i = 0; i < 5; i++)
+                {
+                    Instantiate(Item_lab, transform.position, Quaternion.identity);
+                }
+            
+
+
             }
 
-            if (distanceToPlayer < 20)
-            {
-                if (coubulet == 3)
-                {
-                    Instantiate(laze, tranformAtk.transform.position, Quaternion.identity);
-                    anim.SetTrigger("atk");
-                    coubulet = 0;
-                }
 
-                if (count_dacbiet >= 10)
-                {
-                    Instantiate(dacbiet, tranformdacbiet.transform.position, Quaternion.identity);
-                    text_chat.text = text4.ToString();
-                    count_dacbiet = 0;
-                }
-
-                if (count_dacbiet >= 2)
-                {
-                    text_chat.text = text_none.ToString();
-                }
-
-                if (count_chieucuoi >= 20)
-                {
-                    text_chat.text = textcc.ToString();
-                    if (isFliped == false)
-                    {
-                        Instantiate(bulet_left, left.transform.position, Quaternion.identity);
-                        Instantiate(butlet_right, right.transform.position, Quaternion.identity);
-                    }
-                    else
-                    {
-                        Instantiate(bulet_left, right.transform.position, Quaternion.identity);
-                        Instantiate(butlet_right, left.transform.position, Quaternion.identity);
-                    }
-                    count_chieucuoi = 0;
-                }
-
-                if (count_chieucuoi >= 2)
-                {
-                    text_chat.text = text_none.ToString();
-                }
-            }
         }
     }
 
@@ -210,8 +224,9 @@ public class Thaylap : MonoBehaviour
 
     public void FollowPlayer()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-        if (distanceToPlayer > 5 && distanceToPlayer < 20)
+        float distanceX = Mathf.Abs(transform.position.x - player.transform.position.x);
+        float distancey = Mathf.Abs(transform.position.y - player.transform.position.y);
+        if (distanceX > 5 && distanceX < 30)
         {
             Vector3 direction = new Vector3(player.position.x - transform.position.x, 0, 0).normalized;
             transform.position += direction * speed * Time.deltaTime;

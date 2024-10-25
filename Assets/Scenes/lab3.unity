@@ -58043,7 +58043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1633217933
 AudioSource:
   m_ObjectHideFlags: 0
@@ -58175,6 +58175,12 @@ MonoBehaviour:
   an8: {fileID: 8300000, guid: af49a7b9c0e5a9247a8972f1809c4fbb, type: 3}
   lap1: {fileID: 8300000, guid: 6780857f69f16da4e9f1c75f6d5f3e98, type: 3}
   lap2: {fileID: 8300000, guid: cc3cb73a5e3128246a76f6f3901a26ec, type: 3}
+  dinh1: {fileID: 0}
+  dinh2: {fileID: 0}
+  dinh3: {fileID: 0}
+  dinh4: {fileID: 0}
+  dinh5: {fileID: 0}
+  dinh_cc: {fileID: 0}
 --- !u!4 &1633217935
 Transform:
   m_ObjectHideFlags: 0

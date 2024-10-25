@@ -26,7 +26,7 @@ public class SanhGAme : MonoBehaviour
         if (accountToCheck != null)
         {
             Debug.Log("timacc");
-            if (accountToCheck.checklevel1 >= 3)
+            if (accountToCheck.checklevel1 >= 2)
             {
                 Debug.Log("Level quá cao, xin thử lại level khác.");
                 panelloi.SetActive(true);
@@ -51,7 +51,7 @@ public class SanhGAme : MonoBehaviour
 
         if (accountToCheck != null)
         {
-            if (accountToCheck.checklevel2 >= 3)
+            if (accountToCheck.checklevel2 >= 2)
             {
                 Debug.Log("Level quá cao, xin thử lại level khác.");
                 panelloi.SetActive(true);
@@ -80,7 +80,7 @@ public class SanhGAme : MonoBehaviour
 
         if (accountToCheck != null)
         {
-            if (accountToCheck.checklevel3 >= 3)
+            if (accountToCheck.checklevel3 >= 2)
             {
                 Debug.Log("Level quá cao, xin thử lại level khác.");
                 panelloi.SetActive(true);
@@ -105,7 +105,7 @@ public class SanhGAme : MonoBehaviour
 
         if (accountToCheck != null)
         {
-            if (accountToCheck.checklevel4 >= 3)
+            if (accountToCheck.checklevel4 >= 2)
             {
                 Debug.Log("Level quá cao, xin thử lại level khác.");
 

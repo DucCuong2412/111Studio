@@ -12,15 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66fb716791b914b42bfd532f2a794598, type: 3}
   m_Name: scripTable
   m_EditorClassIdentifier: 
-  scoreee: 0
-  level: 1
-  account: cuong2412
-  password: 2412
+  scoreee: 1
+  level: 4
+  account: cuong1
+  password: 1
   checkscene: 0
-  checklevel1: 5
-  checklevel2: 11
-  checklevel3: 3
-  checklevel4: 3
+  checklevel1: 0
+  checklevel2: 0
+  checklevel3: 0
+  checklevel4: 0
   asm: 0
-  heal: 20
-  speed: 10
+  heal: 24
+  speed: 11

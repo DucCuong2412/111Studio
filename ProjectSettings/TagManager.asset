@@ -17,6 +17,7 @@ TagManager:
   - boss
   - takedame
   - Enemy
+  - dacbiet_Boss
   layers:
   - Default
   - TransparentFX
@@ -74,4 +75,7 @@ TagManager:
     locked: 0
   - name: Menu
     uniqueID: 1774535917
+    locked: 0
+  - name: font menu
+    uniqueID: 1658504063
     locked: 0

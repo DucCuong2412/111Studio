@@ -7044,11 +7044,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 681045803780698241, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.19
+      value: 33.44
       objectReference: {fileID: 0}
     - target: {fileID: 681045803780698241, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.05
+      value: -0.93
       objectReference: {fileID: 0}
     - target: {fileID: 681045803780698241, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7090,6 +7090,10 @@ PrefabInstance:
       propertyPath: _slider
       value: 
       objectReference: {fileID: 968933967}
+    - target: {fileID: 6507256721452908610, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
+      propertyPath: maxheal
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6507256721452908610, guid: 3a769250bf4ae4742bc93337e2f709e9, type: 3}
       propertyPath: doow_wwin
       value: 
@@ -8977,6 +8981,7 @@ MonoBehaviour:
   dash: {fileID: 8300000, guid: 2f523e555c82ea849bcd30a18de2c1ea, type: 3}
   die: {fileID: 8300000, guid: 3e8c0fe50b89681429b51b8deda2b48d, type: 3}
   asm_lab: {fileID: 8300000, guid: 73490bf1d00cfc743ac1f914704c0c0a, type: 3}
+  bot_die: {fileID: 0}
   an1: {fileID: 8300000, guid: 0fd641fa45ecbf34bba73477d487e276, type: 3}
   an2: {fileID: 8300000, guid: 51129fefd13031247a80809cfc5f7510, type: 3}
   an3: {fileID: 8300000, guid: c4ed7bf18f9956b49a9080a266053bd6, type: 3}
@@ -8987,6 +8992,12 @@ MonoBehaviour:
   an8: {fileID: 8300000, guid: af49a7b9c0e5a9247a8972f1809c4fbb, type: 3}
   lap1: {fileID: 8300000, guid: 6780857f69f16da4e9f1c75f6d5f3e98, type: 3}
   lap2: {fileID: 8300000, guid: cc3cb73a5e3128246a76f6f3901a26ec, type: 3}
+  dinh1: {fileID: 0}
+  dinh2: {fileID: 0}
+  dinh3: {fileID: 0}
+  dinh4: {fileID: 0}
+  dinh5: {fileID: 0}
+  dinh_cc: {fileID: 0}
 --- !u!4 &570111993
 Transform:
   m_ObjectHideFlags: 0
@@ -9755,7 +9766,7 @@ Transform:
   m_GameObject: {fileID: 888641234}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.496666, y: 4.1099997, z: -10}
+  m_LocalPosition: {x: 28.746664, y: 4.23, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30416,7 +30427,7 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 1774535917
+  m_SortingLayerID: 1658504063
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1942184604

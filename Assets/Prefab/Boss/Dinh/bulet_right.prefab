@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &483723575300455627
+--- !u!1 &2584872368133200656
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,40 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6703839619384481285}
-  - component: {fileID: 4241900059950008213}
-  - component: {fileID: 6737642268237428345}
-  - component: {fileID: 5614137362594308584}
-  - component: {fileID: 7726771056608306038}
-  m_Layer: 3
-  m_Name: bulet_right 1
-  m_TagString: chieudacbiet
+  - component: {fileID: 3252305094467299985}
+  - component: {fileID: 6454115328108714571}
+  - component: {fileID: 14606364782380103}
+  - component: {fileID: 3966632848316068292}
+  - component: {fileID: 7683643660839764750}
+  m_Layer: 0
+  m_Name: bulet_right
+  m_TagString: dacbiet_Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6703839619384481285
+--- !u!4 &3252305094467299985
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483723575300455627}
+  m_GameObject: {fileID: 2584872368133200656}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 150.54759, y: 44.070187, z: 0}
+  m_LocalPosition: {x: 115.62357, y: 57.60585, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &4241900059950008213
+--- !u!212 &6454115328108714571
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483723575300455627}
+  m_GameObject: {fileID: 2584872368133200656}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -87,22 +87,22 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &6737642268237428345
+--- !u!50 &14606364782380103
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483723575300455627}
+  m_GameObject: {fileID: 2584872368133200656}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -113,14 +113,14 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!68 &5614137362594308584
+  m_Constraints: 0
+--- !u!68 &3966632848316068292
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483723575300455627}
+  m_GameObject: {fileID: 2584872368133200656}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -149,32 +149,29 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: 0.17868352, y: 0.3877716}
-  - {x: -0.9624176, y: 4.494442}
-  - {x: 0.824234, y: 2.865818}
-  - {x: 1.3349609, y: 0.8365364}
-  - {x: 1.2522125, y: -1.4778023}
-  - {x: 0.86717224, y: -2.4324455}
-  - {x: 0.4842682, y: -3.0578804}
-  - {x: -0.26704407, y: -3.893879}
-  - {x: -1.2215729, y: -4.6347237}
-  - {x: -0.13763428, y: -2.0445442}
-  - {x: 0.007507324, y: -1.3951912}
-  - {x: 0.17956233, y: 0.36714172}
+  - {x: 0.77147985, y: -2.5272102}
+  - {x: 0.11856842, y: -2.0471191}
+  - {x: 0.19381714, y: 0.25248718}
+  - {x: -1.0073776, y: 4.4744034}
+  - {x: -0.25252533, y: 4.0468864}
+  - {x: 0.5491104, y: 3.1887245}
+  - {x: 1.3634872, y: 1.4010658}
+  - {x: 1.2537537, y: -1.2776146}
+  - {x: 0.86498713, y: -2.5272102}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
---- !u!114 &7726771056608306038
+--- !u!114 &7683643660839764750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 483723575300455627}
+  m_GameObject: {fileID: 2584872368133200656}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 89d184f4432d46148ac0b2bfeb86f9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 15

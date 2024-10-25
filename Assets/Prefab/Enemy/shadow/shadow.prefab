@@ -461,7 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spell: {fileID: 5785769754772318609, guid: 277f209b1d69d31469dca2d1027e2e7e, type: 3}
   player: {fileID: 0}
-  Distance: 0
+  Distance: 20
   isFliped: 0
 --- !u!114 &7078600410767812259
 MonoBehaviour:
