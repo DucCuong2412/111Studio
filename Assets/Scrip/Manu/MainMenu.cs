@@ -10,6 +10,7 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject Menu, Updategame, Tutorial, HighScore,setting,quiz;
 
+    public GameObject Play;
 
 
     public float volume;
@@ -25,6 +26,7 @@ public class MainMenu : MonoBehaviour
         Tutorial.SetActive(false);
         HighScore.SetActive(false);
         setting.SetActive(false);
+        Play.SetActive(false);
        
         if (PlayerPrefs.HasKey("mussic_volume"))
         {
@@ -36,11 +38,7 @@ public class MainMenu : MonoBehaviour
             _Music(save_volume);
         }
     }
-    private void Update()
-    {
-        
-      
-    }
+    
     // chuc nang cua Menu
     public void _ClickUpdate()
     {
@@ -71,7 +69,11 @@ public class MainMenu : MonoBehaviour
         Menu.SetActive(false );
         setting.SetActive(true);
     }
-
+    public void _ClickPlay()
+    {
+        Menu.SetActive(false);
+        Play.SetActive(true);
+    }
 
     //het chuc nang menu
     public void _BackMenu()
@@ -82,7 +84,10 @@ public class MainMenu : MonoBehaviour
         HighScore.SetActive(false);
         setting .SetActive(false);
         quiz.SetActive(false);
+        Play .SetActive(false);
     }
+
+
 
     //build seting
     public void _Low()
