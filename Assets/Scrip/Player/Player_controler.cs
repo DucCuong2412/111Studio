@@ -1,7 +1,7 @@
 ﻿
 using TMPro;
 using Unity.Mathematics;
-
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,7 +22,6 @@ public class Player_controler : MonoBehaviour
     public data scriptable;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI wingame;
-
     // Thêm biến kiểm soát lướt
     public float countdash = 0;
     public float dashDistance = 10f;
@@ -85,6 +84,7 @@ public class Player_controler : MonoBehaviour
         {
             EndDash(); // Dừng dash khi va chạm với tilemap
         }
+     
     }
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -97,12 +97,7 @@ public class Player_controler : MonoBehaviour
         {
             checkJump = true;
         }
-        if (collision.gameObject.CompareTag("score"))
-        {
-            scriptable.scoreee++;
-            AudioManager.instance.sound_score();
-            Destroy(collision.gameObject);
-        }
+    
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -128,6 +123,8 @@ public class Player_controler : MonoBehaviour
         {
             _slider.value -= 3;
         }
+   
+
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -142,7 +139,7 @@ public class Player_controler : MonoBehaviour
         }
     
     }
-
+   
     void atk()
     {
         if (Input.GetKeyDown(KeyCode.J))

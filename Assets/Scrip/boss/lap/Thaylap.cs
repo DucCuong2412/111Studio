@@ -46,25 +46,27 @@ public class Thaylap : MonoBehaviour
 
     void Update()
     {
-        timer += Time.deltaTime;
-        if (timer > 1)
-        {
-            coubulet++;
-            count_chieucuoi++;
-            count_dacbiet++;
-            timer = 0;
-            Debug.Log(coubulet);
-        }
+      
 
         if (consong == true)
         {
             LookatPlayer();
-            FollowPlayer();
+          
 
             float distanceX = Mathf.Abs(transform.position.x - player.transform.position.x);
             float distancey = Mathf.Abs(transform.position.y - player.transform.position.y);
-            if (distanceX < 30 && distancey < 30)
+            if (distanceX < 30 && distancey < 1)
             {
+                timer += Time.deltaTime;
+                if (timer > 1)
+                {
+                    coubulet++;
+                    count_chieucuoi++;
+                    count_dacbiet++;
+                    timer = 0;
+                    Debug.Log(coubulet);
+                }
+                FollowPlayer();
                 Debug.Log($"khoảng cách x={distanceX}");
                 slider_set.SetActive(true);
                 landau++;

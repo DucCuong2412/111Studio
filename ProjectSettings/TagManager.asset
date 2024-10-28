@@ -18,6 +18,7 @@ TagManager:
   - takedame
   - Enemy
   - dacbiet_Boss
+  - dash
   layers:
   - Default
   - TransparentFX

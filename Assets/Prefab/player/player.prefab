@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 6488833319608313295}
   m_Layer: 3
   m_Name: GameObject
-  m_TagString: Untagged
+  m_TagString: dash
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8453064, y: 1.645705}
+  m_Offset: {x: 0.7207718, y: 1.645705}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -153,7 +153,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.95513916, y: 0.7606249}
+  m_Size: {x: 0.70606995, y: 0.7606249}
   m_EdgeRadius: 0
 --- !u!114 &6488833319608313295
 MonoBehaviour:
@@ -317,7 +317,7 @@ SpriteRenderer:
   m_SortingLayerID: 524635077
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: -557013973, guid: cec53dd67b0676541a8910ed2c093794, type: 3}
+  m_Sprite: {fileID: 1299599436, guid: da18b8efeddeb9040b0ccdc47efe389f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -408,8 +408,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.10495758, y: 1.1286254}
-  m_Size: {x: 1.2357635, y: 2.2465553}
+  m_Offset: {x: 0.0969429, y: 1.1286254}
+  m_Size: {x: 0.8670883, y: 2.2465553}
   m_Direction: 0
 --- !u!114 &2419552339335062504
 MonoBehaviour:
