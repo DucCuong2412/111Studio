@@ -16,7 +16,7 @@ public class data : ScriptableObject
     public int checklevel2;
     public int checklevel3;
     public int checklevel4;
-    public int asm;
+    public int checkasm;
 
     public int heal;
     public int speed;

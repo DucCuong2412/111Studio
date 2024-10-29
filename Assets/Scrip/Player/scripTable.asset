@@ -17,10 +17,10 @@ MonoBehaviour:
   account: cuong
   password: 1
   checkscene: 0
-  checklevel1: 1
-  checklevel2: 0
-  checklevel3: 0
+  checklevel1: 3
+  checklevel2: 1
+  checklevel3: 1
   checklevel4: 2
-  asm: 0
+  checkasm: 5
   heal: 30
   speed: 10

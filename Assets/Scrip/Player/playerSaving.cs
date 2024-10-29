@@ -65,6 +65,7 @@ public class PlayerSaving : MonoBehaviour
         SceneManager.LoadScene(2);
 
         UpdateHighScore(data.account, data.scoreee);
+       
 
         UpdateCheckLevel(data.account);
 
@@ -184,6 +185,7 @@ public class PlayerSaving : MonoBehaviour
             data.checklevel2 = accountToUpdate.checklevel2;
             data.checklevel3 = accountToUpdate.checklevel3;
             data.checklevel4 = accountToUpdate.checklevel4;
+            data.checkasm = accountToUpdate.asm; 
 
             int currentHighScore = 0; // Biến lưu hightscoree hiện tại
 
@@ -203,6 +205,10 @@ public class PlayerSaving : MonoBehaviour
             else if (data.level == 4)
             {
                 currentHighScore = int.Parse(accountToUpdate.hightScore4);
+            }
+            else if (data.level == 5)
+            {
+                currentHighScore = int.Parse(accountToUpdate.hightScoreASM);
             }
 
             // So sánh điểm mới và điểm hiện tại
@@ -224,6 +230,11 @@ public class PlayerSaving : MonoBehaviour
                 else if (data.level == 4)
                 {
                     accountToUpdate.hightScore4 = newHighScore.ToString(); 
+                }else if(data.level == 5)
+                {
+                    accountToUpdate.hightScoreASM= newHighScore.ToString();
+                    Debug.Log("chayj ddeesn assm 5 rooif");
+
                 }
 
                 SaveAccounts();

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class inGameMenu : MonoBehaviour
 {
     public GameObject MenuPause, Deadpanel;
+    public data scriptable;
     int count = 2;
      
 
@@ -48,6 +49,7 @@ public class inGameMenu : MonoBehaviour
     public void _LoadScene(string index)
     {
         SceneManager.LoadSceneAsync(index);
+        scriptable.scoreee = 0;
     }
    
     public void backMenu()

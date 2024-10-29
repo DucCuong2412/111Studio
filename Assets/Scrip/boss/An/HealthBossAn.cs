@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +12,11 @@ public class HealthBossAn : MonoBehaviour
     Animator animator;
     public GameObject health;
     public GameObject spawn_boom, doow_wwin;
+    public GameObject score;
+    public float timer;
+    public bool havscore = false;
+
+
     void Start()
     {
         _slider.maxValue = maxheal;
@@ -22,9 +27,11 @@ public class HealthBossAn : MonoBehaviour
 
     void Update()
     {
+        timer += Time.deltaTime;
+
         die();
         _slider.value = currentHealth;
-        if (_slider.value == 49)
+        if (_slider.value == 29)
         {
             spawn_boom.SetActive(true);
         }
@@ -35,7 +42,7 @@ public class HealthBossAn : MonoBehaviour
         if (collision.gameObject.CompareTag("atk"))
         {
             TakeDamage(1);
-            
+
         }
         if (collision.gameObject.CompareTag("chieudacbiet"))
         {
@@ -46,9 +53,9 @@ public class HealthBossAn : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        currentHealth -= damage; 
+        currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxheal);
-        _slider.value = currentHealth; 
+        _slider.value = currentHealth;
     }
     public void die()
     {
@@ -59,6 +66,93 @@ public class HealthBossAn : MonoBehaviour
             spawn_boom.SetActive(false);
             doow_wwin.SetActive(true);
 
+            //kiểm tra thời gian để tính score
+            timer -= 5;//trừ đi để cân bằng thời gian
+            if (timer <= 30f)
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 10; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            }
+            else if (timer > 30 && timer <= 45)
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 9; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            }
+            else if (timer > 35 && timer <= 40)
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 8; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            }
+            else if (timer > 40 && timer <= 50)
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 7; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            }
+            else if (timer > 50 && timer <= 55)
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 6; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            } else 
+            {
+                if (!havscore)
+                {
+
+                    for (int i = 0; i < 5; i++)
+                    {
+                        Instantiate(score, transform.position, Quaternion.identity);
+
+                    }
+                    havscore = true;
+
+                }
+            }
+
+
         }
 
         IEnumerator Delay()
@@ -67,8 +161,8 @@ public class HealthBossAn : MonoBehaviour
             health.SetActive(false);
             this.gameObject.SetActive(false);
         }
-  
+
 
     }
-    
-}   
+
+}
