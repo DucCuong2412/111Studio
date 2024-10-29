@@ -35,7 +35,7 @@ public class SanhGAme : MonoBehaviour
             {
                 Debug.Log("Level hợp lệ.");
                 data.level = 1;
-                SceneManager.LoadScene(4);
+                SceneManager.LoadScene(3);
                 data.scoreee = 0;
             }
         }
@@ -60,7 +60,7 @@ public class SanhGAme : MonoBehaviour
             {
                 Debug.Log("Level hợp lệ.");
                 data.level = 2;
-                SceneManager.LoadScene(5);
+                SceneManager.LoadScene(4);
                 data.scoreee = 0;
             }
         }
@@ -89,7 +89,7 @@ public class SanhGAme : MonoBehaviour
             {
                 Debug.Log("Level hợp lệ.");
                 data.level = 3;
-                SceneManager.LoadScene(6);
+                SceneManager.LoadScene(5);
                 data.scoreee = 0;
             }
         }
@@ -116,7 +116,7 @@ public class SanhGAme : MonoBehaviour
             {
                 Debug.Log("Level hợp lệ.");
                 data.level = 4;
-                SceneManager.LoadScene(7);
+                SceneManager.LoadScene(6);
                 data.scoreee = 0;
             }
         }
@@ -141,7 +141,7 @@ public class SanhGAme : MonoBehaviour
             {
                 Debug.Log("Level hợp lệ.");
                 data.level = 5;
-                SceneManager.LoadScene(8);
+                SceneManager.LoadScene(7);
                 data.scoreee = 0;
             }
         }
