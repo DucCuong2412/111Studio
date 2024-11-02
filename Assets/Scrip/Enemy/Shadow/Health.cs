@@ -11,12 +11,16 @@ public class Health : MonoBehaviour
     public Slider _slider;
     public float maxheal;
     Animator animator;
-   
+    public bool soung_die = false;
+
+
+
+
     void Start()
     {
-  
+
         animator = GetComponent<Animator>();
-        
+
     }
     void Update()
     {
@@ -26,16 +30,21 @@ public class Health : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("atk"))
         {
-           _slider.value--;
+            _slider.value--;
         }
     }
-  
+
     public void die()
     {
-        if(_slider.value == 0)
+        if (_slider.value == 0)
         {
             animator.SetTrigger("die");
             Destroy(gameObject, 1.5f);
+            if (!soung_die)
+            {
+                AudioManager.instance.sound_bot_die();
+                soung_die = true;
+            }
         }
     }
 }

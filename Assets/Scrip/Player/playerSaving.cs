@@ -14,12 +14,23 @@ public class PlayerSaving : MonoBehaviour
 
     public TMP_Text idTexts1;
     public TMP_Text scoreTexts1;
+    public GameObject Ongvang;
+    public TMP_Text gioi;
 
     public TMP_Text idTexts2;
     public TMP_Text scoreTexts2;
+    public GameObject Ongvang2;
+    public TMP_Text gioi2;
 
     public TMP_Text idTexts3;
     public TMP_Text scoreTexts3;
+    public GameObject Ongvang3;
+    public TMP_Text gioi3;
+
+
+    private string danhhieu_gioi = "Gioi";
+    private string danhhieu_kha = "kha";
+    private string none = "";
 
     public TMP_Text heal;
     public TMP_Text speed;
@@ -29,14 +40,14 @@ public class PlayerSaving : MonoBehaviour
     {
         filePath = Application.dataPath + "/fromlogin.json"; // Đường dẫn đến file JSON
         LoadAccounts(); // Tải các tài khoản hiện có khi bắt đầu
-        DisplayHighScores(); // Hiển thị bảng điểm khi bắt đầu
-
+        DisplayHighScores(); // Hiển thị bảng điểm 
 
     }
     private void Awake()
     {
         data.level = data.level;
         UpdateCheckLevel(data.account);
+        DisplayHighScores(); // Hiển thị bảng điểm 
 
         
     }
@@ -53,10 +64,6 @@ public class PlayerSaving : MonoBehaviour
 
 
         }
-
-       
-
-      
 
 
     }
@@ -306,6 +313,32 @@ public class PlayerSaving : MonoBehaviour
                 Debug.Log($"id:{i.id}  score:{i.tongall} ");
                 idTexts1.text = i.id.ToString();
                 scoreTexts1.text = i.tongall.ToString();
+                if (i.tongall >= 9)
+                {
+                    Debug.Log("ong vàng");
+                    Ongvang.SetActive(true);
+                    gioi.text = none.ToString();
+
+
+                }
+                else if (i.tongall >= 8 && i.tongall < 9)
+                {
+                    Debug.Log("học sinh giỏi");
+                    gioi.text = danhhieu_gioi.ToString();
+
+
+                }
+                else if (i.tongall >= 7 && i.tongall < 8)
+                {
+                    Debug.Log("học sinh khá");
+                    gioi.text = danhhieu_kha.ToString();
+
+                }
+                else
+                {
+                    gioi.text = none.ToString();
+
+                }
 
                 index++;
 
@@ -315,6 +348,32 @@ public class PlayerSaving : MonoBehaviour
                 Debug.Log($"id:{i.id}  score:{i.tongall} ");
                 idTexts2.text = i.id.ToString();
                 scoreTexts2.text = i.tongall.ToString();
+                if (i.tongall >= 9)
+                {
+                    Debug.Log("ong vàng");
+                    Ongvang2.SetActive(true);
+                    gioi2.text = none.ToString();
+
+
+                }
+                else if (i.tongall >= 8 && i.tongall < 9)
+                {
+                    Debug.Log("học sinh giỏi");
+                    gioi2.text = danhhieu_gioi.ToString();
+
+
+                }
+                else if (i.tongall >= 7 && i.tongall < 8)
+                {
+                    Debug.Log("học sinh khá");
+                    gioi2.text = danhhieu_kha.ToString();
+
+                }
+                else
+                {
+                    gioi2.text = none.ToString();
+
+                }
                 index++;
             }
             else if (index == 2)
@@ -322,6 +381,32 @@ public class PlayerSaving : MonoBehaviour
                 Debug.Log($"id:{i.id}  score:{i.tongall} ");
                 idTexts3.text = i.id.ToString();
                 scoreTexts3.text = i.tongall.ToString();
+                if (i.tongall >= 9)
+                {
+                    Debug.Log("ong vàng");
+                    Ongvang3.SetActive(true);
+                    gioi3.text = none.ToString();
+
+
+                }
+                else if (i.tongall >= 8 && i.tongall < 9)
+                {
+                    Debug.Log("học sinh giỏi");
+                    gioi3.text = danhhieu_gioi.ToString();
+
+
+                }
+                else if (i.tongall >= 7 && i.tongall < 8)
+                {
+                    Debug.Log("học sinh khá");
+                    gioi3.text = danhhieu_kha.ToString();
+
+                }
+                else
+                {
+                    gioi3.text = none.ToString();
+
+                }
                 index++;
             }
         }

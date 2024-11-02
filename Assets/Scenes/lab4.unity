@@ -11843,6 +11843,22 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &965418935 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4345324565211196309, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 2075925505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &965418936 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885882350719847752, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 2075925505}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &966038394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81481,10 +81497,16 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
   idTexts1: {fileID: 2075925511}
   scoreTexts1: {fileID: 2075925510}
+  Ongvang: {fileID: 965418936}
+  gioi: {fileID: 965418935}
   idTexts2: {fileID: 2075925509}
   scoreTexts2: {fileID: 2075925508}
+  Ongvang2: {fileID: 965418936}
+  gioi2: {fileID: 965418935}
   idTexts3: {fileID: 2075925507}
   scoreTexts3: {fileID: 2075925506}
+  Ongvang3: {fileID: 965418936}
+  gioi3: {fileID: 965418935}
   heal: {fileID: 2075925508}
   speed: {fileID: 2075925508}
   score: {fileID: 2075925508}

@@ -9596,10 +9596,16 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
   idTexts1: {fileID: 384572455}
   scoreTexts1: {fileID: 816627360}
+  Ongvang: {fileID: 1192579561}
+  gioi: {fileID: 1192579560}
   idTexts2: {fileID: 192258670}
   scoreTexts2: {fileID: 1126757412}
+  Ongvang2: {fileID: 1192579561}
+  gioi2: {fileID: 1192579560}
   idTexts3: {fileID: 1053743986}
   scoreTexts3: {fileID: 1366939757}
+  Ongvang3: {fileID: 1192579561}
+  gioi3: {fileID: 1192579560}
   heal: {fileID: 1126757412}
   speed: {fileID: 1126757412}
   score: {fileID: 1126757412}
@@ -10646,6 +10652,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21373002c9cce984e8d7741253059722, type: 3}
+--- !u!114 &1192579560 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4345324565211196309, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 1192579559}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1192579561 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885882350719847752, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 1192579559}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1290134494
 GameObject:
   m_ObjectHideFlags: 0

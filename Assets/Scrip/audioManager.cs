@@ -95,7 +95,7 @@ public class AudioManager : MonoBehaviour
     {
         mixer.SetFloat("volume", volume);
         save_volume = volume;
-        Debug.Log("volume" + volume);
+
         PlayerPrefs.SetFloat("mussic_volume", save_volume);
 
     }

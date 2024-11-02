@@ -12,16 +12,16 @@ public class Boss_da : MonoBehaviour
     public Animator anim;
     public GameObject ScoreLab;
     public Slider _slider;
-    public float maxheal=2;
-    public bool have_score=false;
-    public bool sound_die=false;
+    public float maxheal = 2;
+    public bool have_score = false;
+    public bool sound_die = false;
 
 
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
-        _slider.maxValue=maxheal;
+        _slider.maxValue = maxheal;
         _slider.value = maxheal;
 
     }
@@ -39,21 +39,21 @@ public class Boss_da : MonoBehaviour
 
                 Vector3 direction = player.transform.position - transform.position;
 
-              
+
                 if (direction.x > 0)
                 {
-                  
+
                     transform.rotation = Quaternion.Euler(0, 180, 0); // Quay 180 độ quanh trục Y
                 }
                 else if (direction.x < 0)
                 {
-                 
+
                     transform.rotation = Quaternion.Euler(0, 0, 0); // Không quay
                 }
             }
             else if (khoangcach < 2f)
             {
-            
+
                 anim.SetTrigger("atk");
             }
             else
@@ -79,19 +79,21 @@ public class Boss_da : MonoBehaviour
     {
         if (_slider.value == 0)
         {
+            anim.SetTrigger("die");
+            Destroy(gameObject, 1f);
             if (!sound_die)
             {
-            anim.SetTrigger("die");
+
                 AudioManager.instance.sound_bot_die();
                 sound_die = true;
 
             }
-            Destroy(gameObject, 2f);
+         
 
             if (!have_score)
             {
 
-                Vector2 scorePosition = new Vector2(transform.position.x , transform.position.y + 3f);
+                Vector2 scorePosition = new Vector2(transform.position.x, transform.position.y + 3f);
                 Instantiate(ScoreLab, scorePosition, Quaternion.identity);
                 have_score = true;
             }

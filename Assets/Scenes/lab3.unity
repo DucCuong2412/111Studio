@@ -1835,10 +1835,16 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
   idTexts1: {fileID: 1608463025}
   scoreTexts1: {fileID: 1608463024}
+  Ongvang: {fileID: 0}
+  gioi: {fileID: 0}
   idTexts2: {fileID: 1608463023}
   scoreTexts2: {fileID: 1608463022}
+  Ongvang2: {fileID: 0}
+  gioi2: {fileID: 0}
   idTexts3: {fileID: 1608463021}
   scoreTexts3: {fileID: 1608463020}
+  Ongvang3: {fileID: 0}
+  gioi3: {fileID: 0}
   heal: {fileID: 788540289}
   speed: {fileID: 1608463021}
   score: {fileID: 1608463020}
@@ -2626,6 +2632,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268482763}
   m_CullTransparentMesh: 1
+--- !u!114 &273555137 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4345324565211196309, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 1608463019}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &273555138 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4885882350719847752, guid: 21373002c9cce984e8d7741253059722, type: 3}
+  m_PrefabInstance: {fileID: 1608463019}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &276983080
 GameObject:
   m_ObjectHideFlags: 0
@@ -61478,10 +61500,16 @@ MonoBehaviour:
   data: {fileID: 11400000, guid: e6c64a72e8aa5e946b193f6048e8debd, type: 2}
   idTexts1: {fileID: 1608463025}
   scoreTexts1: {fileID: 1608463024}
+  Ongvang: {fileID: 273555138}
+  gioi: {fileID: 273555137}
   idTexts2: {fileID: 1608463022}
   scoreTexts2: {fileID: 788540289}
+  Ongvang2: {fileID: 273555138}
+  gioi2: {fileID: 273555137}
   idTexts3: {fileID: 1608463021}
   scoreTexts3: {fileID: 1608463020}
+  Ongvang3: {fileID: 273555138}
+  gioi3: {fileID: 273555137}
   heal: {fileID: 788540289}
   speed: {fileID: 1608463021}
   score: {fileID: 1608463020}

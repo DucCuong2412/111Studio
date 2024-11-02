@@ -13,14 +13,14 @@ MonoBehaviour:
   m_Name: scripTable
   m_EditorClassIdentifier: 
   scoreee: 0
-  level: 5
+  level: 2
   account: cuong
   password: 1
   checkscene: 0
-  checklevel1: 3
-  checklevel2: 1
-  checklevel3: 1
-  checklevel4: 2
-  checkasm: 5
-  heal: 30
+  checklevel1: 0
+  checklevel2: 0
+  checklevel3: 0
+  checklevel4: 0
+  checkasm: 0
+  heal: 25
   speed: 10
