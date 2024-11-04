@@ -123,6 +123,11 @@ public class Player_controler : MonoBehaviour
         {
             _slider.value -= 3;
         }
+        if (collision.gameObject.CompareTag("tim"))
+        {
+            _slider.value += 10;
+            Destroy(collision.gameObject);
+        }
    
 
     }

@@ -19,6 +19,7 @@ TagManager:
   - Enemy
   - dacbiet_Boss
   - dash
+  - tim
   layers:
   - Default
   - TransparentFX
